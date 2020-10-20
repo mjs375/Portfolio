@@ -1,4 +1,20 @@
-# hello example (words(more words) here) something
+# # # # # # # # # # # # C L E A N _ C O D E : # # # # # # # # # # # #
+
+def remove_parentheses(s):
+    ans, counter = "", 0 
+        
+    for letter in s:
+        if letter == ")":
+            counter += 1 # going 'out' of parentheses...
+        elif letter == "(":
+            counter -= 1 # when counter is -1 (-2, -3...), inside parentheses(s)
+        elif counter == 0: #() are balanced 
+            ans = ans + letter
+            
+    return ans
+
+
+# # # # # # # # # # # # M E S S Y _ A T T E M P T _ N O . _ 1 : # # # # # # # # # # # #
 
 def remove_parentheses(s):
     delete_switch = False
@@ -28,3 +44,12 @@ def remove_parentheses(s):
     return ans
             
       
+"""
+In this kata you are given a string for example:
+    "example(unwanted thing)example"
+Your task is to remove everything inside the parentheses as well as the parentheses themselves.
+The example above would return:
+    "exampleexample"
+ Another example:
+    "hello example (words(more words) here) something" >>> "hello example  something
+"""
