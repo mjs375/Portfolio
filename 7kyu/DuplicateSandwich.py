@@ -7,8 +7,6 @@ def duplicate_sandwich(arr): #given a LIST:
         k = i + 1 #offset 2nd loop by 1...
         for j in range(k, length): #2nd loop ... *range(start, stop)
             if arr[i] == arr[j]:
-                i = int(i)
-                j = int(j)
                 return arr[i+1: j]
             
             
