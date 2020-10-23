@@ -1,4 +1,4 @@
-import re #REGEX
+import re #REGEX PRACTICE
 
 def validate_pin(pin):
     pin_check = re.fullmatch("\d{4}|\d{6}", pin)
@@ -33,8 +33,8 @@ re.fullmatch(pattern, string_text)
 re.search()
     scans thru string looking for 1st location where the regex pattern finds a match, returns match object or NONE.
 """
-
-
-
+# # # E A S Y _ S O L U T I O N : # # # 
+def validate_pin(pin):
+    return len(pin) in [4, 6] and pin.isdigit()
 
 #
