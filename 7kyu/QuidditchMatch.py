@@ -1,7 +1,9 @@
 # # # # # # R E F A C T O R E D : # # # # # # #
-
-
-
+def game_winners(gryffindor, slytherin):
+    gry, sly = (team[0] + 150*(team[1] == 'yes') for team in [gryffindor, slytherin])
+    #for team in [list of lists, gry/sly]: add up goals and 150(if snitch): put that all in a variable
+    #print(type(gry)) #makes an int()
+    return "Gryffindor wins!" if gry > sly else "Slytherin wins!" if sly > gry else "It's a draw!"
 
 
 
