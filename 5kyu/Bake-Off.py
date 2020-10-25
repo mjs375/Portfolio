@@ -1,4 +1,3 @@
-(Pete, the baker)[https://www.codewars.com/kata/525c65e51bf619685c000059/python]
 def cakes(recipe, available):
     lcd = [] # counter for cakes baked(least-common-denominator)
     for i1, a1 in recipe.items(): #flour|1200... sugar|1200...
