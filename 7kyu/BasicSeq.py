@@ -1,4 +1,13 @@
 def sum_of_n(n):
+    return [(-1 if n < 0 else 1) * sum(range(i+1)) for i in range(abs(n)+1)]
+    # return [...] # a list
+    # (-1 if n < 0 else 1)*   # negating sum if n is negative, for negative series
+    # sum(range(i+1)    # sum every number between 0-n, inclusive (range 'stops' at 1 before i, hence i+1)
+    # for i in range(abs(n)+1)  # now iterate up til 'n' (n+1 is stop), absolute valuing 'n' first
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+def sum_of_n(n):
 # seq: nth term is sum of numbers 0-n, inclusive.
     ans = []
     if n < 0:
