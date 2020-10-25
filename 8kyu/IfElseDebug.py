@@ -1,4 +1,9 @@
 def check_alive(health):
+    return health > 0 #True/False
+
+# # # # # # # # # # # # # # # # #
+
+def check_alive(health):
     return True if health > 0 else False
     
     
