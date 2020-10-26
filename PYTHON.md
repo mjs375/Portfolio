@@ -8,6 +8,9 @@
 ### DATA STRUCTURES
 ## STRINGS
 - string_name = "Some message"
+- multiline_string = """Some message,
+continued on another line,
+continued on a third line."""
 ## LISTS
 ## DICTIONARIES
 ## SETS
