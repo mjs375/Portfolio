@@ -28,7 +28,7 @@
 ## TUPLES
 
 ## SLICE NOTATION:
-- **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (non-inclusive). Examples of s1="Hello"*
+- **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (non-inclusive). Step by -1 to reverse a string. Examples of s1="Hello"*
   - print(s1[::-1] ==> *olleH*
   - return s1[::2] ==> *Hlo*
   - s1[-1:] ==> *o*
