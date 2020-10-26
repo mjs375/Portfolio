@@ -9,9 +9,9 @@
 ## STRINGS
 - *Strings are immutable, so to 'update a string' you must assign the string to a new one with the changes.*
   - **string_name = "Some message"** *Strings can be in ".." or '..'*
-  - multiline_string = """Some message,  
+  - **multiline_string = """Some message,  
   continued on another line,  
-  continued on a third line.""" **
+  continued on a third line."""** 
 -
 
 
