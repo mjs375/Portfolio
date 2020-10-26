@@ -1,5 +1,5 @@
 # C O D I N G _ G Y M N A S I U M :
-Coursework:
+### Coursework:
 - [x] **Rutgers: 610 Web Programming**
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
 - [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
@@ -7,7 +7,9 @@ Coursework:
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
   - Git/Github, Python, Django, SQL, Javascript
 - [ ] **CS50: Artificial Intelligence with Python**
--
+### Free Courses:
+- [ ] **[MIT OpenCourseWare: Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/)**
+- [ ] **[MIT OpenCourseWare: Introduction to C and C++](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/)**
 
 ## Codewars-Kata
 Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375)
