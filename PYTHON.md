@@ -21,8 +21,9 @@
 ## TUPLES
 
 ## SLICE NOTATION:
-- **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (noninclusive)*
-  -
+  - **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (noninclusive)*
+- x
+  - x
 
 
 ## FUNCTIONS
