@@ -1,3 +1,5 @@
+import re
+
 def is_it_possible(field): #"XXXOOOXXX" <= [str]
     print("", field[:3], "\n", field[3:6], "\n", field[6:])
     #
@@ -6,7 +8,7 @@ def is_it_possible(field): #"XXXOOOXXX" <= [str]
     # # # # #
     sumEx = field.count("X")
     sumOh = field.count("0")
-    #print(f"Xs: {sumEx}, 0s: {sumOh}")
+    print(f"Xs: {sumEx}, 0s: {sumOh}")
     if sumOh > sumEx: print("More 0s than Xs/X plays first")
     if sumOh > sumEx: return False # Ex always play first / too many Os
     if sumEx - sumOh > 1: return False  #X has too many pieces, X either has exactly 1 or 0 pieces more
@@ -34,15 +36,23 @@ def is_it_possible(field): #"XXXOOOXXX" <= [str]
     #
     #
     # IF X/0 wins but has more pieces on the board the win-check FAILS! 
-    # Loop over winning board index. For each 'o', check if a match on the actual gameboard...
+    # Loop over winning board index. For each 'o', check if a match on the actual gameboard... USE REGEX
     for win in wins: # iterate over each possible winning condition
         print("X", checkEx, "|", win, "|", "0", checkOh)
-        if checkEx == win: #CHANGE!
+        winReg = str(win.replace(".","[o\.]{1}"))
+        #print(win, "|")
+        
+        #if checkEx == winReg: #CHANGE!
+        checkRegEx = re.search(str(winReg),str(checkEx))
+        checkRegOh = re.search(str(winReg), str(checkOh))
+        if checkRegEx:
             print("X won")
             winEx += 1
-        if checkOh == win:
+        if checkRegOh:
             print("0 won")
             winOh += 1
+            
+            
     print(winEx, winOh)
     if winEx > 0 and winOh > 0: return False #both sides CANNOT win
     if winEx > 2 or winOh > 2: return False # X/0 cannot have more than 2 winning conditions
@@ -61,6 +71,3 @@ X/0 CAN win twice, if winning move is at intersection of 2 'ready lines'
     ..X
     ..X
 """
-            
-    
-        
