@@ -1,5 +1,5 @@
 # C O D I N G _ G Y M N A S I U M :
-## About Me:
+### About Me:
 I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field.
 
 ### Coursework:
