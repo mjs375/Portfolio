@@ -1,4 +1,7 @@
 # C O D I N G _ G Y M N A S I U M :
+## About Me:
+I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field.
+
 ### Coursework:
 - [x] **Rutgers: 550 Information Technology**
   - HTML, CSS, Javascript, MySQL, PHP
