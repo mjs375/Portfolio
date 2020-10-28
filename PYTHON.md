@@ -1,10 +1,10 @@
 # P Y T H O N  •  B A S I C S 
 ## TUTORIAL
-
+- Indentation matters in Python: it indicates a discrete block of code, such as what is contained in an ```if x>1:``` statement, what is inside a ```function(a)```, a for loop, &c. Once out of the block, de-dent back.
 
 ### PYTHON COMMENTS
-- Any code after a ```#``` will not be read by the interpreter
-- Any code in-between """...""" will be read as a string literal, but since it isn't assigned to a variable it will simply be ignored
+- Any code after a ```#comment...``` will not be read by the interpreter
+- Any code in-between ```"""comment..."""``` will be read as a string literal, but since it isn't assigned to a variable it will simply be ignored.
 
 ## STRINGS (DATA STRUCTURE)
 - *Strings are immutable, so to 'update a string' you must assign the string to a new one with the changes.*
