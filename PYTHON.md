@@ -12,7 +12,7 @@
   - ```multiline_string = """Some message,```  
   ```continued on another line,```  
   ```continued on a third line."""```
-  - ```string2 = string1 + "some text" + ...```
+  - ```string2 = string1 + "some text" + ...``` : *concatenating strings*
   
 - **Slice Notation**
   - 
