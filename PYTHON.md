@@ -23,7 +23,16 @@
   - ```print(f'{value:.2f}')``` ==> *3.23 (choose decimal place to round at)*
 
 ## LISTS (DATA STRUCTURE)
+  - ```for index, value in enumerate(list_name):``` : *loop thru a list, getting additional access to an index-number*
+
+
+
 ## DICTIONARIES
+  - ```dict_name[key] = value``` : *set a key/value pair, or update value of existing key*
+  - ```print(dict_name.get(key))``` : *get dict value by key*
+  - ```for item in dict_name.items():``` : *loop thru dictionary, each 'item' is a (key,value) tuple*
+  - ```for key, value in dict_name.items():``` : *Loop thru a dict, having access to key/value individually.*
+
 ## SETS
 ## TUPLES
 
