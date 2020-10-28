@@ -24,13 +24,18 @@
   - ```print(f'{value:.2f}')``` ==> *3.23 (choose decimal place to round at)*
 
 ## LISTS (DATA STRUCTURE)
+- *Lists are mutable, so you can change them without assigning them to a new list variable. Lists are ordered.*
+  - ```list_name.append(value)``` : *adds the value (string, int, another list) to the end of the list.*
   - ```for index, value in enumerate(list_name):``` : *loop thru a list, getting additional access to an index-number*
 
 
 
 ## DICTIONARIES
+- *Dicts are mutable and unordered.*
+  - ```dict_name = {}``` OR ```dict_name = dict()``` : *create an empty dict. You can also pre-populate the dict with {key:"value", key:"value"} pairs.*
   - ```dict_name[key] = value``` : *set a key/value pair, or update value of existing key*
   - ```print(dict_name.get(key))``` : *get dict value by key*
+  - ```del dict_name(key)``` : *delete a dict key/pair*
   - ```for item in dict_name.items():``` : *loop thru dictionary, each 'item' is a (key,value) tuple*
   - ```for key, value in dict_name.items():``` : *Loop thru a dict, having access to key/value individually.*
 
