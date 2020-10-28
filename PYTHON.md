@@ -3,7 +3,7 @@
 
 
 ### PYTHON COMMENTS
-- Any code after a '\#' will not be read by the interpreter
+- Any code after a '\```#```' will not be read by the interpreter
 - Any code in-between """...""" will be read as a string literal, but since it isn't assigned to a variable it will simply be ignored
 
 ## STRINGS (DATA STRUCTURE)
