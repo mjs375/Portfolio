@@ -72,7 +72,7 @@
 - **Logical Operators**
   - ```if x < 5 and x < 10```: *joins conditional statements– returns True if both/all statements are True.*
   - ```if x <5 or x > 10```: *returns True if just one of the statements is True.*
-  ` ```if not (x<5 and x<10)```: reverses the result– returns False if True, True if False.
+  - ```if not (x<5 and x<10)```: reverses the result– returns False if True, True if False.
 
 ## VARIABLES
   - Variables do not need explicit declarations of type, Python will interpret for you.
@@ -87,7 +87,8 @@
   - **Float**: *a float allows for decimal places*
   - ```miles = 100.05```
 - **Boolean**
-  - any value that exists and returns a non-zero/non-empty value is True;
+  - ```switch = True```: *when declaring the value of a boolean variable, they must be capitalized (True/False).*
+  - Boolean Rules: *any value that exists and returns a non-zero(+ or -) or non-empty value is True; 0 returns False. (Thus some variables, like strings, always return True as long as they aren't empty.)*
 
 
 
