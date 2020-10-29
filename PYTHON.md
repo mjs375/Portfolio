@@ -51,16 +51,46 @@
 
 
 ## FUNCTIONS
-- def function_name(parameters):
+- def function_name(parameters): *a defined function says what will happen once it is atually called*
+- a = fuction_name(parameter): *a function whose return value is outputted as 'a'*
+   - ```a,b = function_name(parameters)```: *a function with multiple returns, outputted to 'a,b' in the same order. (Multiple outputs can be stored in 1 variable, but that it must be indexed to get out individual results.)*
 - ```a, b = function(a)``` : *here function(a) returns (unseen) two variables. You can also return 2 variables to a single one, but then need to unpack/index it to access them.*
 
 ## CLASSES
 
 ## OPERATORS
 - **Assignment Operators**
-  - ```a = 10``` *the __Assignment Operator__. 'Declares' a variable's value.*
-  - ```a += 10``` => ```a = a + 10``` *add a thing to itself*
-    - *See also:*
-    
+  - ```a = 10``` *the __Assignment Operator__. 'Declares' a variable's value (often a new variable).*
+  - ```a += 10``` => ```a = a + 10``` *add a thing to itself ('updates' or refurbishes a variable)*
+    - *See also:* ```-= , *= , /=, %=, //=, **= ``` *and more...*
+- **Arithmetic Operators**
+  - ```+, -, *, /, %, **, //```: *addition, subtraction, multiplication, division, modolus (divide and return the remainder), exponentiation, floor division (divide and return number w/0 the remainder).*
 - **Comparison Operators**
+  - ```x == y```: *checks for equality between the two– if x=10 and y=10, True.*
+    - ```x != y```: *checks for non-equality between the variables– if x=10 and y=10, False.*
+  - ```x > y, x >= y, x < y, x <= y```: *x is greater than/greater than or equal to y, less than/less than or equal to.*
+- **Logical Operators**
+  - ```if x < 5 and x < 10```: *joins conditional statements– returns True if both/all statements are True.*
+  - ```if x <5 or x > 10```: *returns True if just one of the statements is True.*
+  ` ```if not (x<5 and x<10)```: reverses the result– returns False if True, True if False.
+
+## VARIABLES
+  - Variables do not need explicit declarations of type, Python will interpret for you.
+- **Multiple Assignment**:
+  - ```a = b = c = 10```: *multiple variables given the same single value*
+  - ```a,b,c=1,2,"jen"```: *multiple variables given multiple objects, just on the same line*
+- **String**
+  - ```name = "Cassady"```: 
+- **Number**
+  - **Integer**
+    - ```counter = 1```
+  - **Float**: *a float allows for decimal places*
+  - ```miles = 100.05```
+- **Boolean**
+  - any value that exists and returns a non-zero/non-empty value is True;
+
+
+
+
+
 
