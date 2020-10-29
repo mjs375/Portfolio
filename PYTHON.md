@@ -25,7 +25,7 @@
 
 ## LISTS (DATA STRUCTURE)
 - *Lists are mutable, so you can change them without assigning them to a new list variable. Lists are ordered.*
-  - ```list_name.append(value)``` : *adds the value (string, int, another list) to the end of the list.*
+  - ```list_name.append(value)``` : *adds the value (string, int, another list) to the end of the list. (Note you don't have to set it ```=``` to a new list, as the old list can be updated, being mutable.)*
   - ```for index, value in enumerate(list_name):``` : *loop thru a list, getting additional access to an index-number*
 
 
@@ -42,7 +42,7 @@
 ## SETS
 ## TUPLES
 
-## SLICE NOTATION:
+## STRING SLICE NOTATION:
 - **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (non-inclusive). Step by -1 to reverse a string. Examples of s1="Hello"*
   - ```print(s1[::-1]``` ==> *olleH*
   - ```return s1[::2]``` ==> *Hlo*
@@ -74,19 +74,19 @@
   - ```if x <5 or x > 10```: *returns True if just one of the statements is True.*
   - ```if not (x<5 and x<10)```: reverses the result– returns False if True, True if False.
 
-## VARIABLES
+## DECLARING VARIABLES
   - Variables do not need explicit declarations of type, Python will interpret for you.
 - **Multiple Assignment**:
   - ```a = b = c = 10```: *multiple variables given the same single value*
   - ```a,b,c=1,2,"jen"```: *multiple variables given multiple objects, just on the same line*
-- **String**
+- **Var: String**
   - ```name = "Cassady"```: 
-- **Number**
+- **Var: Number**
   - **Integer**
     - ```counter = 1```
   - **Float**: *a float allows for decimal places*
   - ```miles = 100.05```
-- **Boolean**
+- **Var: Boolean**
   - ```switch = True```: *when declaring the value of a boolean variable, they must be capitalized (True/False).*
   - Boolean Rules: *any value that exists and returns a non-zero(+ or -) or non-empty value is True; 0 returns False. (Thus some variables, like strings, always return True as long as they aren't empty.)*
 
