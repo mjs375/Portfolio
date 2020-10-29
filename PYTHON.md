@@ -55,3 +55,12 @@
 - ```a, b = function(a)``` : *here function(a) returns (unseen) two variables. You can also return 2 variables to a single one, but then need to unpack/index it to access them.*
 
 ## CLASSES
+
+## OPERATORS
+- **Assignment Operators**
+  - ```a = 10``` *the __Assignment Operator__. 'Declares' a variable's value.*
+  - ```a += 10``` => ```a = a + 10``` *add a thing to itself*
+    - *See also:*
+    
+- **Comparison Operators**
+
