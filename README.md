@@ -8,7 +8,7 @@ I am currently a public reference librarian in New Jersey who is interested in b
 - [x] **Rutgers: 559 Web Programming**
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
 - [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
-  - [CS50xCERT.pdf](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf)
+  - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf)
   - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
   - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
