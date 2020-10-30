@@ -1,34 +1,49 @@
 import re
 def solve_runes(runes):
-    print(runes,type(runes))
-    
-    #string = "4+46=101/234*234-23"
+    # # # Split string into nums/signs
     numlist = re.split('[+\-*/=]',runes)
-    print(numlist) 
-    
-    #HANDLE NEGATIVE SIGNS: PUT BACK IN IF A SPACE IN THE LIST OF SPLITS
+    #
+    # # # HANDLE NEGATIVE SIGNS: PUT BACK IN IF A SPACE IN THE LIST OF SPLITS
     for i, elem in enumerate(numlist):
-        print(i, elem)
         try:
             if numlist[i-1] == "":
-                #numlist[i] = int(elem)*(-1)
                 numlist[i] = '-' + numlist[i]
         except: pass
-
-    #Remove spaces from list:
-    #[x for x in a if x != [1, 1]]
+    #
+    # # # Remove spaces from list:
     nums = [num for num in numlist if num != ""]
-    print(nums)
-    
+    #
     num1 = nums[0]
     num2 = nums[1]
     result = nums[2]
-    op = #use regex match instead of split like above to determine operation
-    
-    
-    
-    
-    pass
+    match = re.search('[+\-*/=]',runes[1:])
+    op = match[0] #use regex match instead of split like above to determine operation
+    #
+    ############
+    #print("Num1:",num1,"Operation",op,"Num2:",num2,"=","Result:",result)
+    # 
+    #
+    #
+    equation = f"{num1}{op}{num2}" #={result} ??? still inside
+    #print(equation)
+    #
+    #
+    # # # Loop eval(equation) replacing '?' with 0-9: if True, ?=num
+    for i in range(10): #0-9
+        L = re.sub(r"\?", str(i), equation) #OR# x = equation.replace("?",str(i))        
+        R = re.sub(r"\?", str(i), result)        
+        L = eval(L)
+        
+        
 
-# use regex to find '?' and loop-replace them with 0-9,
-    # then use eval(...) to check 'num1 op num2 = result'.
+        if R == len(str(R)) * 0 and len(str(R)) > 1:
+            print(R)
+            continue #answer can't be '00(0...)'!
+            
+        #FINAL CHECK: WHAT IS THE ? NUMBER?
+        if L == int(R):
+            return i
+        else:
+            pass
+    return -1
+ 
