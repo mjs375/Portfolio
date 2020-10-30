@@ -29,3 +29,6 @@ def solve_runes(runes):
     
     
     pass
+
+# use regex to find '?' and loop-replace them with 0-9,
+    # then use eval(...) to check 'num1 op num2 = result'.
