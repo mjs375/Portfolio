@@ -1,4 +1,24 @@
 def chess_board_cell_color(cell1, cell2):
+    color = []
+    for cell in [cell1, cell2]:
+        if cell[0] in "ACEG":
+            color.append("black") if int(cell[1]) % 2 != 0 else color.append("white")
+        else: # if cell[0] in "bdfh":                
+            color.append("white") if int(cell[1]) % 2 != 0 else color.append("black")
+    return True if color[0] == color[1] else False
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+
+# A more unnecessarily convoluted function, 
+# because I wanted to practice for later chess programs...
+
+def chess_board_cell_color(cell1, cell2):
     
     # # # CREATE THE B/W BOARD:
     switch = False #switch will off-set each row (white,black,white)
