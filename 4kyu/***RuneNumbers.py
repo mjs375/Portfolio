@@ -1,43 +1,28 @@
 import re
 def solve_runes(runes):
-    # # # Split string into nums/signs
-    numlist = re.split('[+\-*/=]',runes)
+    numlist = re.split('[+\-*/=]',runes) #Split string into nums/signs
     #
-    # # # HANDLE NEGATIVE SIGNS: PUT BACK IN IF A SPACE IN THE LIST OF SPLITS
-    for i, elem in enumerate(numlist):
+    for i, elem in enumerate(numlist): #Replace "" with a negative sign "-":
         try:
             if numlist[i-1] == "":
                 numlist[i] = '-' + numlist[i]
         except: pass
     #
-    # # # Remove spaces from list:
-    nums = [num for num in numlist if num != ""]
+    nums = [num for num in numlist if num != ""] # Then remove spaces from list
     #
-    num1 = nums[0]
-    num2 = nums[1]
-    result = nums[2]
-    match = re.search('[+\-*/=]',runes[1:])
-    op = match[0] #use regex match instead of split like above to determine operation
+    num1, num2, result = nums[0], nums[1], nums[2]
+    match = re.search('[+\-*/=]',runes[1:]) #Exclude [0] of equation: can't be the operation, but can be a negative sign
+    op = match[0] # the operation matched
     #
-    ############
-    #print("Num1:",num1,"Operation",op,"Num2:",num2,"=","Result:",result)
-    # 
+    equation = f"{num1}{op}{num2}" # ('?' still inside)
     #
-    #
-    equation = f"{num1}{op}{num2}" #={result} ??? still inside
-    #print(equation)
-    #
-    #
-    # # # Loop eval(equation) replacing '?' with 0-9: if True, ?=num
-    for i in range(10): #0-9
+    for i in range(10): # Loop, replace '?' w/0-9'.
         L = re.sub(r"\?", str(i), equation) #OR# x = equation.replace("?",str(i))        
         R = re.sub(r"\?", str(i), result)   
         try:
             L = eval(L)
         except: #e.g. "00604 * 34" #Handle leading 0s on L (just )
             continue
-        
-
         # Handle R(esult) if == 00: (can't be, skip in loop)
         if int(R) == 0 and len(str(R)) > 1:
             continue #answer can't be '00(0...)'!
@@ -51,8 +36,6 @@ def solve_runes(runes):
         else:
             pass
     return -1 # No possible answer
-
-
 
 """
     You are helping an archaeologist decipher some runes. He knows that this ancient society used a Base 10 system, and that they never start a number with a leading zero. He's figured out most of the digits as well as a few operators, but he needs your help to figure out the rest.
