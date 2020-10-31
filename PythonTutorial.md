@@ -92,6 +92,8 @@
 
 
 
-
+## USEFUL FUNCTIONS:
+- **enumerate()**: *attaches an iterator (counter) to an object*
+  -```for index, value in enumerate(list/string):
 
 
