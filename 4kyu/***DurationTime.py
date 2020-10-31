@@ -34,3 +34,70 @@ def format_duration(seconds):
         # ", " after each block, except between the last 2: " and "
     #
     
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    def format_duration(s):
+    if s == 0: return "now"
+    m = h = d = y = 0
+    #
+    #  
+    # MINUTES:
+    if s >= 60:
+        m = s // 60
+        s = s % 60
+        
+    # HOURS:
+    if m >= 60:
+        h = m // 60
+        m = m % 60
+        
+    # DAYS
+    if h >= 24:
+        d = h // 24
+        h = h % 24
+            
+    # YEARS
+    if d >= 365:
+        y = d // 365
+        d = d % 365
+    #
+    #
+    print(f"{y} {d} {h} {m} {s}")
+    # Assemble the print statements: 
+        # if any unit == 0, don't print it at all
+        # if any unit == 1, print e.g. minute instead of minuteS
+        # ", " after each block, except between the last 2: " and "
+    # f"{y} years" if m else "{d} days" if d else "{h} hours" if h else "{m} minutes" if m else "{s} seconds"
+    ans = ""
+    for i in [y,d,h,m,s]:
+        #print(i)
+        if i > 1:
+            ans += f"{i} {repr(i)}, "
+            #print(repr())
+        elif i == 1:
+            ans += f"{i} unit, "
+        #else: pass
+    print(ans)
+    
