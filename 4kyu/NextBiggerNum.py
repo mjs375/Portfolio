@@ -1,37 +1,49 @@
 def next_bigger(n):
-    nums = [digit for digit in str(n)]
-    a,b = len(nums), 0
-    # # # Check is number is already highest it can be:
-    for i, v in enumerate(nums):
-        try:
-            if nums[i] >= nums[i+1]:
-                b += 1
-        except: pass
-    if a-1 == b: # number is highest it can be...
-        return -1
+    nums = [digit for digit in str(n)] #list-ify the string
+    #
+    # Is the list already in decreasing order? (no larger number?):
+    c = 0 #counter
+    for i in range(1,len(str(n)),1): #iterator
+        #print(nums[i],i)
+        if nums[i-1] >= nums[i]: #check if decreasing order
+            c += 1
+        if nums[i-1] < nums[i]: #ID the breakpoint
+            breakpoint = i
+    if c == len(str(n)) - 1:
+        return -1 # LARGEST NUM ALREADY
     #
     #
     #
-    for i,v in enumerate(nums): #find largest R-half in descending order
-        try:
-            if nums[i-1] > nums[i]:
-                breakpoint = i+1 #reset breakpoint
-        except: pass 
-    print(nums, "|",breakpoint)
-    
-
-    
-    string = ''.join([str(elem) for elem in nums]) 
-    print(string)
-    
-    if breakpoint == len(str(string)):
-        breakpoint = len(str(string)) -1
-        print("Success?")
-    
-    L = string[:breakpoint]
-    R = string[breakpoint:]
+    #
+    #
+    print(nums, breakpoint)
+    L = str(n)[:breakpoint] # Split string...
+    R = str(n)[breakpoint:]
     print(L,"|",R)
-    
+    #
+    #
+    L_end = L[-1] # Get last digit of L-half
+    #    
+    # Get next larger number than L_end:
+    R_end = 9
+    for digit in R:
+        if int(digit) > int(L_end):
+            if int(digit) < int(R_end):
+                R_end = digit
+    # Swap L_end and R_end:
+    L = L[:-1] + str(R_end) #new L-string, with R-end
+    print(L)
+    R = R.replace(str(R_end),L_end,1)
+    print(R)
+    R=sorted(R)
+    R = "".join(R)
+    print(R)
+    answer = L+R
+    print(int(answer))
+    return int(answer)
+
+
+
 
 """
   Sequence: 34722641
@@ -52,10 +64,6 @@ e.g. 4312
 e.g. 2017
   201 7 
   207 1
-
-
-
-
 """
     
     
