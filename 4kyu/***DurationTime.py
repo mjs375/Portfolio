@@ -1,3 +1,82 @@
+def format_duration(s):
+    if s == 0: return "now"
+    m = h = d = y = 0
+    time = {} #dict()
+    time["second"] = s #
+    #
+    #  
+    # MINUTES:
+    if s >= 60:
+        m = s // 60
+        s = s % 60
+        time["minute"] = m #
+        time["second"] = s
+
+        
+    # HOURS:
+    if m >= 60:
+        h = m // 60
+        m = m % 60
+        time["minute"] = m #
+        time["hour"] = h #
+
+        
+    # DAYS
+    if h >= 24:
+        d = h // 24
+        h = h % 24
+        time["hour"] = h #
+        time["day"] = d #
+            
+    # YEARS
+    if d >= 365:
+        y = d // 365
+        d = d % 365
+        time["day"] = d #
+        time["year"] = y #
+    #
+    #
+    # time(dictionary) gives access to both value and key (unit: hour, minute)
+    for i, v in time.items():
+        print(i,v)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
+        
+        
+        
+        
+        
+
+
+
+
+
 def format_duration(seconds):
     if seconds == 0: return "now"
     minutes = hours = days = years = 0
