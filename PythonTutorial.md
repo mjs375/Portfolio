@@ -93,7 +93,9 @@
 
 
 ## USEFUL FUNCTIONS:
+- **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive).*
+  -```for i in range(0,10,1):```
 - **enumerate()**: *attaches an iterator (counter) to an object*
-  -```for index, value in enumerate(list/string):
+  -```for index, value in enumerate(list/string):```
 
 
