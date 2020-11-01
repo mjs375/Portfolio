@@ -96,7 +96,7 @@
 
 
 ## USEFUL FUNCTIONS:
-- **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive).*
+- **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive). Negative step number will go from the end to the beginning of the range.*
   -```for i in range(0,10,1):```
 - **enumerate()**: *attaches an iterator (counter) to an object*
   -```for index, value in enumerate(list/string):```
