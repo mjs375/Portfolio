@@ -96,7 +96,9 @@
 
 ## TERNARY OPERATORS
   - *consolidating multiple lines of code into one*
-- ```*value_if_true* if *condition* else *value_if_false*```
+- ```value_if_true if condition else value_if_false```
+  - ```return True if a > b else False```
+- ```if a > b: True``` , ```else: False```: *each conditional is on one line*
 
 ## USEFUL FUNCTIONS:
 - **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive). Negative step number will go from the end to the beginning of the range.*
