@@ -75,7 +75,7 @@
   - ```if not (x<5 and x<10)```: reverses the result– returns False if True, True if False.
 
 ## DECLARING VARIABLES
-  - Variables do not need explicit declarations of type, Python will interpret for you.
+  - *Variables do not need explicit declarations of type, Python will interpret for you.*
 - **Casting**: *changing the type of a variable, e.g. string '10' ==> int 10.*
     - *Check the type of a variable with ```print(type(variable))```*
   - ```int()```
@@ -94,7 +94,9 @@
   - ```switch = True```: *when declaring the value of a boolean variable, they must be capitalized (True/False).*
   - Boolean Rules: *any value that exists and returns a non-zero(+ or -) or non-empty value is True; 0 returns False. (Thus some variables, like strings, always return True as long as they aren't empty.)*
 
-
+## TERNARY OPERATORS
+  - *consolidating multiple lines of code into one*
+- ```*value_if_true* if *condition* else *value_if_false*```
 
 ## USEFUL FUNCTIONS:
 - **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive). Negative step number will go from the end to the beginning of the range.*
