@@ -14,8 +14,13 @@
   ```continued on a third line."""```
   - ```string2 = string1 + "some text" + ...``` : *concatenating strings*
   
-**Slice Syntax**
-  - string_name[start:stop] 
+### STRING SLICE SYNTAX:
+- **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (non-inclusive). Step by -1 to reverse a string. Examples of s1="Hello"*
+  - ```print(s1[::-1]``` ==> *olleH*
+  - ```return s1[::2]``` ==> *Hlo*
+  - ```s1[-1:]``` ==> *o*
+  
+
   
 - **f-strings**: *a way to include variables in strings. You can put any valid Python expression inside the {...} to evaluate at runtime.*
   - ```print(f"Hello, {name}.")``` ==> *Hello, David.*
@@ -43,12 +48,6 @@
 ## SETS
 ## TUPLES
 
-## STRING SLICE NOTATION:
-- **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (non-inclusive). Step by -1 to reverse a string. Examples of s1="Hello"*
-  - ```print(s1[::-1]``` ==> *olleH*
-  - ```return s1[::2]``` ==> *Hlo*
-  - ```s1[-1:]``` ==> *o*
-  
 
 
 ## FUNCTIONS
