@@ -3,19 +3,19 @@
 - Indentation matters in Python: it indicates a discrete block of code, such as what is contained in an ```if x>1:``` statement, what is inside a ```function(a)```, a for loop, &c. Once out of the block, de-dent back.
 
 ### PYTHON COMMENTS
-- Any code after a ```#comment...``` will not be read by the interpreter
-- Any code in-between ```"""comment..."""``` will be read as a string literal, but since it isn't assigned to a variable it will simply be ignored.
+- Any code after a ```#```, e.g. ```#comment...``` will not be read by the interpreter
+- Any code in-between ```"""comment..."""``` will be read as a string literal, but since it isn't assigned to a variable it will simply be ignored. This is how you can 'cheat' multi-line comments.
 
 ## STRINGS (DATA STRUCTURE)
 - *Strings are immutable, so to 'update a string' you must assign the string to a new one with the changes.*
-  - ```string_name = "Some message"``` : *Strings can be in ".." or '..'*
+  - ```string_name = "Some message"``` : *Strings can be in ```""``` or ```''```*
   - ```multiline_string = """Some message,```  
   ```continued on another line,```  
   ```continued on a third line."""```
   - ```string2 = string1 + "some text" + ...``` : *concatenating strings*
   
 ### STRING SLICE SYNTAX:
-- **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (non-inclusive). Step by -1 to reverse a string. Examples of s1="Hello"*
+- **slice(start, stop, step)**: *Start & step are optional. The 'stop' means 'stop 1 before here' (non-inclusive). Step by -1 to reverse a string. Examples of s1="Hello":*
   - ```print(s1[::-1]``` ==> *olleH*
   - ```return s1[::2]``` ==> *Hlo*
   - ```s1[-1:]``` ==> *o*
@@ -77,6 +77,7 @@
 ## DECLARING VARIABLES
   - Variables do not need explicit declarations of type, Python will interpret for you.
 - **Casting**: *changing the type of a variable, e.g. string '10' ==> int 10.*
+    - *Check the type of a variable with ```print(type(variable))```*
   - ```int()```
   - ```str()```
 - **Multiple Assignment**:
