@@ -14,8 +14,9 @@
   ```continued on a third line."""```
   - ```string2 = string1 + "some text" + ...``` : *concatenating strings*
   
-- **Slice Notation**
-  - 
+**Slice Syntax**
+  - string_name[start:stop] 
+  
 - **f-strings**: *a way to include variables in strings. You can put any valid Python expression inside the {...} to evaluate at runtime.*
   - ```print(f"Hello, {name}.")``` ==> *Hello, David.*
   - ```return f"{name.lower()}"``` ==> *david*
