@@ -1,3 +1,5 @@
+# https://www.codewars.com/kata/52742f58faf5485cae000b9a/train/python
+
 def format_duration(s):
     if s == 0: return "now"
     m = h = d = y = 0
