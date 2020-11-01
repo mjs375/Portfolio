@@ -76,6 +76,9 @@
 
 ## DECLARING VARIABLES
   - Variables do not need explicit declarations of type, Python will interpret for you.
+- **Casting**: *changing the type of a variable, e.g. string '10' ==> int 10.*
+  - ```int()```
+  - ```str()```
 - **Multiple Assignment**:
   - ```a = b = c = 10```: *multiple variables given the same single value*
   - ```a,b,c=1,2,"jen"```: *multiple variables given multiple objects, just on the same line*
