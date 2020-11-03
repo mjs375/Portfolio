@@ -1,10 +1,13 @@
 import re
 #
 def encode(n,msg):
-    print("0:",msg) #TODO
-    print()
+    print(repr(msg)) #TODO
     #
-    if "\n" in msg: #handle the 2-character '\n' situation simply:
+    if '\r' in msg or '\t' in msg:
+        print()
+        print("HEY!")
+    #
+    if "\n" in msg: #handle the 2-character '\n' situation simply...
         msg = msg.replace("\n","|") #replace w/ uncommon character; replace again at end
         
     #
@@ -78,8 +81,8 @@ def encode(n,msg):
 
 def decode(cipher):
     #cipher = "5 dog goatnight oaf blanketgiraffe."
-    print("0:",cipher) #TODO
-    print()
+#    print("0:",cipher) #TODO
+#    print()
     # 0a. Identify 'n':
     x = re.match("[0-9].", cipher)
     n = int(x[0]) #ITERATION NUMBER
@@ -115,7 +118,7 @@ def decode(cipher):
             else:
                 subs[i] = sub[m:] + sub[:m]
         cipher = " ".join(subs)
-        print("4:",cipher) #DONE
+#        print("4:",cipher) #DONE
         
         
     
@@ -127,7 +130,7 @@ def decode(cipher):
                 spaces.append(i)
         # b. Remove spaces
         cipher = cipher.replace(" ","")
-        print("1:",cipher) #DONE
+#        print("1:",cipher) #DONE
     # 2. Shift order of chars to right by 'n' characters
         if n > len(cipher):
             m = n % len(cipher)
@@ -137,21 +140,18 @@ def decode(cipher):
             cipher = cipher[-m:] #+ msg[:l] #TODO??!?!?!?!?!?!
         else:
             cipher = cipher[n:] + cipher[:m]
-        print("2:",cipher) # DONE
+#        print("2:",cipher) # DONE
         
     # 3. Put the spaces back in their original positions
         for i, char in enumerate(original): #
             if i in spaces:
                 cipher = cipher[:i] + " " + cipher[i:]
-        print("3:",cipher) #DONE
-
-        
-
-        
+#        print("3:",cipher) #DONE    
     #
     #
     #
     # (Exit n-times loop, final step:)
     if "|" in cipher:
         cipher = cipher.replace("|","\n")
+    print(repr(cipher))
     return cipher
