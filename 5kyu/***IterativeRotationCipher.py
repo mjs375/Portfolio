@@ -1,7 +1,11 @@
 def encode(n,msg):
     print("0:",msg) #TODO
     print()
-    
+    #
+    if "\n" in msg: #handle the 2-character '\n' situation simply:
+        msg = msg.replace("\n","*") #replace w/ uncommon character; replace again at end
+        
+    #
     original = msg #clean copy (for length purposes, &c.)
 
     
@@ -14,7 +18,7 @@ def encode(n,msg):
                 spaces.append(i)
         # b. Remove spaces
         msg = msg.replace(" ","")
-        print("1:",msg) #TODO
+#        print("1:",msg) #TODO
 
         
     # 2. Shift order of chars to right by 'n' characters
@@ -27,14 +31,14 @@ def encode(n,msg):
             msg = msg[-m:] #+ msg[:l]
         else:
             msg = msg[-m:] + msg[:l]
-        print("2:",msg) #TODO
+#        print("2:",msg) #TODO
         
 
     # 3. Put the spaces back in their original positions
         for i, char in enumerate(original): #
             if i in spaces:
                 msg = msg[:i] + " " + msg[i:]
-        print("3:",msg) #TODO
+#        print("3:",msg) #TODO
         # 'eu niv erse .I fyou wi shtom ake anap plepiefr oms crat ch,yo umustf irs tinventth'
 
         
@@ -53,11 +57,13 @@ def encode(n,msg):
             else:
                 subs[i] = sub[-m:] + sub[:l] # sub[0:] + sub[2:]
         msg = " ".join(subs)
-        print("4:",msg) #TODO
+#        print("4:",msg) #TODO
         # 'eu vni seer .I oufy wi shtom eak apan frplepie som atcr ch,yo ustfum sir htinventt'
 
     # (Exit n-times loop, final step:)
 # 6. Prepend "{n} " to the front of the encoded string.
+    if "*" in msg:
+        msg = msg.replace("*","\n")
     msg = f"{n} " + msg
     return msg
 
