@@ -96,6 +96,29 @@ def decode(cipher):
     #
     #
     for i in range(n): # 5. Repeat steps 1-4 'n' times in total. 
+    #
+    #
+    
+    
+    # 4. Shift the characters of each substring (separated by spaces) to the right by 'n'
+        # a. Break string into substrings separated by " "
+        subs = cipher.split()
+        # b. Shift substring by 'n'
+        for i,sub in enumerate(subs):
+            if n > len(sub):
+                m = n % len(sub)
+            else: m = n
+            l = len(sub) - m
+            #
+            if m == 0: 
+                subs[i] = sub[m:] + sub[:m]
+            else:
+                subs[i] = sub[m:] + sub[:m]
+        cipher = " ".join(subs)
+        print("4:",cipher) #DONE
+        
+        
+    
     # 1. Remove all spaces (but remember positions)
         # a. Add string spaces indices to list:
         spaces = [] 
@@ -105,8 +128,6 @@ def decode(cipher):
         # b. Remove spaces
         cipher = cipher.replace(" ","")
         print("1:",cipher) #DONE
-
-        
     # 2. Shift order of chars to right by 'n' characters
         if n > len(cipher):
             m = n % len(cipher)
@@ -118,10 +139,6 @@ def decode(cipher):
             cipher = cipher[n:] + cipher[:m]
         print("2:",cipher) # DONE
         
-
-    
-    
-
     # 3. Put the spaces back in their original positions
         for i, char in enumerate(original): #
             if i in spaces:
@@ -130,25 +147,11 @@ def decode(cipher):
 
         
 
-    # 4. Shift the characters of each substring (separated by spaces) to the right by 'n'
-        # a. Break string into substrings separated by " "
-        subs = cipher.split()
-        # b. Shift substring by 'n'
-        for i,sub in enumerate(subs):
-            if n > len(sub):
-                m = n % len(sub)
-            else: m = n
-            l = len(sub) - m
-            #
-            if m == 0: #prevent duplication of substring:
-                subs[i] = sub[m:] + sub[:m]
-            else:
-                subs[i] = sub[m:] + sub[:m]
-        cipher = " ".join(subs)
-        print("4:",cipher) #DONE
-    
+        
+    #
+    #
+    #
     # (Exit n-times loop, final step:)
-# 6. Prepend "{n} " to the front of the encoded string.
     if "|" in cipher:
         cipher = cipher.replace("|","\n")
     return cipher
