@@ -2,7 +2,7 @@ def encode(n,msg):
     print("0:",msg) #TODO
     print()
     
-    original = msg #clean copy
+    original = msg #clean copy (for length purposes, &c.)
 
     
     for i in range(n): # 5. Repeat steps 1-4 'n' times in total. 
@@ -16,11 +16,19 @@ def encode(n,msg):
         msg = msg.replace(" ","")
         print("1:",msg) #TODO
 
+        
     # 2. Shift order of chars to right by 'n' characters
         #msg = msg[n:] + msg[:n] #TODO: potential bug
+        if n > len(msg):
+            m = n % len(msg)
+        else: m = n
         l = len(msg) - n
-        msg = msg[-n:] + msg[:l]
+        if m == 0:
+            msg = msg[-m:] #+ msg[:l]
+        else:
+            msg = msg[-m:] + msg[:l]
         print("2:",msg) #TODO
+        
 
     # 3. Put the spaces back in their original positions
         for i, char in enumerate(original): #
@@ -36,7 +44,9 @@ def encode(n,msg):
         subs = msg.split()
         # b. Shift substring by 'n'
         for i,sub in enumerate(subs):
-            m = n % len(sub) # 0 = 10 % 2 
+            if n > len(sub):
+                m = n % len(sub) # 0 = 10 % 2 
+            else: m = n
             l = len(sub) - m # 2 = 2 - 0
             if m == 0: #prevent duplication of substring:
                 subs[i] = sub[-m:]
