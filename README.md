@@ -10,11 +10,12 @@ I am currently a public reference librarian in New Jersey who is interested in b
   - ```★★☆☆☆``` **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server. Along with HTML & CSS, JS completes the classic trio of web development languages.*
   - ```★★★★☆``` **Python**:
     - ```★★★★☆``` **Django**: *a framework for Python centered around Models-Templates-Views, that easily builds websites, and even includes*
-    - ```★★☆☆☆``` **Flask**: *a lightweight web framework for Python*
+    - ```★★☆☆☆``` **Flask**: *a lightweight web framework for Python.*
     - ```★★★☆☆``` **Jinja**: *a language that allows Python functions & variables to be inserted into HTML templates used in both the Flask & Django frameworks.*
   - ```★★☆☆☆``` **C**:
 - **SQL**: *[Structured Query Language]*
-- ```★★★★☆``` **Microsoft Excel**: **  
+- **Git/Github**: *Github.com allows users to store & manage source code and conduct version control (i.e. maintain 'stable/master' branches of programs, while also developing new features in branched versions of the program, and finally, 'merging' the new, fully-debugged features into the stable branch). 'Git' is a terminal command to do these things.*
+- ```★★★★☆``` **Microsoft Excel**: *a spreadsheet program to collect and sort data, make calculations, create charts & graphs, and conduct analysis using Excel functions.*  
  
 
 ### Coursework:
