@@ -13,6 +13,8 @@ I am currently a public reference librarian in New Jersey who is interested in b
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
   - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
 - [ ] **CS50: Artificial Intelligence with Python**
+- [ ] **Fat Chance: Probability from the Ground Up**
+  - Harvard free online statistics course
 ### Free Courses:
 - [ ] **[MIT OpenCourseWare: Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/)**
 - [ ] **[MIT OpenCourseWare: Introduction to C and C++](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/)**
