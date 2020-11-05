@@ -6,11 +6,15 @@ I am currently a public reference librarian in New Jersey who is interested in b
   - ```★★★☆☆``` **HTML**: *the static structure & content of a webpage [HyperText Markup Language]*
   - ```★★★☆☆``` **CSS**: *the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. [Cascading Style Sheets]*
     - ```★☆☆☆☆``` **SASS**: *an extension of CSS that lets you use variables and other advanced features in CSS format style more efficiently [Syntactically Awesome Style Sheets]*
-    - ★★★★☆ **Bootstrap CSS**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names) to an element, thus not wasting time creating universal styles from scratch.*
-  - ★★☆☆☆ **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server.*
-  - ★★★★☆ **Python**:
-    - ★★★★☆ **Django**:
-  - ★★☆☆☆ **C**:
+    - ```★★★★☆``` **Bootstrap CSS**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names) to an element, thus not wasting time creating universal styles from scratch.*
+  - ```★★☆☆☆``` **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server. Along with HTML & CSS, JS completes the classic trio of web development languages.*
+  - ```★★★★☆``` **Python**:
+    - ```★★★★☆``` **Django**: *a framework for Python centered around Models-Templates-Views, that easily builds websites, and even includes*
+    - ```★★☆☆☆``` **Flask**: *a lightweight web framework for Python*
+    - ```★★★☆☆``` **Jinja**: *a language that allows Python functions & variables to be inserted into HTML templates used in both the Flask & Django frameworks.*
+  - ```★★☆☆☆``` **C**:
+- **SQL**: *[Structured Query Language]*
+- ```★★★★☆``` **Microsoft Excel**: **  
  
 
 ### Coursework:
