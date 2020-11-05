@@ -28,7 +28,7 @@ I am currently a public reference librarian in New Jersey who is interested in b
   - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
   - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
-  - **Projects:** [Mail](https://github.com/mjs375/CS50Python/tree/master/mail), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
+  - **Projects:** [Mail](https://github.com/mjs375/CS50Python/tree/master/mail), [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
   - Harvard free online statistics course
