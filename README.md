@@ -21,14 +21,16 @@ I am currently a public reference librarian in New Jersey who is interested in b
 ### Coursework:
 - [x] **Rutgers: 550 Information Technology**
   - HTML, CSS, Javascript, MySQL, PHP
+  - Grade: ```A```
 - [x] **Rutgers: 559 Web Programming**
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
+  - Grade: ```A```
 - [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
-  - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf)
   - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
+  - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf)
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
   - **Projects:** [Mail](https://github.com/mjs375/CS50Python/tree/master/mail), [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce), [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
-    - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
+  - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
   - Harvard free online statistics course
