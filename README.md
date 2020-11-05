@@ -2,6 +2,17 @@
 ### About Me:
 I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field. My formal experience includes courses during my Rutgers University graduate program, an internship at Milne Library, SUNY Geneseo that included proofreading & editing XML code for the *Digital Thoreau* project, and finally, ongoing, self-directed coursework from Harvard as well as online programming practice, e.g. Codewars.
 
+### Languages / Tools Experienced In:
+  - ★★★☆☆ **HTML**: *the static structure & content of a webpage [HyperText Markup Language]*
+  - ★★★☆☆ **CSS**: *the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. [Cascading Style Sheets]*
+    - ★☆☆☆☆ **SASS**: *an extension of CSS that lets you use variables and other advanced features in CSS format style more efficiently [Syntactically Awesome Style Sheets]*
+    - ★★★★☆ **Bootstrap CSS**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names) to an element, thus not wasting time creating universal styles from scratch.*
+  - ★★☆☆☆ **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server.*
+  - ★★★★☆ **Python**:
+    - ★★★★☆ **Django**:
+  - ★★☆☆☆ **C**:
+ 
+
 ### Coursework:
 - [x] **Rutgers: 550 Information Technology**
   - HTML, CSS, Javascript, MySQL, PHP
