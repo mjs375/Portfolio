@@ -31,7 +31,7 @@ I am currently a public reference librarian in New Jersey who is interested in b
   - Projects: Mario, Cash, Credit, Readability, Caesar, Substition, Plurality, Runoff, Filter, Recover, Speller, Mario, Cash, Readability, DNA, Movies, Houses, Homepage, Finance, Capstone
   - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf)
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
-  - **Projects:** ```[Mail](https://github.com/mjs375/CS50Python/tree/master/mail)```, [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce), [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
+  - **Projects:** [Mail](https://github.com/mjs375/CS50Python/tree/master/mail), [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce), [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
   - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
