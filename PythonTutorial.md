@@ -113,3 +113,8 @@
 - ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
   - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
   - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
+- ```pdb```: Python's built-in debugger tool, activated from the cmd-line. It runs line by line, showing the code in the console, per your keystroke. At any point ask pdb to show the values of variables instead of the code.
+  - To run: ```$ python3 -m pdb filename.py```
+    - Next line of code: press 'n'
+    - Check full code: press 'l'
+    - Check variable value: press 'p' and 'variable_name'
