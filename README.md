@@ -20,10 +20,12 @@ I am currently a public reference librarian in New Jersey who is interested in b
 <hr>
 
 ### Coursework:
+#### Graduate Coursework:
 - [x] **Rutgers University: 550 Information Technology** *(Grade: ```A```)*
   - HTML, CSS, Javascript, MySQL, PHP
 - [x] **Rutgers: 559 Web Programming** *(Grade: ```A```)*
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
+#### Online Coursework:
 - [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
   - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
   - Projects: Mario, Cash, Credit, Readability, Caesar, Substition, Plurality, Runoff, Filter, Recover, Speller, Mario, Cash, Readability, DNA, Movies, Houses, Homepage, Finance, Capstone
