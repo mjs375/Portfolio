@@ -131,6 +131,10 @@
   - ```>>>is_prime(5)``` => ```True``` *(is_prime takes 1 parameter, 'n', and returns True/False)*
   
 - **Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses. Run the test.py file from the Python interpreter to easily provide some input parameters (thing to test) and some expected values (what it should equal/return).*
+  - ```$ python``` *open the Python interpreter*
+  - ``` >>> from tests import test_function``` *import the test_function*
+  - ``` >>> test_function(5, True)``` *run the test_function (which itself runs the original function), giving it an input and expected return value.*
+  - *if n!= expected:* ```ERROR on...``` *if the return != expected, then a message will be printed*
 ``` 
 <<tests.py>> #test file_name
 from <file> import <func> #import the func to run tests on (original program)
@@ -138,10 +142,6 @@ from <file> import <func> #import the func to run tests on (original program)
   if func(n) != expected: # checks: does func(n) return what we expect?
     print(f"ERROR on func({n}), expected {expected}") # print statement when expected is not met
 ```
-  - ```$ python``` *open the Python interpreter*
-  - ``` >>> from tests import test_function``` *import the test_function*
-  - ``` >>> test_function(5, True)``` *run the test_function (which itself runs the original function), giving it an input and expected return value.*
-  - *if n!= expected:* ```ERROR on...``` *if the return != expected, then a message will be printed*
   
 - **Shell Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one. ```python3``` is which version of Python, ```-c``` means we intend to run a command, and the ```"..."``` includes the command in a string format*
 ```
