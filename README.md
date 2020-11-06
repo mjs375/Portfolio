@@ -19,7 +19,6 @@ I am currently a public reference librarian in New Jersey who is interested in b
  
 <hr>
 
-### Coursework:
 #### Graduate Coursework:
 - [x] **Rutgers University: 550 Information Technology** *(Grade: ```A```)*
   - HTML, CSS, Javascript, MySQL, PHP
