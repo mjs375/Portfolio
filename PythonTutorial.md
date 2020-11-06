@@ -1,9 +1,10 @@
 # P Y T H O N  •  B A S I C S 
 ## TUTORIAL
-- Indentation matters in Python: it indicates a discrete block of code, such as what is contained in an ```if x>1:``` statement, what is inside a ```function(a)```, a for loop, &c. Once out of the block, de-dent back.
+- Indentation matters in Python: *it indicates a discrete block of code, such as what is contained in an ```if x>1:``` statement, what is inside a ```function(a)```, a for loop, &c. Once out of the block, de-dent back.*
+- Zero-Indexing: *in Python, when counting elements of an entity, you must count from 0: '0,1,2,3...' The 'zero-eth' element of a string "Hello" is "H"; the first element of a list ['a', 'b', 'c'] is 'b'; and so on.*
 
 ### PYTHON COMMENTS
-- ```# some commment...```: *Any code after a ```#``` on the same line will not be read by the interpreter. Think of these as post-it notes for source-code, only you the programmer (and anyone inspecting the code) will see it. Useful for explaining each step of the program, putting in ```#TODO...``` notes for later when building a program, &c.*
+- ```# some commment...```: *Any code after a ```#``` on the same line will not be read by the interpreter. Think of these as post-it notes for source-code, only you the programmer (and anyone inspecting the code) will see it. Useful for explaining each step of the program, putting in* ```#TODO...``` *notes for later when building a program, &c.*
 - Any code in-between ```"""comment..."""``` will be read as a string literal, but since it isn't assigned to a variable it will simply be ignored. This is how you can 'cheat' multi-line comments.
 
 ## STRINGS (DATA STRUCTURE)
@@ -66,8 +67,8 @@
 - **Arithmetic Operators**
   - ```+, -, *, /, %, **, //```: *addition, subtraction, multiplication, division, modolus (divide and return the remainder), exponentiation, floor division (divide and return number w/0 the remainder).*
 - **Comparison Operators**
-  - ```x == y```: *checks for equality between the two– if x=10 and y=10, True.*
-    - ```x != y```: *checks for non-equality between the variables– if x=10 and y=10, False.*
+  - ```x == y```: *checks for equality between the two– if x=10 and y=10, then x==y, so True.*
+    - ```x != y```: *checks for non-equality between the variables– if x=10 and y=10, then False.*
   - ```x > y, x >= y, x < y, x <= y```: *x is greater than/greater than or equal to y, less than/less than or equal to.*
 - **Logical Operators**
   - ```if x < 5 and x < 10```: *joins conditional statements– returns True if both/all statements are True.*
