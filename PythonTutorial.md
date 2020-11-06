@@ -114,7 +114,9 @@
   -```for index, value in enumerate(list/string):```
 
 <hr>
+
 # P Y T H O N  •  A D V A N C E D 
+
 <hr>
 
 ## TESTING & DEBUGGING TIPS:
