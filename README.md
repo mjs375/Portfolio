@@ -40,4 +40,4 @@ I am currently a public reference librarian in New Jersey who is interested in b
 - [ ] **[MIT OpenCourseWare: Introduction to C and C++](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/)**
 
 ## Codewars-Kata
-Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375). Note: Codewars 'kyu' levels are from 8 (easiest) to 1 (hardest).
+Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375). *Note: Codewars 'kyu' levels are from 8 (easiest) to 1 (hardest).*
