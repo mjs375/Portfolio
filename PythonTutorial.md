@@ -35,7 +35,7 @@
   - ```list_name.append(value)``` : *adds the value (string, int, another list) to the end of the list. (Note you don't have to set it ```=``` to a new list, as the old list can be updated, being mutable.)*
     - ```list.append(9)```: [1,5] => [1,5,9]
     - ```list.append([6,7]): [1,5] => [1,5,[6,7]]
-  - ```list.extend(value)```: *extend adds 'value' to each element in the list*
+  - ```list.extend(value)```: *extend adds iterable value to the list*
     - ```list.extend([6,7])```: [1,5] => [1,5,6,7]
     - ```list.extend('cdefg')```: ['a','b'] => ['a', 'b', 'c', 'd', 'e', 'f', 'g']
   - ```for index, value in enumerate(list_name):``` : *loop thru a list, getting additional access to an index-number*
