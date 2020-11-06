@@ -107,3 +107,7 @@
   -```for index, value in enumerate(list/string):```
 
 
+
+## TESTING & DEBUGGING TIPS:
+- ```print(f"Message {some_variable}...")```: *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is.*
+-
