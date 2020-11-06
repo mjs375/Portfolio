@@ -116,5 +116,5 @@
 - ```pdb```: *Python's built-in debugger tool, activated from the cmd-line. It runs line by line, showing the code in the console, per your keystroke. At any point ask pdb to show the values of variables instead of the code.*
   - *To run:* ```$ python3 -m pdb filename.py```
     - *Next line of code: press* ```n```
-    - Check full code: press 'l'
-    - Check variable value: press 'p' and 'variable_name'
+    - *Check full code: press* ```l```
+    - *Check variable value: press* ```p``` *and* ```variable_name```
