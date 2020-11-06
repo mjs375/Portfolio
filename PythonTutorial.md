@@ -112,7 +112,7 @@
 - **enumerate()**: *attaches an iterator (counter) to an object*
   -```for index, value in enumerate(list/string):```
 
-
+<hr>
 
 ## TESTING & DEBUGGING TIPS:
 - **Print**: *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is. The simplest debugger.*
@@ -130,7 +130,7 @@
   - ```>>>from prime import is_prime``` *(where file prime(.py) contains func is_prime(n).)*
   - ```>>>is_prime(5)``` => ```True``` *(is_prime takes 1 parameter, 'n', and returns True/False)*
   
-- **1) Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses. Run the test.py file from the Python interpreter to easily provide some input parameters (thing to test) and some expected values (what it should equal/return).*
+- **Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses. Run the test.py file from the Python interpreter to easily provide some input parameters (thing to test) and some expected values (what it should equal/return).*
 ``` 
 <<tests.py>> #test file_name
 from <file> import <func> #import the func to run tests on (original program)
@@ -138,11 +138,12 @@ from <file> import <func> #import the func to run tests on (original program)
   if func(n) != expected: # checks: does func(n) return what we expect?
     print(f"ERROR on func({n}), expected {expected}") # print statement when expected is not met
 ```
-  - ```$ python```
-  - ``` >>>from tests import test_function```
-  - ``` >>>test_function(5, True)```
-  - *if n!= expected:* ```ERROR on...```
-- **2) Shell tests Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one.*
+  - ```$ python``` *open the Python interpreter*
+  - ``` >>> from tests import test_function``` *import the test_function*
+  - ``` >>> test_function(5, True)``` *run the test_function (which itself runs the original function), giving it an input and expected return value.*
+  - *if n!= expected:* ```ERROR on...``` *if the return != expected, then a message will be printed*
+  
+- **Shell Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one. ```python3``` is which version of Python, ```-c``` means we intend to run a command, and the ```"..."``` includes the command in a string format*
 ```
 "python3 -c from tests import test_prime; test_prime(1, False)"
 "python3 -c from tests import test_prime; test_prime(2, True)"
@@ -150,6 +151,25 @@ from <file> import <func> #import the func to run tests on (original program)
 ```
   - Run these script commands by running ```./tests.sh``` in the terminal: will execute all shell commands at once, and print out the same "ERROR on..." statement if particular test fails.
 
+- **Unittest**: *Python's unnittest library.*
+```
+<<testings.py>> # filename 
+import unittest 
+from filename import function_name # function you are debugging
+class Tests(unittest.TestCase): # a class containing all tests
+  def test_1(self): # testing '1' (must be named 'test_'-something)
+  """Check that 1 is not prime.""" # 'docstring' will display when test fails to help debug
+  self.assertFalse(is_prime(1)) # self.assertSOMETHING (assertTrue, assertEqual, assertGreater...)
+  
+  def test_2(self): # testing '2'
+  """Check..."""
+  self.assertTrue(is_prime(2))
+  
+if __name__ == "__main__": # Run each of the testing functions:
+  unittest.main()
+```
+  - ```$ python3 testings.py```
+    - *Unittest will then spit out to the terminal console some information on the test results. It will start with something like ```...F.F```, which means 'Pass-Pass-Pass-Fail-Pass-Fail'. Then, for each failed test, it will give the name of the test and the docstring description, and a Traceback.*
   
 21:27
 
