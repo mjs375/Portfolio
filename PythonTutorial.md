@@ -2,6 +2,7 @@
 ## TUTORIAL
 - Indentation matters in Python: *it indicates a discrete block of code, such as what is contained in an ```if x>1:``` statement, what is inside a ```function(a)```, a for loop, &c. Once out of the block, de-dent back.*
 - Zero-Indexing: *in Python, when counting elements of an entity, you must count from 0: '0,1,2,3...' The 'zero-eth' element of a string "Hello" is "H"; the first element of a list ['a', 'b', 'c'] is 'b'; and so on.*
+- To run a Python program: ```$ python filename(parameters)```
 
 ### PYTHON COMMENTS
 - ```# some commment...```: *Any code after a ```#``` on the same line will not be read by the interpreter. Think of these as post-it notes for source-code, only you the programmer (and anyone inspecting the code) will see it. Useful for explaining each step of the program, putting in* ```#TODO...``` *notes for later when building a program, &c.*
@@ -125,7 +126,7 @@
 - **Assert**: *Assert will be ignored if its statement is True; but if False, it will stop the program and throw out an exception, 'Traceback: ... line #... AssertionError', thus signaling the location of the bug in the code.*
   - ```assert square(10) == 100```
   
-- **Python Interpreter**: *type ```python``` into the terminal to pull up the Python module, where you can run/write Python code. To use a function inside your program, import the function, then call the function. To quit: ```quit()```.*
+- **Python Interpreter**: *type ```$ python``` into the terminal to pull up the Python module, where you can run/write Python code. To use a function inside your program, import the function, then call the function. To quit: ```quit()```.*
   - ```$ python```
   - ```>>>from prime import is_prime``` *(where file prime(.py) contains func is_prime(n).)*
   - ```>>>is_prime(5)``` => ```True``` *(is_prime takes 1 parameter, 'n', and returns True/False)*
@@ -144,12 +145,12 @@ from <file> import <func> #import the func to run tests on (original program)
 ```
   
 - **Shell Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one. ```python3``` is which version of Python, ```-c``` means we intend to run a command, and the ```"..."``` includes the command in a string format*
+  - Run these script commands by running ```./tests.sh``` in the terminal: will execute all shell commands at once, and print out the same "ERROR on..." statement if particular test fails.
 ```
 python3 -c "from tests import test_prime; test_prime(1, False)"
 python3 -c "from tests import test_prime; test_prime(2, True)"
     # and so on, as many tests as you want.
 ```
-  - Run these script commands by running ```./tests.sh``` in the terminal: will execute all shell commands at once, and print out the same "ERROR on..." statement if particular test fails.
 
 - **Unittest**: *Python's unnittest library.*
 ```
