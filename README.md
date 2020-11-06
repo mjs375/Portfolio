@@ -6,10 +6,10 @@ I am currently a public reference librarian in New Jersey who is interested in b
   - ```★★★★☆``` **HTML**: *the static structure & content of a webpage [HyperText Markup Language.html]*
   - ```★★★☆☆``` **CSS**: *the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. [Cascading Style Sheets.css]*
     - ```★☆☆☆☆``` **SASS**: *an extension of CSS that lets you use variables ($color:red;)(p{color: $color}) and other advanced features in CSS format style more efficiently. Browsers only recognize .css, so you must 1. download Sass program, 2. run ```$ sass variables.scss:variables.css```, which will create a .css file with the variables 'hard-coded'. Run ```$ sass --watch variables.scss:variables.css``` to automatically change the .css file everytime a change is detected in the .scss file. You can also physically nest element{style} inside other elements{style}, and utilize Sass's "inheritance" feature (%somestyle)(div {@extend %somestyle}). [Syntactically Awesome Style Sheets.scss].*
-    - ```★★★★☆``` **[Bootstrap CSS](https://getbootstrap.com/docs/4.5/getting-started/introduction/)**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names) to an element, thus not wasting time creating universal styles from scratch.*
-  - ```★★☆☆☆``` **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server. Along with HTML & CSS, JS completes the classic trio of web development languages.*
+    - ```★★★★☆``` **[Bootstrap CSS](https://getbootstrap.com/docs/4.5/getting-started/introduction/)**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*
+  - ```★★☆☆☆``` **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server. Along with HTML & CSS, JS completes the classic trio of web development languages. [JS.js]*
   - ```★★★★☆``` **Python**: *an interpreted programming language (no need to compile into 'machine code' first).*
-    - ```★★★★☆``` **Django**: *a framework for Python centered around Models-Templates-Views, that easily builds websites, and even includes*
+    - ```★★★★☆``` **Django**: *a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*
     - ```★★☆☆☆``` **Flask**: *a lightweight web framework for Python.*
     - ```★★★☆☆``` **Jinja**: *a language that allows Python functions & variables to be inserted into HTML templates used in both the Flask & Django frameworks.*
   - ```★★☆☆☆``` **C**:
@@ -31,7 +31,7 @@ I am currently a public reference librarian in New Jersey who is interested in b
   - Projects: Mario, Cash, Credit, Readability, Caesar, Substition, Plurality, Runoff, Filter, Recover, Speller, Mario, Cash, Readability, DNA, Movies, Houses, Homepage, Finance, Capstone
   - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf)
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
-  - **Projects:** [Mail](https://github.com/mjs375/CS50Python/tree/master/mail), [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce), [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
+  - **Projects:** ```[Mail](https://github.com/mjs375/CS50Python/tree/master/mail)```, [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce), [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
   - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
