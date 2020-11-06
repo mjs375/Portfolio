@@ -2,7 +2,7 @@
 ## TUTORIAL
 - Indentation matters in Python: *it indicates a discrete block of code, such as what is contained in an ```if x>1:``` statement, what is inside a ```function(a)```, a for loop, &c. Once out of the block, de-dent back.*
 - Zero-Indexing: *in Python, when counting elements of an entity, you must count from 0: '0,1,2,3...' The 'zero-eth' element of a string "Hello" is "H"; the first element of a list ['a', 'b', 'c'] is 'b'; and so on.*
-- To run a Python program: ```$ python filename(parameters)```
+- To run a Python program: ```$ python filename.py```
 
 ### PYTHON COMMENTS
 - ```# some commment...```: *Any code after a ```#``` on the same line will not be read by the interpreter. Think of these as post-it notes for source-code, only you the programmer (and anyone inspecting the code) will see it. Useful for explaining each step of the program, putting in* ```#TODO...``` *notes for later when building a program, &c.*
@@ -113,6 +113,8 @@
 - **enumerate()**: *attaches an iterator (counter) to an object*
   -```for index, value in enumerate(list/string):```
 
+<hr>
+# P Y T H O N  •  A D V A N C E D 
 <hr>
 
 ## TESTING & DEBUGGING TIPS:
