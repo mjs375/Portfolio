@@ -38,9 +38,6 @@
   - ```list.extend(value)```: *extend adds 'value' to each element in the list*
     - ```list.extend([6,7])```: [1,5] => [1,5,6,7]
     - ```list.extend('cdefg')```: ['a','b'] => ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-    
-    list1 = ['apple', 'pear', 'cherry']
-list1.extend('jam')
   - ```for index, value in enumerate(list_name):``` : *loop thru a list, getting additional access to an index-number*
 
 
