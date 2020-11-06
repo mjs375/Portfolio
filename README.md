@@ -20,9 +20,8 @@ I am currently a public reference librarian in New Jersey who is interested in b
 <hr>
 
 ### Coursework:
-- [x] **Rutgers: 550 Information Technology**
+- [x] **Rutgers University: 550 Information Technology** *Grade: ```A```*
   - HTML, CSS, Javascript, MySQL, PHP
-  - Grade: ```A```
 - [x] **Rutgers: 559 Web Programming**
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
   - Grade: ```A```
