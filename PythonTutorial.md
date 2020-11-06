@@ -130,7 +130,7 @@
   - ```>>>from prime import is_prime``` *(where file prime(.py) contains func is_prime(n).)*
   - ```>>>is_prime(5)``` => ```True``` *(is_prime takes 1 parameter, 'n', and returns True/False)*
   
-- **Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses.*
+- **1) Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses. Run the test.py file from the Python interpreter to easily provide some input parameters (thing to test) and some expected values (what it should equal/return).*
 ``` 
 <<tests.py>> #test file_name
 from <file> import <func> #import the func to run tests on (original program)
@@ -139,9 +139,16 @@ from <file> import <func> #import the func to run tests on (original program)
     print(f"ERROR on func({n}), expected {expected}") # print statement when expected is not met
 ```
   - ```$ python```
-  - ```>>>from tests import test_function```
-  - ```>>>test_function(5, True)```
+  - ``` >>>from tests import test_function```
+  - ``` >>>test_function(5, True)```
   - *if n!= expected:* ```ERROR on...```
+- **2) Shell tests Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one.*
+```
+"python3 -c from tests import test_prime; test_prime(1, False)"
+"python3 -c from tests import test_prime; test_prime(2, True)"
+    # and so on, as many tests as you want.
+```
+  - Run these script commands by running ```./tests.sh``` in the terminal: will execute all shell commands at once, and print out the same "ERROR on..." statement if particular test fails.
 
   
 21:27
