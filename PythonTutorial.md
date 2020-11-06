@@ -124,3 +124,4 @@
     - *Next line of code: press* ```n```
     - *Check full code: press* ```l```
     - *Check variable value: press* ```p``` *and* ```variable_name```
+- ```assert square(10) == 100```: *Assert will be ignored if its statement is True; but if False, it will stop the program and throw out an AssertionError*
