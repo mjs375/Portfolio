@@ -111,5 +111,5 @@
 ## TESTING & DEBUGGING TIPS:
 - ```print(f"Message {some_variable}...")```: *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is.*
 -   ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
-  - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
-  - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
+   - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
+   - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
