@@ -145,8 +145,8 @@ from <file> import <func> #import the func to run tests on (original program)
   
 - **Shell Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one. ```python3``` is which version of Python, ```-c``` means we intend to run a command, and the ```"..."``` includes the command in a string format*
 ```
-"python3 -c from tests import test_prime; test_prime(1, False)"
-"python3 -c from tests import test_prime; test_prime(2, True)"
+python3 -c "from tests import test_prime; test_prime(1, False)"
+python3 -c "from tests import test_prime; test_prime(2, True)"
     # and so on, as many tests as you want.
 ```
   - Run these script commands by running ```./tests.sh``` in the terminal: will execute all shell commands at once, and print out the same "ERROR on..." statement if particular test fails.
