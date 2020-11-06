@@ -126,10 +126,10 @@
 - **Assert**: *Assert will be ignored if its statement is True; but if False, it will stop the program and throw out an exception, 'Traceback: ... line #... AssertionError', thus signaling the location of the bug in the code.*
   - ```assert square(10) == 100```
   
-- **Python Interpreter**: *type ```$ python``` into the terminal to pull up the Python module, where you can run/write Python code. To use a function inside your program, import the function, then call the function. To quit: ```quit()```.*
-  - ```$ python```
-  - ```>>>from prime import is_prime``` *(where file prime(.py) contains func is_prime(n).)*
-  - ```>>>is_prime(5)``` => ```True``` *(is_prime takes 1 parameter, 'n', and returns True/False)*
+- **Python Interpreter**: *type ```$ python``` into the terminal to pull up the Python interpreter, where you can run/write Python code. To use a function inside your program, import the function, then call the function. To quit: ```quit()```.*
+  - ```$ python``` = > ```>>>    ```
+  - ```>>> from prime import is_prime``` *(where file prime(.py) contains func is_prime(n).)*
+  - ```>>> is_prime(5)``` => ```True``` *(is_prime takes 1 parameter, 'n', and returns True/False)*
   
 - **Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses. Run the test.py file from the Python interpreter to easily provide some input parameters (thing to test) and some expected values (what it should equal/return).*
   - ```$ python``` *open the Python interpreter*
