@@ -31,7 +31,7 @@
   - ```print(f'{value:.2f}')``` ==> *3.23 (choose decimal place to round at)*
 
 ## LISTS (DATA STRUCTURE)
-- *Lists are mutable, so you can change them without assigning them to a new list variable. Lists are ordered.*
+- *Lists are mutable, so you can change them without assigning them to a new list variable. Lists are ordered. Each element of a list can be an integer, a string, another list, &c.*
   - ```list_name.append(value)``` : *adds the value (string, int, another list) to the end of the list. (Note you don't have to set it ```=``` to a new list, as the old list can be updated, being mutable.)*
   - ```for index, value in enumerate(list_name):``` : *loop thru a list, getting additional access to an index-number*
 
