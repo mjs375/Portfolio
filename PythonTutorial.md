@@ -115,9 +115,10 @@
 
 <hr>
 
+<hr>
+
 # P Y T H O N  •  A D V A N C E D 
 
-<hr>
 
 ## TESTING & DEBUGGING TIPS:
 - **Print**: *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is. The simplest debugger.*
