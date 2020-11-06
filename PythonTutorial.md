@@ -115,11 +115,29 @@
 
 
 ## TESTING & DEBUGGING TIPS:
-- **print()**:```print(f"Message {some_variable}...")``` *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is.*
+- **Print**: *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is. The simplest debugger.*
+  - ```print(f"Message {variable}...")```
+  
 - ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
   - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
   - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
-- ```assert square(10) == 100```: *Assert will be ignored if its statement is True; but if False, it will stop the program and throw out an AssertionError*
+  
+- **Assert**: *Assert will be ignored if its statement is True; but if False, it will stop the program and throw out an exception, 'Traceback: ... line #... AssertionError', thus signaling the location of the bug in the code.*
+  - ```assert square(10) == 100```
+  
+- **Python module**: *type ```python``` into the terminal to pull up the Python module, where you can run/write Python code. To use a function inside your program, import the function, then call the function:*
+  - ```$ python```
+  - ```>>>from prime import is_prime``` *(where file prime(.py) contains func is_prime(n).)*
+  - ```>>>is_prime(5)``` => ```True``` *(is_prime takes 1 parameter, 'n', and returns True/False)*
+  
+- **Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses.*
+``` <tests.py>
+from <file> import <func>
+  def test_function(n, expected):
+  if func(n) != expected:
+    print(f"ERROR on func({n}), expected {expected}")
+```
+  
 
 
 - ```pdb```: *Python's built-in debugger tool, activated from the cmd-line. It runs line by line, showing the code in the console, per your keystroke. At any point ask pdb to show the values of variables instead of the code.*
