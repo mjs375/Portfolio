@@ -115,13 +115,15 @@
 
 
 ## TESTING & DEBUGGING TIPS:
-- ```print(f"Message {some_variable}...")```: *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is.*
+- **print()**:```print(f"Message {some_variable}...")``` *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is.*
 - ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
   - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
   - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
+- ```assert square(10) == 100```: *Assert will be ignored if its statement is True; but if False, it will stop the program and throw out an AssertionError*
+
+
 - ```pdb```: *Python's built-in debugger tool, activated from the cmd-line. It runs line by line, showing the code in the console, per your keystroke. At any point ask pdb to show the values of variables instead of the code.*
   - *To run:* ```$ python3 -m pdb filename.py```
     - *Next line of code: press* ```n```
     - *Check full code: press* ```l```
     - *Check variable value: press* ```p``` *and* ```variable_name```
-- ```assert square(10) == 100```: *Assert will be ignored if its statement is True; but if False, it will stop the program and throw out an AssertionError*
