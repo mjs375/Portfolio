@@ -41,3 +41,4 @@ I am currently a public reference librarian in New Jersey who is interested in b
 
 ## Codewars-Kata
 Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375)
+- Codeways 'kyu' levels are from 8 (easiest) to 1 (hardest).
