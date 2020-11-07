@@ -1,4 +1,6 @@
 def unique_sum(nums):
+    if not nums:
+        return None
     return sum({num for num in nums}) #1. set comprehension: only unique values
 
 """
