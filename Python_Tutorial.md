@@ -53,6 +53,17 @@
   - ```for key, value in dict_name.items():``` : *Loop thru a dict, having access to key/value individually.*
 
 ## SETS
+- *an unordered, unindexed (but mutable) collection of distinct objects; contained in '{}'. Since each value must be unique, common uses include membership testing, removing duplicates, &c.*
+  - Create: ```demo_set = {'a', 'b', 'c'}``` OR ```demo_set = set(('a', 'b', 'c'))``` 
+  - Access: *set items cannot be accessed by index or key, but you can loop through them to try and match an item (for-loop), or ask if a particular value is present (```for x in set:```)*
+  - Add: ```demo_set.add('value')``` OR ```demo_set.update(['value1', value2', value3
+ '])
+ - Remove: ```demo_set.remove('value') 
+ - Change: *you cannot change an existing set item (only delete, re-add updated item)*
+ - Empty/Delete: ```demo_set.clear()``` / ```del demo_set```
+ - Combine 2 sets: ```set3 = set1.union(set2)``` OR ```set1.update(set2)
+ - Difference(): *returns a set containing the difference between 2+ sets*
+
 ## TUPLES
 
 
@@ -101,11 +112,14 @@
   - ```switch = True```: *when declaring the value of a boolean variable, they must be capitalized (True/False).*
   - Boolean Rules: *any value that exists and returns a non-zero(+ or -) or non-empty value is True; 0 returns False. (Thus some variables, like strings, always return True as long as they aren't empty.)*
 
-## TERNARY OPERATORS
-  - *consolidating multiple lines of code into one*
+## TERNARY OPERATORS / SHORTER CODE
+  -  *consolidating multiple lines of code into one. ```If```s and ```else```s with only 1 line of code can skip the newline/indent; even simple for-loops can be reduced to one line*
 - ```value_if_true if condition else value_if_false```
   - ```return True if a > b else False```
 - ```if a > b: True``` , ```else: False```: *each conditional is on one line*
+- **List Comprehension**: ```x = [expression for item in list]```
+  - ```new_list = [letter for letter in 'some_string]```
+- **Lambda f(x)**:
 
 ## USEFUL FUNCTIONS:
 - **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive). Negative step number will go from the end to the beginning of the range.*
