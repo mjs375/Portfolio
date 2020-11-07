@@ -56,13 +56,12 @@
 - *an unordered, unindexed (but mutable) collection of distinct objects; contained in '{}'. Since each value must be unique, common uses include membership testing, removing duplicates, &c.*
   - Create: ```demo_set = {'a', 'b', 'c'}``` OR ```demo_set = set(('a', 'b', 'c'))``` 
   - Access: *set items cannot be accessed by index or key, but you can loop through them to try and match an item (for-loop), or ask if a particular value is present (```for x in set:```)*
-  - Add: ```demo_set.add('value')``` OR ```demo_set.update(['value1', value2', value3
- '])
- - Remove: ```demo_set.remove('value') 
- - Change: *you cannot change an existing set item (only delete, re-add updated item)*
- - Empty/Delete: ```demo_set.clear()``` / ```del demo_set```
- - Combine 2 sets: ```set3 = set1.union(set2)``` OR ```set1.update(set2)
- - Difference(): *returns a set containing the difference between 2+ sets*
+  - Add: ```demo_set.add('value')``` OR ```demo_set.update(['value1', value2', value3'])
+  - Remove: ```demo_set.remove('value') 
+  - Change: *you cannot change an existing set item (only delete, re-add updated item)*
+  - Empty/Delete: ```demo_set.clear()``` / ```del demo_set```
+  - Combine 2 sets: ```set3 = set1.union(set2)``` OR ```set1.update(set2)
+  - Difference(): *returns a set containing the difference between 2+ sets*
 
 ## TUPLES
 
