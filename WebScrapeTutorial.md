@@ -17,6 +17,7 @@ html = html_bytes.decode("utf-8") # decodes bytes into a string, using UTF-8
 print(html) # 'html' now contains all the HTML source code in a string
 ```
 
+<hr> 
 
 ### Simple Method of Extraction:
 - **String Methods**: *using .find() and string slicing syntax, you can pull the index range of HTML between 2 tags, e.g. <title>...</title>. This is a very simple method vulnerable to many failings: it can only find the first instance, if '<title>' is actually '<title id="hdg">' it won't find it, &c.*
@@ -32,7 +33,6 @@ print(title) # "Poseidon"
    
 
 ### Regular Expressions – Extracting Data between HTML tags:
-
 
 ### REGEX Special Characters, Functions & Syntax
 - ```*```: *0+ occurrences of whatever preceded*
@@ -59,13 +59,15 @@ print(title) # "Poseidon"
   - ```</title.*?>```: *the closing tag, e.g. '</TITLE >'.*
 - ```re.sub("<.*?>", "", title)```: *removes the tags themselves from the substring.*
 
-
-
-
-
-
-
 <hr>
+
+### Beautiful Soup
+- a parser designed specifically for HTML pages
+  - to install: ```$ python3 -m pip install beautifulsoup4```
+  - see details (name, version, license, &c.): ```$ python3 -m pip show beautifulsoup4```
+
+
+
 
 ### Creating and Saving a .CSV File with data
 
