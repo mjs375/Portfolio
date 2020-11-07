@@ -111,14 +111,16 @@
   - ```switch = True```: *when declaring the value of a boolean variable, they must be capitalized (True/False).*
   - Boolean Rules: *any value that exists and returns a non-zero(+ or -) or non-empty value is True; 0 returns False. (Thus some variables, like strings, always return True as long as they aren't empty.)*
 
-## TERNARY OPERATORS / SHORTER CODE
+## MISCELLANEOUS
+- **Ternary Operator**: ```value_if_true if condition else value_if_false```
   -  *consolidating multiple lines of code into one. ```If```s and ```else```s with only 1 line of code can skip the newline/indent; even simple for-loops can be reduced to one line*
-- ```value_if_true if condition else value_if_false```
   - ```return True if a > b else False```
-- ```if a > b: True``` , ```else: False```: *each conditional is on one line*
+  - ```if a > b: True``` , ```else: False```: *each conditional is on one line*
 - **List Comprehension**: ```x = [expression for item in list]```
   - ```new_list = [letter for letter in 'some_string]```
-- **Lambda f(x)**:
+- **Lambda f(x)**: *a small, anonymous function with exactly 1 expression (but any number of arguments/inputs)*
+  - ```lambda arguments : expression```
+    - ```x = lambda a : a + 10``` > ```print(x(5))```
 
 ## USEFUL FUNCTIONS:
 - **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive). Negative step number will go from the end to the beginning of the range.*
