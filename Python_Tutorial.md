@@ -200,8 +200,8 @@ class class_nameTestCase(TestCase):
   self.assertEqual(a.departures.count(),3)
 ```
 - More complicated testing [CS50 Notes](https://cs50.harvard.edu/web/2020/notes/7/):
-  - **Django Client-side Testing**: *test whether individual web pages load as intended, simulating the making of requests.*
-  - **Selenium**: *test out the client-side code, i.e. the HTML/Javascript on a webpage. Selenium*
+  - **Django Client Testing**: *test whether individual web pages load as intended, simulating the making of requests.*
+  - **Selenium**: *test out the client-side code, i.e. the HTML/Javascript on a webpage. Selenium framework simulates opening a web browser in the terminal, using a Web [Chrome]Driver.*
 
   
 
