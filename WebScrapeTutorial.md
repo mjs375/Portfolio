@@ -36,13 +36,15 @@ print(title) # "Poseidon"
 import re
 ```
 
-### REGEX Special Characters & Syntax
+### REGEX Special Characters, Functions & Syntax
 
-
-Special Character | Meaning
+Metacharacter | Meaning
 ------------------| -------
 * | 0+ occurrences of whatever preceded
---|-------------------------------------
+
+Function | Purpose | Notes
+---------|---------|-------
+re.findall(pattern, search_string) | Find any and all matches of a pattern in a string | Returns a list of all matches
 
 
 
