@@ -152,11 +152,8 @@ for i in range(4): # we want to roll the dice 4 times total
 
 
 
+
 <hr>
-
-### Creating and Saving a .CSV File with Data
-
-
 
 ### SOURCES
 - [A Practical Introduction to Web Scraping in Python](https://realpython.com/python-web-scraping-practical-introduction/): *this file is a summarized reproduction of this guide*
