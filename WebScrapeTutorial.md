@@ -76,6 +76,8 @@ html = page.read().decode("utf-8") # converts HTML into a string
 soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html.parser in Python's built-in HTML parser)
 ```
 ### Using a BeautifulSoup Object
+- ```soup.title``` => "<title>Google</title>": *certain tags in HTML docs can be accessed by properties of the Tag Object (note: Beautiful Soup automatically cleans up poorly-written HTML, removing extra spaces, etc.).*
+  - ```soup.title.string``` => "Google": *access just the content, not '<tag>content</tag>'*
 - ```text = soup.get_text()```: *extracts ALL text from the document, removing ALL HTML tags*
   - ```text.replace("\n","")```: *remove the newlines (lots of blank space in 'text')*
   - ```text.find()```: *this string method was clunky with all the HTML still in, but afterwards, it may be easiest (and simplest) to use it on the raw text content to find what you need* 
@@ -86,8 +88,12 @@ soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html
     - ```image["attribute"]```: ```image["src"]``` => '/static/picture.jpg'
 
 
+
+
+
 <hr>
-### Creating and Saving a .CSV File with data
+
+### Creating and Saving a .CSV File with Data
 
 
 
