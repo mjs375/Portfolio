@@ -40,7 +40,7 @@ import re
 
 Metacharacter | Meaning
 ------------------| -------
-* | 0+ occurrences of whatever preceded
+ * | 0+ occurrences of whatever preceded
 
 Function | Purpose | Notes
 ---------|---------|-------
