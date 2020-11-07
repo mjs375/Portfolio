@@ -1,5 +1,7 @@
 ## W E B _ S C R A P I N G _ I N _ P Y T H O N
 
+(Source)[https://realpython.com/python-web-scraping-practical-introduction/]
+
 ### Gather the HTML source-code in a string:
 ```
 from urllib.request import urlopen # Tools for working with URLs (urlopen() can open a URL within a program)
@@ -53,7 +55,7 @@ print(title) # "Poseidon"
   - ```"<tag.*?>"```: *matches an opening tag, from '<tag' until the first '>', e.g. "<div id='ex'>".*
   - ```.*?```: *non-greedily matches all text after '<tag...>', up until first instance of...*
   - ```</title.*?>```: *the closing tag, e.g. '</TITLE >'.*
-
+- ```re.sub("<.*?>", "", title)```: *removes the tags themselves from the substring.*
 
 
 
