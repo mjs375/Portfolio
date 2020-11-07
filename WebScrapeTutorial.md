@@ -1,6 +1,6 @@
 ## W E B _ S C R A P I N G _ I N _ P Y T H O N
 
-(Source)[https://realpython.com/python-web-scraping-practical-introduction/]
+[Source](https://realpython.com/python-web-scraping-practical-introduction/)
 
 ### Gather the HTML source-code in a string:
 ```
