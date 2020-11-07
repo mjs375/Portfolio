@@ -16,7 +16,7 @@ print(html) # 'html' now contains all the HTML source code in a string
 ```
 
 
-## Simple Method of Extraction:
+### Simple Method of Extraction:
 - **String Methods**: *using .find() and string slicing syntax, you can pull the index range of HTML between 2 tags, e.g. <title>...</title>. This is a very simple method vulnerable to many failings: it can only find the first instance, if '<title>' is actually '<title id="hdg">' it won't find it, &c.*
   - ```.find()```: *searches a string for the first instance of the string-pattern*
 ```
@@ -48,6 +48,22 @@ print(title) # "Poseidon"
   - ```print(re.sub("<.*>", "!!!", string))``` => ```Everything is !!!.``` *This happens because Python's regular expressions are 'greedy'– they try to find the longest possible match.*
   - ```print(re.sub("<.*?>", "!!!", string))``` => ```Everything is !!! if it's in !!!.```
 
+### HTML Regex
+- ```"<tag.*?>.*?</tag.*?>"
+  - ```"<tag.*?>"```: *matches an opening tag, from '<tag' until the first '>', e.g. "<div id='ex'>".*
+  - ```.*?```: *non-greedily matches all text after '<tag...>', up until first instance of...*
+  - ```</title.*?>```: *the closing tag, e.g. '</TITLE >'.*
+
+
+
+
+
+
+
+
+<hr>
+
+### Creating and Saving a .csv File with data
 
 
 
