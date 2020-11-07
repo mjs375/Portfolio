@@ -33,14 +33,20 @@ print(title) # "Poseidon"
 
 
 ### REGEX Special Characters, Functions & Syntax
-```*```: *0+ occurrences of whatever preceded*
-```.```: *1+ occurrences of whatever preceded*
+- ```*```: *0+ occurrences of whatever preceded*
+- ```.```: *1+ occurrences of whatever preceded*
+  - ```.*```: *matches any character any number of times*
+  - ```.*?```: *non-greedy matching pattern (finds the shortest possible match, rather than the longest* 
 
 ### REGEX Functions:
   - ```import re```: *Regex module must be imported to use*
-- ```re.findall(pattern, string,)```: *find and and all matches of the pattern in a string, returning a list of all matches/*
+- ```re.findall(pattern, string,)```: *find any and all matches of the pattern in a string, returning a list of all matches/*
   - ```re.findall("ab*c", "abcac")``` => ['abc', 'ac']
-
+- ```re.search()```: *returns a 'match object' of all possible matches (even matches inside matches)*
+  - ```x = matches.group()```: *gives the first and most inclusive result (unpacks the match object)*
+- ```re.sub(pattern, replace_text, string,)```: *replace text in a string that matches a regular expression with new text (behaves akin to string.replace()). Example ```string = "Everything is <replaced> if it's in <tags>."```*
+  - ```print(re.sub("<.*>", "!!!", string))``` => ```Everything is !!!.``` *This happens because Python's regular expressions are 'greedy'– they try to find the longest possible match.*
+  - ```print(re.sub("<.*?>", "!!!", string))``` => ```Everything is !!! if it's in !!!.```
 
 
 
