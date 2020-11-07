@@ -61,10 +61,11 @@ print(title) # "Poseidon"
 
 <hr>
 
-### Beautiful Soup
+### Beautiful Soup: HTML Scraper
 - a parser designed specifically for HTML pages
   - to install: ```$ python3 -m pip install beautifulsoup4```
   - see details (name, version, license, &c.): ```$ python3 -m pip show beautifulsoup4```
+- Limitations: *BeautifulSoup can't work with HTML forms (e.g. search a website for some query, then scraping results). If the HTML is extremely complex, idiosyncratic or poorly-written, it may fail you.*
 
 ```
 from bs4 import BeautifulSoup
@@ -75,7 +76,7 @@ page = urlopen(url) # open the URL
 html = page.read().decode("utf-8") # converts HTML into a string
 soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html.parser in Python's built-in HTML parser)
 ```
-### Using a BeautifulSoup Object
+#### Using a BeautifulSoup Object
 - ```soup.title``` => "<title>Google</title>": *certain tags in HTML docs can be accessed by properties of the Tag Object (note: Beautiful Soup automatically cleans up poorly-written HTML, removing extra spaces, etc.).*
   - ```soup.title.string``` => "Google": *access just the content, not '<tag>content</tag>'*
 - ```text = soup.get_text()```: *extracts ALL text from the document, removing ALL HTML tags*
@@ -83,11 +84,28 @@ soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html
   - ```text.find()```: *this string method was clunky with all the HTML still in, but afterwards, it may be easiest (and simplest) to use it on the raw text content to find what you need* 
 - ```soup.find_all("tag")```: *find & return a list of all instances (not strings) of a particular tag*
   - ```soup.find_all('img')``` => ```[<img src="... .jpg"/>, <img src="... .jpg"\>]```
+  - 
   - ```image1, image2 = soup.find_all('img')```: *assign each instance of the Tag Object to a variable*
     - ```image1.name``` => 'img' : *each Tag Object has a .name property, which returns a string containing the HTML tag type*
     - ```image["attribute"]```: ```image["src"]``` => '/static/picture.jpg'
+    - ```soup.find_all("img", src="/static/picture.jpg")```
 
-
+#### Mechanical Soup: Interact with HTML Forms
+- Sometimes you need to request the contents of a webpage (via a form/search query, a button click) before scraping results. MechanicalSoup installs a 'headless browser', i.e. a web browser with no GUI. The browser is instead controlled programmatically via Python.
+  - To install: ```$ python3 -m pip install MechanicalSoup```
+  - View Details: ```$ python3 -m pip show mechanicalsoup```
+  ```
+  import mechanicalsoup
+  browser = mechanicalsoup.Browser() # represents the headless web browser
+  url = "http://website.com/page"
+  page = browser.get(url) # request a page from the Internet by passing a URL to method .get()
+    # page => <Response [200]> (Page is a Response Object from the URL request: 200 OK, 404 Does Not Exist, 500 Server Error)
+    # MechanicalSoup uses Beautiful Soup to parse HTML from the request: 
+    type(page.soup) # <class 'bs4.BeautifulSoup'> ('Page' has a .soup attribute that represents a BeautifulSoup object).
+    page.soup # View the HTML by inspecting the .soup attribute
+  ```
+  - Submit a Form with Mechanical Soup
+  
 
 
 
