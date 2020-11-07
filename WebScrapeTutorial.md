@@ -30,23 +30,16 @@ print(title) # "Poseidon"
    
 
 ### Regular Expressions – Extracting Data between HTML tags:
-- **re.findall(pattern, string)**
-  - ```re.findall("ab*c", "ac")``` => ['ac']
-```
-import re
-```
+
 
 ### REGEX Special Characters, Functions & Syntax
+```*```: *0+ occurrences of whatever preceded*
+```.```: *1+ occurrences of whatever preceded*
 
-Metacharacter | Meaning
-------------------| -------
- * | 0+ occurrences of whatever preceded
-
-Function | Purpose | Notes
----------|---------|-------
-re.findall(pattern, search_string) | Find any and all matches of a pattern in a string | Returns a list of all matches
-
-
+### REGEX Functions:
+  - ```import re```: *Regex module must be imported to use*
+- ```re.findall(pattern, string,)```: *find and and all matches of the pattern in a string, returning a list of all matches/*
+  - ```re.findall("ab*c", "abcac")``` => ['abc', 'ac']
 
 
 
