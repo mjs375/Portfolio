@@ -1,7 +1,5 @@
 def unique_sum(nums):
-    if not nums:
-        return None
-    return sum({num for num in nums}) #1. set comprehension: only unique values
+    return None if not nums else sum({num for num in nums}) # set comprehension: only unique values
 
 """
 Given a list of integers values, your job is to return the sum of the values; however, if the same integer value appears multiple times in the list, you can only count it once in your sum.
