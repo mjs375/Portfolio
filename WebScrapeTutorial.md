@@ -101,12 +101,38 @@ soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html
   page = browser.get(url) # request a page from the Internet by passing a URL to method .get()
     # page => <Response [200]> (Page is a Response Object from the URL request: 200 OK, 404 Does Not Exist, 500 Server Error)
     # MechanicalSoup uses Beautiful Soup to parse HTML from the request: 
-    type(page.soup) # <class 'bs4.BeautifulSoup'> ('Page' has a .soup attribute that represents a BeautifulSoup object).
-    page.soup # View the HTML by inspecting the .soup attribute
+  type(page.soup) # <class 'bs4.BeautifulSoup'> ('Page' has a .soup attribute that represents a BeautifulSoup object).
+  page.soup # View the HTML by inspecting the .soup attribute
   ```
-  - Submit a Form with Mechanical Soup
-  
-
+  - Submit a Form with Mechanical Soup: *may need to enter a search query, submit login credentials, etc. before scraping web content. The important code now is inside ```<form>...</form>```, aka a username field, a password field (both <input>s), and a submit button*
+    - Note: many hackers use automated programs to try to brute-force login by rapidly trying usernames/passwords. This is illegal, and websites will lock you out anyway if you make too many failed requests.
+- 1. Example code for logging in to a website by filling out the username/password form on login page:
+```
+import mechanicalsoup
+  # Step 1. 
+browser = mechanicalsoup.Browser() # create a headless browser instance
+url = "http://website.com/login" # website to visit (login page)
+login_page = browser.get(url) # request URL/page
+login_html = login_page.soup # get the HTML via the .soup attribute, assign to variable
+  # Step 2. 
+form = login_html.select("form")[0] # select all <form> elements on page, get element index 0
+form.select("input")[0]["value"] = "username" # use Python to interact with the headless browser,
+form.select("input")[1]["value"] = "password" # entering username/password into the fields.
+  # Step 3.
+profiles_page = browser.submit(form, login_page.url) # submit the filled out form (submit both the 'form' object and the URL of the login_page)
+profiles_page.url # check => "http://website.com/welcome" # WE ARE IN! a 2nd url variable, further in
+```
+- 2. Now that we 'are in', let's scrape some data: e.g. the URL for each link on the welcome page
+```
+  # ^^cont. from above^^
+links = profiles_page.soup.select("a") # get all <a> tags on the page
+base_url = "http://website.com" # concatenate to later relative URLs to get the full link...
+for link in links: # iterate over each link, get the href attribute:
+  address = basae_url + link["href"] # http://website.com + /profiles/aphrodite
+  text = link.text
+  print(f"{text}: {address}") # e.g. Aphrodite: /profiles/aphrodite 
+```
+- 3. Interact with Websites in Real Time:
 
 
 <hr>
