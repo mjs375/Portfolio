@@ -66,9 +66,27 @@ print(title) # "Poseidon"
   - to install: ```$ python3 -m pip install beautifulsoup4```
   - see details (name, version, license, &c.): ```$ python3 -m pip show beautifulsoup4```
 
+```
+from bs4 import BeautifulSoup
+from urllib.request import urlopen
+#
+url = "http://website.com/path/name"
+page = urlopen(url) # open the URL
+html = page.read().decode("utf-8") # converts HTML into a string
+soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html.parser in Python's built-in HTML parser)
+```
+### Using a BeautifulSoup Object
+- ```text = soup.get_text()```: *extracts ALL text from the document, removing ALL HTML tags*
+  - ```text.replace("\n","")```: *remove the newlines (lots of blank space in 'text')*
+  - ```text.find()```: *this string method was clunky with all the HTML still in, but afterwards, it may be easiest (and simplest) to use it on the raw text content to find what you need* 
+- ```soup.find_all("tag")```: *find & return a list of all instances (not strings) of a particular tag*
+  - ```soup.find_all('img')``` => ```[<img src="... .jpg"/>, <img src="... .jpg"\>]```
+  - ```image1, image2 = soup.find_all('img')```: *assign each instance of the Tag Object to a variable*
+    - ```image1.name``` => 'img' : *each Tag Object has a .name property, which returns a string containing the HTML tag type*
+    - ```image["attribute"]```: ```image["src"]``` => '/static/picture.jpg'
 
 
-
+<hr>
 ### Creating and Saving a .CSV File with data
 
 
