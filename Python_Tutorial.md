@@ -177,10 +177,38 @@ if __name__ == "__main__": # Run each of the testing functions:
   - ```$ python3 testings.py```
     - *Unittest will then spit out to the terminal console some information on the test results. It will start with something like ```...F.F```, which means 'Pass-Pass-Pass-Fail-Pass-Fail'. Then, for each failed test, it will give the name of the test and the docstring description, and a Traceback.*
   
-21:27
-
 - ```pdb```: *Python's built-in debugger tool, activated from the cmd-line. It runs line by line, showing the code in the console, per your keystroke. At any point ask pdb to show the values of variables instead of the code.*
   - *To run:* ```$ python3 -m pdb filename.py```
     - *Next line of code: press* ```n```
     - *Check full code: press* ```l```
     - *Check variable value: press* ```p``` *and* ```variable_name```
+
+
+
+
+
+
+- **Django Server-side Testing**: *use the provided 'tests.py' to run test cases and check for bugs. Add a ```def is_valid_(self):``` test to the class, and/or more in ```test.py```. This will test whether certains functions work as we want.*
+  - ```$ python3 manage.py test```: *output is akin to Python's unittest, it will log something like '..FF.F' to show Pass/Fail. Importantly, when this command is run it will 1. create a test database (using your dummy data), 2. run the tests, and 3. destroy the test database.*
+```
+class class_nameTestCase(TestCase):
+  a = Airport.objects.create(code="AA", city="A") # Create dummy data:
+  Flights.objects.create(origin=a, destination=b, duration=100) # create dummy data
+  # Define some tests to run on the dummy data:
+  def test_whattotest(self):
+  a = Airport.objects.get(code="AA")
+  self.assertEqual(a.departures.count(),3)
+```
+- More complicated testing [CS50 Notes](https://cs50.harvard.edu/web/2020/notes/7/):
+  - **Django Client-side Testing**: *test whether individual web pages load as intended, simulating the making of requests.*
+  - **Selenium**: *test out the client-side code, i.e. the HTML/Javascript on a webpage. Selenium*
+
+  
+
+
+
+
+
+
+
+
