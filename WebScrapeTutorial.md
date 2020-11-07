@@ -90,7 +90,7 @@ soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html
     - ```image["attribute"]```: ```image["src"]``` => '/static/picture.jpg'
     - ```soup.find_all("img", src="/static/picture.jpg")```
 
-#### Mechanical Soup: Interact with HTML Forms
+### Mechanical Soup: Interact with HTML Forms
 - Sometimes you need to request the contents of a webpage (via a form/search query, a button click) before scraping results. MechanicalSoup installs a 'headless browser', i.e. a web browser with no GUI. The browser is instead controlled programmatically via Python.
   - To install: ```$ python3 -m pip install MechanicalSoup```
   - View Details: ```$ python3 -m pip show mechanicalsoup```
