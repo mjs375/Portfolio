@@ -1,6 +1,5 @@
 ## W E B _ S C R A P I N G _ I N _ P Y T H O N
 
-[Source](https://realpython.com/python-web-scraping-practical-introduction/)
 
 ### Gather the HTML source-code in a string:
 ```
@@ -23,7 +22,7 @@ print(html) # 'html' now contains all the HTML source code in a string
 - **String Methods**: *using .find() and string slicing syntax, you can pull the index range of HTML between 2 tags, e.g. <title>...</title>. This is a very simple method vulnerable to many failings: it can only find the first instance, if '<title>' is actually '<title id="hdg">' it won't find it, &c.*
   - ```.find()```: *searches a string for the first instance of the string-pattern*
 ```
-# <title>Poseidon</title>
+    # <title>Poseidon</title>
 title_index = html.find("<title>") # get the index of the '<' in '<title>'
 start_index = title_index + len("<title>") # get the index of the first letter of the actual title, "'P'oseidon"
 end_index = html.find("</title>") # repeat for close tag
@@ -32,7 +31,7 @@ print(title) # "Poseidon"
 ```
    
 
-### Regular Expressions – Extracting Data between HTML tags:
+### Regular Expressions – Extracting Data between HTML tags (manually):
 
 ### REGEX Special Characters, Functions & Syntax
 - ```*```: *0+ occurrences of whatever preceded*
@@ -106,7 +105,7 @@ soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html
   ```
   - Submit a Form with Mechanical Soup: *may need to enter a search query, submit login credentials, etc. before scraping web content. The important code now is inside ```<form>...</form>```, aka a username field, a password field (both <input>s), and a submit button*
     - Note: many hackers use automated programs to try to brute-force login by rapidly trying usernames/passwords. This is illegal, and websites will lock you out anyway if you make too many failed requests.
-- 1. Example code for logging in to a website by filling out the username/password form on login page:
+- 1. **Interact with a Form**: e.g. fill out username/password fields to login
 ```
 import mechanicalsoup
   # Step 1. 
@@ -122,7 +121,7 @@ form.select("input")[1]["value"] = "password" # entering username/password into 
 profiles_page = browser.submit(form, login_page.url) # submit the filled out form (submit both the 'form' object and the URL of the login_page)
 profiles_page.url # check => "http://website.com/welcome" # WE ARE IN! a 2nd url variable, further in
 ```
-- 2. Now that we 'are in', let's scrape some data: e.g. the URL for each link on the welcome page
+- **2. Now that we 'are in', let's scrape some data**: e.g. the URL for each link on the welcome page
 ```
   # ^^cont. from above^^
 links = profiles_page.soup.select("a") # get all <a> tags on the page
@@ -132,7 +131,25 @@ for link in links: # iterate over each link, get the href attribute:
   text = link.text
   print(f"{text}: {address}") # e.g. Aphrodite: /profiles/aphrodite 
 ```
-- 3. Interact with Websites in Real Time:
+- **3. Interact with Websites in Real Time**: *repeated webscraping/updating*
+  - *What if you need to collect data in real-time/multiple times? You don't want to sit and click 'refresh'! The example website includes a button to roll a dice, as well as a timestamp.*
+    - 1. Examine the HTML page source-code in a browser, using 'Inspect Element/View Page Source'. What HTML encloses the content you're looking for? => "<h2 id="result">4</h2>". Let's open the dice page, scrape the results, and print it to the console.
+```
+import mechanicalsoup
+import time #time.sleep(seconds) => represents the amount of time to sleep (pause running code)
+
+browser - mechanicalsoup.Browser() # open headless browser instance
+for i in range(4): # we want to roll the dice 4 times total
+    page = browser.get("http://olympus.realpython.org/dice") # request the URL page
+    tag = page.soup.select("#result")[0] # get the first instance of "#result" (it's an id so there's only 1 anyway) using BeautifulSoup object's .select() method
+    result = tag.text # get the 'raw content' inside that tag
+    print(f"The result of the dice roll is: {result}")
+    if i < 3: # (no need to wait 10sec after the last loop!)
+      time.sleep(10) # tell the program to wait 10 sec between iterations
+```
+- Consult the website Term of Use document (or website owner) before scraping data to find policy about request volume. Don't get your IP blocked!
+
+
 
 
 <hr>
@@ -141,9 +158,6 @@ for link in links: # iterate over each link, get the href attribute:
 
 
 
-
-
-
-
-
-
+### SOURCES
+- [A Practical Introduction to Web Scraping in Python](https://realpython.com/python-web-scraping-practical-introduction/): *this file is a summarized reproduction of this guide*
+- [Beautiful Soup: Build a Web Scraper with Python](https://realpython.com/beautiful-soup-web-scraper-python/)
