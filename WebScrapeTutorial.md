@@ -49,7 +49,7 @@ print(title) # "Poseidon"
   - ```print(re.sub("<.*?>", "!!!", string))``` => ```Everything is !!! if it's in !!!.```
 
 ### HTML Regex
-- ```"<tag.*?>.*?</tag.*?>"
+- ```"<tag.*?>.*?</tag.*?>```"
   - ```"<tag.*?>"```: *matches an opening tag, from '<tag' until the first '>', e.g. "<div id='ex'>".*
   - ```.*?```: *non-greedily matches all text after '<tag...>', up until first instance of...*
   - ```</title.*?>```: *the closing tag, e.g. '</TITLE >'.*
