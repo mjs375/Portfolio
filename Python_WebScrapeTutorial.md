@@ -1,5 +1,10 @@
 ## W E B _ S C R A P I N G _ I N _ P Y T H O N
 
+- **Web Scraper Modules**:
+  - import requests
+  - from urlllib.request import urlopen
+  - import BeautifulSoup
+  - import MechanicalSoup
 
 ### Gather the HTML source-code in a string:
 ```
