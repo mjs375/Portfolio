@@ -1,7 +1,8 @@
 """
 Wikipedia Scraping: Pull all Linked Wiki Articles from Article.
-    $ python3 
+    $ python3 wikipedia_scraper.py [url]
 """
+
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 import sys
@@ -9,8 +10,20 @@ import ssl
 ssl._create_default_https_context = ssl._create_unverified_context
     # ^^ dealing with SSLCertVerificationError
 
-def wikiscraping(url):
-    print("X")
+    
+    
+def wikiscraping():
+
+# # # 0. Check URL input:
+    if sys.argv[2:]: # only 1 argument should be provided
+        sys.exit("Too many arguments provided. Usage: $ python3 wikipedia_scraper.py [url]")
+    try:
+        sys.argv[1] # check if exists
+        url = sys.argv[1]  # "https://en.wikipedia.org/wiki/Codewars"
+    except: # if URL fails (or doesn't exist), ask for one:
+        url = input("Please provide a valid URL: ")
+
+
 # # # 1. Open the Page, Prepare Soup:
     try:
         page = urlopen(url) # open the webpage
@@ -18,7 +31,7 @@ def wikiscraping(url):
         soup = BeautifulSoup(html, "html.parser") # creates a BeautifulSoup object
         #print(soup.title.string)
     except:
-        sys.exit("Bug encountered.")
+        sys.exit("URL provided failed to return response.")
 
 
 # # # 2. Limit HTMl to div(id="bodyContent")
@@ -36,13 +49,8 @@ def wikiscraping(url):
     print(title_link)
     return title_link
 
-# # # Call the Function:
-wikiscraping("https://en.wikipedia.org/wiki/Codewars")
-#
 
-    
-    
-    
-    
-    
-    
+
+# # # CALL THE FUNCTION:
+wikiscraping()
+# # #
