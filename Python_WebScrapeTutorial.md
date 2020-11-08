@@ -1,7 +1,7 @@
 ## W E B _ S C R A P I N G _ I N _ P Y T H O N
 
-- **Web Scraper Modules**:
-  - import requests
+- **Web Scraper Libraries**:
+  - [Requests Library](#python's-requests-library)
   - from urlllib.request import urlopen
   - import BeautifulSoup
   - import MechanicalSoup
@@ -155,6 +155,8 @@ for i in range(4): # we want to roll the dice 4 times total
 - Consult the website Term of Use document (or website owner) before scraping data to find policy about request volume. Don't get your IP blocked!
 
 
+### Python's Requests Library
+- ```import requests```
 
 
 
