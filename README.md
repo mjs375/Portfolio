@@ -15,6 +15,8 @@ I am currently a public reference librarian in New Jersey who is interested in b
     - ```★★★☆☆``` **Jinja**: *a language that allows Python functions & variables to be inserted into HTML templates used in both the Flask & Django frameworks.*
 - **SQL**: *[Structured Query Language]*
 - **Git/Github**: *Github.com allows users to store & manage source code and conduct version control (i.e. maintain 'stable/master' branches of programs, while also developing new features in branched versions of the program, and finally, 'merging' the new, fully-debugged features into the stable branch). 'Git' is a terminal command to do these things.*
+- WebScraping:
+  - ```★☆☆☆☆``` **BeautifulSoup**, **MechanicalSoup**: **
 - ```★★★★☆``` **Microsoft Excel**: *a spreadsheet program to collect and sort data, make calculations, create charts & graphs, and conduct analysis using Excel functions.*  
  
 <hr>
