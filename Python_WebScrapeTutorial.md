@@ -26,7 +26,7 @@ print(html) # 'html' now contains all the HTML source code in a string
 ### Simple Method of Extraction:
 - **String Methods**: *using .find() and string slicing syntax, you can pull the index range of HTML between 2 tags, e.g. <title>...</title>. This is a very simple method vulnerable to many failings: it can only find the first instance, if '<title>' is actually '<title id="hdg">' it won't find it, &c.*
   - ```.find()```: *searches a string for the first instance of the string-pattern*
-```
+```python
     # <title>Poseidon</title>
 title_index = html.find("<title>") # get the index of the '<' in '<title>'
 start_index = title_index + len("<title>") # get the index of the first letter of the actual title, "'P'oseidon"
@@ -71,7 +71,7 @@ print(title) # "Poseidon"
   - see details (name, version, license, &c.): ```$ python3 -m pip show beautifulsoup4```
 - Limitations: *BeautifulSoup can't work with HTML forms (e.g. search a website for some query, then scraping results). If the HTML is extremely complex, idiosyncratic or poorly-written, it may fail you.*
 
-```
+```python
 from bs4 import BeautifulSoup
 from urllib.request import urlopen
 #
@@ -98,7 +98,7 @@ soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html
 - Sometimes you need to request the contents of a webpage (via a form/search query, a button click) before scraping results. MechanicalSoup installs a 'headless browser', i.e. a web browser with no GUI. The browser is instead controlled programmatically via Python.
   - To install: ```$ python3 -m pip install MechanicalSoup```
   - View Details: ```$ python3 -m pip show mechanicalsoup```
-  ```
+```python
   import mechanicalsoup
   browser = mechanicalsoup.Browser() # represents the headless web browser
   url = "http://website.com/page"
@@ -107,11 +107,11 @@ soup = BeautifulSoup(html, "html-parser") # creates a BeautifulSoup object (html
     # MechanicalSoup uses Beautiful Soup to parse HTML from the request: 
   type(page.soup) # <class 'bs4.BeautifulSoup'> ('Page' has a .soup attribute that represents a BeautifulSoup object).
   page.soup # View the HTML by inspecting the .soup attribute
-  ```
+```
   - Submit a Form with Mechanical Soup: *may need to enter a search query, submit login credentials, etc. before scraping web content. The important code now is inside ```<form>...</form>```, aka a username field, a password field (both <input>s), and a submit button*
     - Note: many hackers use automated programs to try to brute-force login by rapidly trying usernames/passwords. This is illegal, and websites will lock you out anyway if you make too many failed requests.
 - 1. **Interact with a Form**: e.g. fill out username/password fields to login
-```
+```python
 import mechanicalsoup
   # Step 1. 
 browser = mechanicalsoup.Browser() # create a headless browser instance
@@ -127,7 +127,7 @@ profiles_page = browser.submit(form, login_page.url) # submit the filled out for
 profiles_page.url # check => "http://website.com/welcome" # WE ARE IN! a 2nd url variable, further in
 ```
 - **2. Now that we 'are in', let's scrape some data**: e.g. the URL for each link on the welcome page
-```
+```python
   # ^^cont. from above^^
 links = profiles_page.soup.select("a") # get all <a> tags on the page
 base_url = "http://website.com" # concatenate to later relative URLs to get the full link...
@@ -139,7 +139,7 @@ for link in links: # iterate over each link, get the href attribute:
 - **3. Interact with Websites in Real Time**: *repeated webscraping/updating*
   - *What if you need to collect data in real-time/multiple times? You don't want to sit and click 'refresh'! The example website includes a button to roll a dice, as well as a timestamp.*
     - 1. Examine the HTML page source-code in a browser, using 'Inspect Element/View Page Source'. What HTML encloses the content you're looking for? => "<h2 id="result">4</h2>". Let's open the dice page, scrape the results, and print it to the console.
-```
+```python
 import mechanicalsoup
 import time #time.sleep(seconds) => represents the amount of time to sleep (pause running code)
 
