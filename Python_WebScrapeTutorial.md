@@ -7,7 +7,7 @@
   - import MechanicalSoup
 
 ### Gather the HTML source-code in a string:
-```
+```python
 from urllib.request import urlopen # Tools for working with URLs (urlopen() can open a URL within a program)
 
 url = "http://website.com/you/wish/to/scrape" # website URL to be opened for scraping
