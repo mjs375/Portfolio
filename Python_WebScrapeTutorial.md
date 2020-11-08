@@ -156,7 +156,36 @@ for i in range(4): # we want to roll the dice 4 times total
 
 
 ### Python's Requests Library
-- ```import requests```
+- *standard library for making HTTP requests in Python: ```import requests```.*
+  - ```$ pip install requests```
+- **GET Request**: *trying to get or retrieve data from a source, in the form of a Response instance*
+  - ```response = requests.get()``` => ```<Response [200]>```
+- _**Status Code**_: ```response.status_code``` => ```200```
+  - *200: Success, 204: No Content, 304: Not Modified, 404: Page Not Found*
+    - ```if response: print("Success!")```: *```requests``` will evaluate True if the status code is between 200-400, otherwise False.*
+    - ```try: response = requests.get(url)```: *try/except will raise an exception if request was unsuccessful.*
+- _**Content**_: *Response of GET request contains information called a 'payload' in the message body. The response is actually serialized JSON content. Use ```response.json()``` to transform into a dictionary.*
+  - ```response.content``` => *(...response's content in bytes...)*
+  - ```response.text``` => *(...converted into a string, usually based on UTF-8 in the response's headers)* <- (```response.encoding = 'utf-8'```)
+  - _**Headers**_: *Useful information, such as content type of response payload, time-limits on how long to cache the response, &c.*
+    - ```response.headers```: *returns a dict-like object, header values are accessible by key, e.g. ```response.headers['content-type']``` => ```'application/json; charset=utf-8'```*
+  - _**Query String Parameters**_: *customize a GET request by passing values in the URL*
+    - ```response = requests.get('https://api.github.com/search/repositories', params={'q': 'requests+language:python'},)```
+- TBD . . .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
