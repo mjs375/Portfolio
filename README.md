@@ -3,22 +3,37 @@
 I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field. My formal experience includes courses during my Rutgers University graduate program, an internship at Milne Library, SUNY Geneseo that included proofreading & editing XML code for the *Digital Thoreau* project, and finally, ongoing, self-directed coursework from Harvard as well as online programming practice, e.g. Codewars.
 
 ### Languages / Tools Experienced In:
-  - ```★★★★☆``` **HTML**: *the static structure & content of a webpage [HyperText Markup Language.html]*
-  - ```★★★☆☆``` **CSS**: *the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. [Cascading Style Sheets.css]*
-    - ```★☆☆☆☆``` **SASS**: *an extension of CSS that lets you use variables ($color:red;)(p{color: $color}) and other advanced features in CSS format style more efficiently. Browsers only recognize .css, so you must 1. download Sass program, 2. run ```$ sass variables.scss:variables.css```, which will create a .css file with the variables 'hard-coded'. Run ```$ sass --watch variables.scss:variables.css``` to automatically change the .css file everytime a change is detected in the .scss file. You can also physically nest element{style} inside other elements{style}, and utilize Sass's "inheritance" feature (%somestyle)(div {@extend %somestyle}). [Syntactically Awesome Style Sheets.scss].*
-    - ```★★★★☆``` **[Bootstrap CSS](https://getbootstrap.com/docs/4.5/getting-started/introduction/)**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*
-  - ```★★☆☆☆``` **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server. Along with HTML & CSS, JS completes the classic trio of web development languages. [JS.js]*
-  - ```★★☆☆☆``` **C**: *a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*
-  - ```★★★★☆``` **Python**: *an interpreted programming language (no need to compile into 'machine code' first).*
-    - ```★★★★☆``` **Django**: *a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*
-    - ```★★☆☆☆``` **Flask**: *a lightweight web framework for Python.*
-    - ```★★★☆☆``` **Jinja**: *a language that allows Python functions & variables to be inserted into HTML templates used in both the Flask & Django frameworks.*
 - **SQL**: *[Structured Query Language]*
-- **Git/Github**: *Github.com allows users to store & manage source code and conduct version control (i.e. maintain 'stable/master' branches of programs, while also developing new features in branched versions of the program, and finally, 'merging' the new, fully-debugged features into the stable branch). 'Git' is a terminal command to do these things.*
 - WebScraping:
   - ```★☆☆☆☆``` **BeautifulSoup**, **MechanicalSoup**: **
 - ```★★★★☆``` **Microsoft Excel**: *a spreadsheet program to collect and sort data, make calculations, create charts & graphs, and conduct analysis using Excel functions.*  
  
+<hr>
+
+
+- **Programming Languages:**
+  - ```★★★★☆``` **Python**: *an interpreted programming language (no need to compile into 'machine code' first).*
+      - ```★★☆☆☆``` **Flask**: *a lightweight web framework for Python.*
+      - ```★★★★☆``` **Django**: *a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*
+      - ```★★★☆☆``` **Jinja**: *a language that allows Python functions & variables to be inserted into HTML templates used in both the Flask & Django frameworks.*
+  - ```★★☆☆☆``` **C**: *a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*
+  - ```★★★★☆``` **HTML**: *the static structure & content of a webpage [HyperText Markup Language.html]*
+  - ```★★★☆☆``` **CSS**: *the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. [Cascading Style Sheets.css]*
+      - ```★★★★☆``` **[Bootstrap CSS](https://getbootstrap.com/docs/4.5/getting-started/introduction/)**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*
+      - ```★☆☆☆☆``` **SASS**: *an extension of CSS that lets you use variables ($color:red;)(p{color: $color}) and other advanced features in CSS format style more efficiently. Browsers only recognize .css, so you must 1. download Sass program, 2. run ```$ sass variables.scss:variables.css```, which will create a .css file with the variables 'hard-coded'. Run ```$ sass --watch variables.scss:variables.css``` to automatically change the .css file everytime a change is detected in the .scss file. You can also physically nest element{style} inside other elements{style}, and utilize Sass's "inheritance" feature (%somestyle)(div {@extend %somestyle}). [Syntactically Awesome Style Sheets.scss].*
+  - ```★★☆☆☆``` **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server. Along with HTML & CSS, JS completes the classic trio of web development languages. [JS.js]*
+- **Programming Support:**
+  - **Git/Github**: *Github.com allows users to store & manage source code and conduct version control (i.e. maintain 'stable/master' branches of programs, while also developing new features in branched versions of the program, and finally, 'merging' the new, fully-debugged features into the stable branch). 'Git' is a terminal command to do these things.*
+
+
+
+
+
+
+
+
+
+
 <hr>
 
 #### Graduate Coursework:
