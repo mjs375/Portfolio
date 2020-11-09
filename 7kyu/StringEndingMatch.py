@@ -1,4 +1,9 @@
 def solution(a, z):
+    return True if a[-len(z):] == z or len(z) == 0 else False
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
+def solution(a, z):
     l = len(z)
     if a[-l:] == z or l ==0:
         return True
