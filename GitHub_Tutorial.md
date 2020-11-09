@@ -6,7 +6,12 @@
 
 
 ### Github Actions / Workflow:
-- 1. Set up a new workflow for your project:
+- Set up a new workflow for your project:
   - Github.com > Create New Workflow
   - ```project/path/ .github/workflow/ ___.yml```
-- 2.
+- 
+
+
+- Demo.yml Workflow:
+```
+```
