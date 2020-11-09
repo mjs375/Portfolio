@@ -1,3 +1,8 @@
+def solution(string, ending):
+    return string.endswith(ending) # returns True/False
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # 
+
 def solution(a, z):
     return True if a[-len(z):] == z or len(z) == 0 else False
 
