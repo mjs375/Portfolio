@@ -3,7 +3,7 @@
 ### Setting Up a Repository:
 - **Create a Repository:** 
   - ```$ cd user/your-project```: *navigate to the top level of your new or existing file-tree with your project*
-  - ```$ git init```: **
+  - ```$ git init```: *create a new git repository (either initialize a new, empty repo, or convert an existing, unversioned project to a Git repo).*
   - ```$ git add *```: *adds ALL files to the 'staging area' for next repository update*
     - ```$ git add *.<extension>```: *adds ALL files of a certain type (e.g. ```$ git add *.py```)*
   - ```$ git commit -m "Initial project version"```: *prep for git push*
@@ -11,7 +11,7 @@
   - ```$ git remote add <name> <url>```: **
   - ```$ git push -u <name> main```: **
 - **Download an Existing Repository:**
-  - ```$ git clone <url>```
+  - ```$ git clone <url>```: *if you already have a populated repository on Github.com and simply want it locally on a computer too.*
   
 ### Updating a Repository:
 - **Mark changes to be included in update (1):** ```$ git add <filename>``` OR ```$ git add .``` 
