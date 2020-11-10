@@ -5,7 +5,7 @@
 
 
 ### CSS
-- Cascading Style Sheets add style to HTML structure & content, such as coloring, fonts and text-alignment, spacing, padding, even animations.
+- ```stylesheet.css```: Cascading Style Sheets add style to HTML structure & content, such as coloring, fonts and text-alignment, spacing, padding, even animations.
 ```css
 p {
   color: grey;
@@ -20,7 +20,7 @@ div .class1 {
 ```
 
 ### HTML
-- HyperText Markup Language, a programming language that describes the basic, static structure and content of a webpage, comprised of nest tag-elements (<tag>) and raw content. CSS (inline, <style>, or external) can add style to the webpage (padding, colors, font-choices, animations, alignment), and Javascript can make the webpage interactive and dynamic (button clicking, &c.).
+- ```index.html```: HyperText Markup Language, a programming language that describes the basic, static structure and content of a webpage, comprised of nest tag-elements (<tag>) and raw content. CSS (inline, <style>, or external) can add style to the webpage (padding, colors, font-choices, animations, alignment), and Javascript can make the webpage interactive and dynamic (button clicking, &c.).
 ```html
 <!DOCTYPE html>
 <html> <!-- an HTML comment -->
@@ -40,11 +40,11 @@ div .class1 {
 - Informs the user that permissions they have– can they download, modify and re-publish, &c.
 
 ### README
-- Answers a user's questions about installations & usage of a project, located in the root (top-leve) directory. Written in a ```.md``` or ```.markdown``` file (supports lightweight markdown).
+- ```README.md```: Answers a user's questions about installations & usage of a project, located in the root (top-leve) directory. Written in a ```.md``` or ```.markdown``` file (supports lightweight markdown).
   - Include: *project name, description (function of program, context, links for reference), visuals (screenshots/GIFs/video), installation procedure (nod to requirements.txt), usage (e.g. ```python3 manage.py runserver```), support (where to go for help), authors/acknowledgement, project status/roadmap.*
 
 ### Requirements
-- *a file that makes it easier for other users (that have downloaded your projects) to run the same Python libraries as it was written in/for. A user will encounter messages such as "No module named [...]"; download that library; then get the message again, again, again...*
+- ```Requirements.txt```: *a file that makes it easier for other users (that have downloaded your projects) to run the same Python libraries as it was written in/for. A user will encounter messages such as "No module named [...]"; download that library; then get the message again, again, again...*
   - ```$ pip install -r requirements.txt```: *command to download all the necessary libraries in a ```requirements.txt```*
 - **How to Generate a Requirements.txt**:
   - ```$ pip freeze > requirements.txt```: *PIP generates the file for you– but with every library you've ever downloaded on your own computer system. (View in terminal with ```cat requirements.txt```.)*
