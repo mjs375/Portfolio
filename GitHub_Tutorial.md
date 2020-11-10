@@ -43,7 +43,17 @@ c = 3
 ### Branching
 - *Programmers shouldn't develop new features in a linear fashion– rather, everytime they add (develop & test) a new feature they should __branch__ their repository. That one, a working, stable copy, pre-new-feature is still available, while the new feature can be worked on independently until such time as it is ready and fully de-bugged, and then be merged back into the __main__ branch.*
   - **HEAD**: *this points to the branch that you are currently 'in'– by default, HEAD points to the main branch.*
-- ```$ git branch``` => ```* main```: *lists all the branches of your repository, with the HEAD denoted by an "*".*
+- ```$ git branch``` => ```* main```: _lists all the branches of your repository, with the HEAD denoted by an "*"._
+
+
+
+
+
+
+
+
+
+
 
 ### Misc.
 - ```.gitignore```: *a plain-text file, generally located in the root folder of the repository, that specifies files and/or folders to be ignored by git, i.e. when you push to the remote repository, those files/folders will NOT be (e.g. files that contain personal information like passwords, &c.). Each line is a pattern for a file or folder to ignore (patterns relative to that of the .gitignore file).*
