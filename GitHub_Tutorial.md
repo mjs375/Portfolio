@@ -78,4 +78,9 @@ c = 3
   - ```project/path/ .github/workflow/ ___.yml```
 - ```.yml```/```.yaml```: *...*
 
+### Requirements.txt
+-
 
+### README.md
+
+### LICENSE
