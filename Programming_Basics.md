@@ -1,14 +1,17 @@
 # P R O G R A M M I N G _ B A S I C S 
 
 ### HTML
-- Programming language that describes the basic, static structure and content of a webpage.
+- Programming language that describes the basic, static structure and content of a webpage. CSS (inline, <style>, or external) can add style to the webpage (padding, colors, font-choices, animations, alignment), and Javascript can make the webpage interactive and dynamic (button clicking, &c.)
 ```html
 <!DOCTYPE html>
-<html>
+<html> <!-- an HTML comment -->
   <head>
+    <style>
+      #first {color: grey;}
+    </style>
     <title>My Website</title>
   </head>
-  <body>
+  <body id="first">
     <p class="content">Some content...</p>
   </body>
 </html>
