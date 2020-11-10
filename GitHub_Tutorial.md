@@ -89,7 +89,7 @@ c = 3
   - 2. Now, install each package the project requires in this as-of-yet empty venv (yes, install each one again... but just you, this once, have to do it). Then, run ```$ pip freeze > requirements.txt``` once again and view the list of installs needed just for this project.
 
 ### README.md
-- Answers a user's questions about installations & usage of a project, located in the root (top-leve) directory.
+- Answers a user's questions about installations & usage of a project, located in the root (top-leve) directory. Written in a ```.md``` or ```.markdown``` file (supports lightweight markdown).
   - Include: *project name, description (function of program, context, links for reference), visuals (screenshots/GIFs/video), installation procedure (nod to requirements.txt), usage (e.g. ```python3 manage.py runserver```), support (where to go for help), authors/acknowledgement, project status/roadmap.*
 
 
