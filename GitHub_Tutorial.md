@@ -11,7 +11,7 @@
   - ```$ git remote add <name> <url>```: **
   - ```$ git push -u <name> main```: **
 - **Download an Existing Repository:**
-  - ```$ git clone <url>```: *if you already have a populated repository on Github.com and simply want it locally on a computer too.*
+  - ```$ git clone <repository_url>```: *if you already have a populated repository on Github.com and simply want it locally on a computer too.*
   
 ### Updating a Repository:
 - ```$ git status```: *reports all changes not yet added/committed to the remote repository*
@@ -30,6 +30,8 @@
 ### Branching
 - *Programmers shouldn't develop new features in a linear fashion– rather, everytime they add (develop & test) a new feature they should __branch__ their repository. That one, a working, stable copy, pre-new-feature is still available, while the new feature can be worked on independently until such time as it is ready and fully de-bugged, and then be merged back into the __main__ branch.*
   - **HEAD**: *this points to the branch that you are currently 'in'– by default, HEAD points to the main branch.*
+  - **Main Branch**: *usually the default, 'master' branch which has the stable, central code.*
+  - **[Feature] Branch**: *an off-shoot branch of the code, wherein programmers can develop & test new features while leaving a stable, working version of the program in the Main branch. After 'Feature' is debugged, it is merged back into the Main branch (and deleted).*
   
 - **Check Branches**: ```$ git branch``` => ```* main```: _lists all the branches of your repository, with the HEAD denoted by an "*"._
 - **Create New Branch**: ```$ git checkout -b <new_branch_name>```: *you will automatically be switched to the new branch as you create it. The new branch will be an exact duplicate of the one you just left... until you make changes and commit them.*
@@ -41,6 +43,7 @@
   
 ### Merging
 - **Merge Conflict:** *when merging a local copy and the repository code, if one thing has been changed to two different things, that presents a merge conflict– Github cannot decide which to keep, so you must choose (or re-combine) them until no conflicts exist, then re-commit the version you want.*
+  - *Note: Git can usually merge different versions of the code without you the user needing to manually fix conflicts (such as pushing a local version to the remote, wherein you added a wholly new line of code). However, when the same line of code is different in the local & remote versions, Git cannot fix it without your input.*
 ```python
 a = 1
 <<<<< HEAD
@@ -50,8 +53,8 @@ b = 3
 >>>>> 56782736387980937883 #(a hash representing the commit that is conflicting with your edits)
 c = 3
 ```
-- **Log History:** ```$ git log``` *to see a history of all commits on a repository.*
-- **Reset**: ```$ git reset --hard <commit>``` *to return to all of your code as it was after a particular commit (the commit hash # found using* ```$ git log```*).*
+- **Log History:** ```$ git log``` *to see a history of all commits on a repository (commit hash number, author, date).*
+- **Reset**: ```$ git reset --hard <commit>``` *to return to all of your code as it was after a particular commit (the commit hash number found using* ```$ git log```*).*
   - ```$ git reset --hard origin/main```: *reverts your code to the version currently stored online at Github.*
 
 
@@ -62,7 +65,7 @@ c = 3
 
 
 
-### Misc.
+### .gitignore
 - ```.gitignore```: *a plain-text file, generally located in the root folder of the repository, that specifies files and/or folders to be ignored by git, i.e. when you push to the remote repository, those files/folders will NOT be (e.g. files that contain personal information like passwords, &c.). Each line is a pattern for a file or folder to ignore (patterns relative to that of the .gitignore file).*
   - ```.filename``` => *a literal filename to ignore*
   - ```directory/``` => *entire directories to ignore*
@@ -72,7 +75,7 @@ c = 3
     - ```**``` => *can be used to match any number of directories*
     - ```#``` => any line that starts with ```#``` are comments
 
-### Github Actions / Workflow:
+### Github Actions / Workflow (.yml)
 - Set up a new workflow for your project:
   - Github.com > Create New Workflow
   - ```project/path/ .github/workflow/ ___.yml```
