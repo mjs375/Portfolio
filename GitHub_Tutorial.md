@@ -78,7 +78,7 @@ c = 3
   - ```project/path/ .github/workflow/ ___.yml```
 - ```.yml```/```.yaml```: *...*
 
-
+<hr>
 ## OTHER PROGRAMMING BASICS
 
 ### Requirements.txt
