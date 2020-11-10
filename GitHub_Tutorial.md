@@ -36,6 +36,9 @@ b = 3
 >>>>> 56782736387980937883 #(a hash representing the commit that is conflicting with your edits)
 c = 3
 ```
+- **Log History:** ```$ git log``` *to see a history of all commits on a repository.*
+- **Reset**: ```$ git reset --hard <commit>``` to return to all of your code as it was after a particular commit (the commit hash # found using ```$ git log```).
+  - ```$ git reset --hard origin/main```: *reverts your code to the version currently stored online at Github.*
 
 
 ### Misc.
