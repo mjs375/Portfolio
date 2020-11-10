@@ -1,7 +1,24 @@
 # P R O G R A M M I N G _ B A S I C S 
 
+### CSS
+- Cascading Style Sheets
+```css
+p {
+  color: grey;
+}
+#id1 {
+
+}
+.class1 {
+
+}
+p .class2 {
+
+}
+```
+
 ### HTML
-- Programming language that describes the basic, static structure and content of a webpage. CSS (inline, <style>, or external) can add style to the webpage (padding, colors, font-choices, animations, alignment), and Javascript can make the webpage interactive and dynamic (button clicking, &c.)
+- HyperText Markup Language, a programming language that describes the basic, static structure and content of a webpage, comprised of nest tag-elements (<tag>) and raw content. CSS (inline, <style>, or external) can add style to the webpage (padding, colors, font-choices, animations, alignment), and Javascript can make the webpage interactive and dynamic (button clicking, &c.).
 ```html
 <!DOCTYPE html>
 <html> <!-- an HTML comment -->
