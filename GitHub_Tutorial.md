@@ -78,6 +78,9 @@ c = 3
   - ```project/path/ .github/workflow/ ___.yml```
 - ```.yml```/```.yaml```: *...*
 
+
+## OTHER PROGRAMMING BASICS
+
 ### Requirements.txt
 - *a file that makes it easier for other users (that have downloaded your projects) to run the same Python libraries as it was written in/for. A user will encounter messages such as "No module named [...]"; download that library; then get the message again, again, again...*
   - ```$ pip install -r requirements.txt```: *command to download all the necessary libraries in a ```requirements.txt```*
