@@ -25,6 +25,20 @@
 - **Pull down more updated version from remote repository:** ```$ git pull```
   - ```git pull``` *requests changes from remote to local repository;* ```$ git push``` *does the opposite. If both sides have changes, they will need to be reconciled first.*
 
+
+
+### Branching
+- *Programmers shouldn't develop new features in a linear fashion– rather, everytime they add (develop & test) a new feature they should __branch__ their repository. That one, a working, stable copy, pre-new-feature is still available, while the new feature can be worked on independently until such time as it is ready and fully de-bugged, and then be merged back into the __main__ branch.*
+  - **HEAD**: *this points to the branch that you are currently 'in'– by default, HEAD points to the main branch.*
+  
+- **Check Branches**: ```$ git branch``` => ```* main```: _lists all the branches of your repository, with the HEAD denoted by an "*"._
+- **Create New Branch**: ```$ git checkout -b <new_branch_name>```: *you will automatically be switched to the new branch as you create it. The new branch will be an exact duplicate of the one you just left... until you make changes and commit them.*
+  - **Pushing a New Branch**: ```$ git push --set-upstream <remote> <branch>```: e.g. ```$ git push --set-upstream origin feature_branch```.**
+- **Switch Branches**: ```$ git checkout <branch_name>```: *switch between branches and make commits to each version as usual using ```add``` & ```commit```.*
+- **Merging Branches**: ```$ git merge <other_branch_name>```: *when you want to re-merge two branches, check out (switch to) the branch you want to keep (main). Solve any __merge conflicts__ that arise, then ```add``` & ```commit``` the changes to ```main```.*
+  - **Delete Branch**: ```$ git branch -d <branch_name>```: *after a merge, if you are sure you don't need the merged-from branch anymore, you can permanently delete it.*
+  - **Rename Branch**: ```$ git checkout <old_name>``` + ```$ git branch -m <new_name>```: *just in case, you can always keep around old branches, even if you've merged them to the ```main```. (Note: if the branch is also in the remote repository, complete the following: ```$ git push origin -u <new_name>``` + ```$ git push origin --delete <old_name>```.)*
+  
 ### Merging
 - **Merge Conflict:** *when merging a local copy and the repository code, if one thing has been changed to two different things, that presents a merge conflict– Github cannot decide which to keep, so you must choose (or re-combine) them until no conflicts exist, then re-commit the version you want.*
 ```python
@@ -39,19 +53,6 @@ c = 3
 - **Log History:** ```$ git log``` *to see a history of all commits on a repository.*
 - **Reset**: ```$ git reset --hard <commit>``` to return to all of your code as it was after a particular commit (the commit hash # found using ```$ git log```).
   - ```$ git reset --hard origin/main```: *reverts your code to the version currently stored online at Github.*
-
-### Branching
-- *Programmers shouldn't develop new features in a linear fashion– rather, everytime they add (develop & test) a new feature they should __branch__ their repository. That one, a working, stable copy, pre-new-feature is still available, while the new feature can be worked on independently until such time as it is ready and fully de-bugged, and then be merged back into the __main__ branch.*
-  - **HEAD**: *this points to the branch that you are currently 'in'– by default, HEAD points to the main branch.*
-  
-- **Check Branches**: ```$ git branch``` => ```* main```: _lists all the branches of your repository, with the HEAD denoted by an "*"._
-- **Create New Branch**: ```$ git checkout -b <new_branch_name>```: *you will automatically be switched to the new branch as you create it. The new branch will be an exact duplicate of the one you just left... until you make changes and commit them.*
-  - **Pushing a New Branch**: ```$ git push --set-upstream <remote> <branch> ```**
-- **Switch Branches**: ```$ git checkout <branch_name>```: *switch between branches and make commits to each version as usual using ```add``` & ```commit```.*
-- **Merging Branches**: ```$ git merge <other_branch_name>```: *when you want to re-merge two branches, check out (switch to) the branch you want to keep (main). Solve any __merge conflicts__ that arise, then ```add``` & ```commit``` the changes to ```main```.*
-  - **Delete Branch**: ```$ git branch -d <branch_name>```: *after a merge, if you are sure you don't need the merged-from branch anymore, you can permanently delete it.*
-  - **Rename Branch**: ```$ git checkout <old_name>``` => ```$ git branch -m <new_name>```: *just in case, you can always keep around old branches, even if you've merged them to the ```main```. (Note: if the branch is also in the remote repository, complete the following: ```$ git push origin -u <new_name>```, ```$ git push origin --delete <old_name>```.)*
-
 
 
 
@@ -75,9 +76,6 @@ c = 3
 - Set up a new workflow for your project:
   - Github.com > Create New Workflow
   - ```project/path/ .github/workflow/ ___.yml```
-- 
+- ```.yml```/```.yaml```: *...*
 
 
-- Demo.yml Workflow:
-```
-```
