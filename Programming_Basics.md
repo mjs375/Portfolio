@@ -1,10 +1,6 @@
 # P R O G R A M M I N G _ B A S I C S 
 
-[CSS](#css)
-[HTML](#html)
-[License](#license-<file>)
-[Readme](#readme.md-<file>)
-[Requirements](#requirements.txt-<file>)
+[CSS](#css) | [HTML](#html) | [License](#license-<file>) | [Readme](#readme.md-<file>) | [Requirements](#requirements.txt-<file>)
 
 
 
