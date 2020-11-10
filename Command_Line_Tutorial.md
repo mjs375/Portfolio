@@ -10,3 +10,5 @@
 - ```$ open <filename>```: *__opens__ designated file in directory*
 - ```$ cp <source> <destination>```: *copy a file to another directory, e.g. ```$ cp ~/Desktop/project/index.html ~/Documents```.*
   - ```$ cp -R ~/Desktop/project ~/Documents```: *the "-R" means recursion, and it copies a folder, and all its files and sub-folders.*
+- ```$ mv <source/file.ext> <destination/>```: *__move__ a file from 'source/' to 'destination/'. The previous copy is destroyed.*
+  - ```$ mv a.txt b.txt```: *__rename__ a file, moving it... to the exact same spot.*
