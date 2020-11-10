@@ -8,7 +8,7 @@
 
 
 
-### LICENSE
+###LICENSE
 - Informs the user that permissions they have– can they download, modify and re-publish, &c.
 
 ### README.md
