@@ -45,7 +45,10 @@ c = 3
   - **HEAD**: *this points to the branch that you are currently 'in'– by default, HEAD points to the main branch.*
   
 - **Check Branches**: ```$ git branch``` => ```* main```: _lists all the branches of your repository, with the HEAD denoted by an "*"._
-
+- **Create New Branch**: ```$ git checkout -b <new_branch_name>```: *you will automatically be switched to the new branch as you create it. The new branch will be an exact duplicate of the one you just left... until you make changes and commit them.*
+- **Switch Branches**: ```$ git checkout <branch_name>```: *switch between branches and make commits to each version as usual using ```add``` & ```commit```.*
+- **Merging Branches**: ```$ git merge <other_branch_name>```: *when you want to re-merge two branches, check out (switch to) the branch you want to keep (main). Solve any __merge conflicts__ that arise, then ```add``` & ```commit``` the changes to ```main```.*
+- **Delete Branch**: ```$ git branch -d <branch_name>```: *after a merge, if you are sure you don't need the merged-from branch anymore, you can permanently delete it.*
 
 
 
