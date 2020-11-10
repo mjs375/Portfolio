@@ -1,5 +1,13 @@
 # P R O G R A M M I N G _ B A S I C S 
 
+[CSS](#css)
+[HTML](#html)
+[License](#license-<file>)
+[Readme](#readme.md-<file>)
+[Requirements](#requirements.txt-<file>)
+
+
+
 ### CSS
 - Cascading Style Sheets add style to HTML structure & content, such as coloring, fonts and text-alignment, spacing, padding, even animations.
 ```css
@@ -9,12 +17,10 @@ p {
 #id1 {
 
 }
-.class1 {
+div .class1 {
 
 }
-p .class2 {
 
-}
 ```
 
 ### HTML
