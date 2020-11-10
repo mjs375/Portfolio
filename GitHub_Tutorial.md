@@ -25,7 +25,7 @@
 - **Pull down more updated version from remote repository:** ```$ git pull```
   - ```git pull``` *requests changes from remote to local repository;* ```$ git push``` *does the opposite. If both sides have changes, they will need to be reconciled first.*
 
-### Branches & Merging
+### Merging
 - **Merge Conflict:** *when merging a local copy and the repository code, if one thing has been changed to two different things, that presents a merge conflict– Github cannot decide which to keep, so you must choose (or re-combine) them until no conflicts exist, then re-commit the version you want.*
 ```python
 a = 1
@@ -40,6 +40,10 @@ c = 3
 - **Reset**: ```$ git reset --hard <commit>``` to return to all of your code as it was after a particular commit (the commit hash # found using ```$ git log```).
   - ```$ git reset --hard origin/main```: *reverts your code to the version currently stored online at Github.*
 
+### Branching
+- *Programmers shouldn't develop new features in a linear fashion– rather, everytime they add (develop & test) a new feature they should __branch__ their repository. That one, a working, stable copy, pre-new-feature is still available, while the new feature can be worked on independently until such time as it is ready and fully de-bugged, and then be merged back into the __main__ branch.*
+  - **HEAD**: *this points to the branch that you are currently 'in'– by default, HEAD points to the main branch.*
+- ```$ git branch``` => ```* main```: *lists all the branches of your repository, with the HEAD denoted by an "*".*
 
 ### Misc.
 - ```.gitignore```: *a plain-text file, generally located in the root folder of the repository, that specifies files and/or folders to be ignored by git, i.e. when you push to the remote repository, those files/folders will NOT be (e.g. files that contain personal information like passwords, &c.). Each line is a pattern for a file or folder to ignore (patterns relative to that of the .gitignore file).*
