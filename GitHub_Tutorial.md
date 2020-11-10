@@ -15,17 +15,19 @@
   
 ### Updating a Repository:
 - ```$ git status```: *reports all changes not yet added/committed to the remote repository*
-- **(1) Mark changes to be included in update:** ```$ git add <filename>``` OR ```$ git add .``` 
+- **(1) Track changes to be included in update:** ```$ git add <filename>``` OR ```$ git add .``` 
   - *mark modified or new files to be included in the next update, i.e. 'prep in a staging area'. The ```.``` means 'include all files in directory'.*
 - **(2) Save current state for update:** ```git commit -m "some message..."
   - *the final prep before updating the remote repository with your added/committed changes*
-    - ```$ git -am commit "some message"```: *combines add/commit in one command*
+    - ```$ git -am commit "some message"```: *combines add/commit in one command (only if you modified files, not added new ones)*
 - **(3) Send version to Github:** ```$ git push```
   - *the 'Save' button of git, this sends your noted changes to the remote repository.*
 - **Pull down more updated version from remote repository:** ```$ git pull```
   - ```git pull``` *requests changes from remote to local repository;* ```$ git push``` *does the opposite. If both sides have changes, they will need to be reconciled first.*
 
 ### Branches & Merging
+
+
 
 ### Misc.
 - ```.gitignore```: *a plain-text file, generally located in the root folder of the repository, that specifies files and/or folders to be ignored by git, i.e. when you push to the remote repository, those files/folders will NOT be (e.g. files that contain personal information like passwords, &c.). Each line is a pattern for a file or folder to ignore (patterns relative to that of the .gitignore file).*
