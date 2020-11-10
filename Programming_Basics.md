@@ -1,7 +1,7 @@
 # P R O G R A M M I N G _ B A S I C S 
 
 ### CSS
-- Cascading Style Sheets
+- Cascading Style Sheets add style to HTML structure & content, such as coloring, fonts and text-alignment, spacing, padding, even animations.
 ```css
 p {
   color: grey;
