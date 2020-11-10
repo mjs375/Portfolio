@@ -14,17 +14,18 @@
   - ```$ git clone <url>```: *if you already have a populated repository on Github.com and simply want it locally on a computer too.*
   
 ### Updating a Repository:
-- **Mark changes to be included in update (1):** ```$ git add <filename>``` OR ```$ git add .``` 
+  - ```$ git status```: *reports all changes not yet added/committed to the remote repository*
+- **(1) Mark changes to be included in update:** ```$ git add <filename>``` OR ```$ git add .``` 
   - *mark modified or new files to be included in the next update, i.e. 'prep in a staging area'. The ```.``` means 'include all files in directory'.*
-- **Save current state for update(2):** ```git commit -m "some message..."
+- **(2) Save current state for update:** ```git commit -m "some message..."
   - *the final prep before updating the remote repository with your added/committed changes*
     - ```$ git -am commit "some message"```: *combines add/commit in one command*
-- **Send version to Github(3):** ```$ git push```
+- **(3) Send version to Github:** ```$ git push```
   - *the 'Save' button of git, this sends your noted changes to the remote repository.*
 - **Pull down more updated version from remote repository:** ```$ git pull```
   - ```git pull``` *requests changes from remote to local repository;* ```$ git push``` *does the opposite.*
 
-
+### 
 
 
 
