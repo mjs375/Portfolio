@@ -11,10 +11,10 @@ p {
   color: grey;
 }
 #id1 {
-
+  padding: 5px;
 }
 div .class1 {
-
+  margin: 10px;
 }
 
 ```
