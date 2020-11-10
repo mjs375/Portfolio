@@ -26,7 +26,16 @@
   - ```git pull``` *requests changes from remote to local repository;* ```$ git push``` *does the opposite. If both sides have changes, they will need to be reconciled first.*
 
 ### Branches & Merging
-
+- **Merge Conflict:** *when merging a local copy and the repository code, if one thing has been changed to two different things, that presents a merge conflict– Github cannot decide which to keep, so you must choose (or re-combine) them until no conflicts exist, then re-commit the version you want.*
+```python
+a = 1
+<<<<< HEAD
+b = 2
+=====
+b = 3
+>>>>> 56782736387980937883 #(a hash representing the commit that is conflicting with your edits)
+c = 3
+```
 
 
 ### Misc.
