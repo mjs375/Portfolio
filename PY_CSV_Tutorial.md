@@ -116,12 +116,13 @@ import pandas
 df = pandas.read_csv('file.csv') # read CSV into a pandas DataFrame
 print(df)
 ```
+=> *printing the DataFrame outputs this in the shell console:*
 ```shell
              Name Hire Date   Salary  Sick Days remaining
 0  Graham Chapman  03/15/14  50000.0                   10
 1     John Cleese  06/01/15  65000.0                    8
 ```
-
+- ```pandas``` recognizes the col-names automatically; it is zero-based integer indices in the DataFrame; it converts most data to proper type
 
 
 
