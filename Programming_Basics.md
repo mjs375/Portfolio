@@ -1,6 +1,6 @@
 # P R O G R A M M I N G _ B A S I C S 
 
-[CSS](#css) | [HTML](#html) | [License](#license) | [Readme](#readme) | [Requirements](#requirements)
+[License](#license) | [Readme](#readme) | [Requirements](#requirements)
 
 
 
