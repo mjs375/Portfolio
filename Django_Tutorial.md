@@ -17,6 +17,6 @@ from django.urls import path
 from . import views # import views from this directory/project
 
 urlpatterns = [
-path(),
+path("", views.index, name="index"), # from the URL pattern "" [aka index/homepage], go to index() in views.py
 ]
 ```
