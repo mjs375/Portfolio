@@ -8,3 +8,7 @@
   - *2. ```$ python3 manage.py runserver```: start up the server```
   - *3. Open the web browser and add ```/admin/``` to the local domain.*
     - ```django.contrib.auth``` must be on
+
+
+### Files
+- **```urls.py```:** *...*
