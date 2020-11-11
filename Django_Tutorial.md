@@ -11,4 +11,12 @@
 
 
 ### Files
-- **```urls.py```:** *...*
+- **```urls.py```:** **
+```python
+from django.urls import path
+from . import views # import views from this directory/project
+
+urlpatterns = [
+path(),
+]
+```
