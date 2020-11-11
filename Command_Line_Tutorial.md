@@ -19,3 +19,7 @@
   - ```$ man <command>```: *prints a __manual__ about the specified <command>.*
     - ```$ whatis <command>``` *prints a one-line description for <command>*
     - ```$ help [-s] <command>```: *displays a [short], helpful synopsis about <command>*
+- ```$ cat <path/file.ext>```: *display contents of a file in console*
+  - ```$ cat <file1> <file2>```: *display contents of multiple files*
+  - ```$ cat >NAME.EXT```: *creates a new file, then allows you to enter contents. Enter lines, then hold ```CTRL + D``` to write the contents in.*
+  - ```$ cat -n <file.ext> | [less/more]```: *prints out a larger file (with line numbers) slowly, only enough to fill the console then allow you to advance line by line with ```enter```.*
