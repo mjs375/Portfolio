@@ -73,7 +73,7 @@ erica meyers, 120 South St Hoboken NJ, 07030, Mar 2
     - ```quoting = csv.QUOTE_ALL```: *```.writerow()``` will quote all fields.*
     - ```quoting = csv.QUOTE_NONNUMERIC```: *```.writerow()``` will quote all fields containing text data and convert all numeric fields to the ```float``` data-type.*
     - ```quoting = csv.QUOTE_NONE: *delimiters will be escaped instead of quoted (you must also provide a value for the ```escapechar``` parameter).*
-```csv
+```python
 import csv
 
 with open("employee_file.csv", mode="w") as employee_file:
@@ -82,10 +82,25 @@ with open("employee_file.csv", mode="w") as employee_file:
   employee_writer.writerow(['John Smith', 'Accounting', 'November'])
   employee_writer.writerow(['Erica Meyers', 'IT', 'March'])
 ```
+=>
+```csv
+John Smith,Accounting,November
+Erica Meyers,IT,March
+```
 
 
-- **Writing:**
+- **Writing CSV Files from a Dictionary:**
+```python
+import csv
 
+with open("employee_file2.csv", mode="w") as csv_file:
+  fieldnames = ['emp_name', 'dept', 'birth_month'] # required when writing a dict (Dict needs to know keys)
+  writer = csv.DictWriter(csv_file, fieldnames=fieldnames)
+  
+  writer.writeheader() # Uses fieldnames
+  writer.writerow({'emp_name': 'John Smith', 'dept': 'Accounting', 'birth_month': 'November'})
+  writer.writerow({'emp_name': 'Erica Meyers', 'dept': 'IT', 'birth_month': 'March'})
+```
 
 
 
