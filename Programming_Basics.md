@@ -26,8 +26,8 @@
   - **Leave VENV:** ```$ deactivate```
 - **Working with VENV**:
   - **Install packages:** ```$ pip install <module>```
-    - **Install specific version:** ```$ pip install MODULE==2.18.4
-    - **Install latest 2.x release:** ```$ pip install MODULE>=2.0.0,<3.0.0
+    - **Install specific version:** ```$ pip install MODULE==2.18.4```
+    - **Install latest 2.x release:** ```$ pip install MODULE>=2.0.0,<3.0.0```
   - **Upgrade packages:** ```$ pip install --upgrade MODULE```
 - **Create Requirements.txt:** ```$ pip freeze > requirements.txt``` *PIP generates a list of all installed packages and their versions*
 - **Install all packages in a requirements.txt**: ```$ pip install -r requirements.txt```
