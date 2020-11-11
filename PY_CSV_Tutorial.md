@@ -1,5 +1,6 @@
 # READING AND WRITING CSV FILES IN PYTHON
 
+- **How?:** *use Python's built-in ```csv``` library.*
 - **What is a CSV File?:** *a ```CSV``` (Comma-Separated Values) file is a type of plain-text file that uses specific structuring to arrange tabular data, and usually handle large amounts of data (a convenient way to export data from spreadsheets and databases). The first line usually specifies the types of data: they are column headings.*
   - **The Separator:** *the most common is the ```,```, but can also be ```:```, ```;```, ```\t```(tab). One must one which delimiter is being used to properly parse the CSV file.*
 ```csv
@@ -102,7 +103,8 @@ with open("employee_file2.csv", mode="w") as csv_file:
   writer.writerow({'emp_name': 'Erica Meyers', 'dept': 'IT', 'birth_month': 'March'})
 ```
 
-
+## Parsing CSV Files with the Pandas Library
+  - **Python Install:** ```$ pip install pandas``` (Anaconda Install: ```$ conda install pandas```)
 
 
 
