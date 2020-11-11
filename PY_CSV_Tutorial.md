@@ -104,8 +104,18 @@ with open("employee_file2.csv", mode="w") as csv_file:
 ```
 
 ## Parsing CSV Files with the Pandas Library
-  - **Python Install:** ```$ pip install pandas``` (Anaconda Install: ```$ conda install pandas```)
-
+- **Python Install:** ```$ pip install pandas``` (Anaconda Install: ```$ conda install pandas```)
+- **Reading CSV w/ Pandas:** *```pandas.read_csv()``` opens, analyzes, and reads the CSV file, and stores it in a DataFrame*
+```csv
+Name,Hire Date,Salary,Sick Days remaining
+Graham Chapman,03/15/14,50000.00,10
+John Cleese,06/01/15,65000.00,8
+```
+```python
+import pandas
+df = pandas.read_csv('file.csv') # read CSV into a pandas DataFrame
+print(df)
+```
 
 
 
