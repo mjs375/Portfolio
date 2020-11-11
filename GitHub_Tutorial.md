@@ -66,7 +66,7 @@ c = 3
 
 
 ### .gitignore
-- ```.gitignore```: *a plain-text file, generally located in the root folder of the repository, that specifies files and/or folders to be ignored by git, i.e. when you push to the remote repository, those files/folders will NOT be (e.g. files that contain personal information like passwords, &c.). Each line is a pattern for a file or folder to ignore (patterns relative to that of the .gitignore file).*
+- ```$ touch .gitignore```: *create a plain-text file, generally located in the root folder of the repository, that specifies files and/or folders to be ignored by git, i.e. when you push to the remote repository, those files/folders will NOT be (e.g. files that contain personal information like passwords, &c.). Each line is a pattern for a file or folder to ignore (patterns relative to that of the .gitignore file).*
   - ```.filename``` => *a literal filename to ignore*
   - ```directory/``` => *entire directories to ignore*
     - ```*``` => *wildcard * matches any 0+ characters (except '/'), e.g. ```*.log``` ignores any file with the '.log' extension.*
@@ -74,6 +74,7 @@ c = 3
     - ```!``` => *prefix unignores a file, e.g. ```*.log```, ```!example.log``` (exceptions to general patterns, BUT you can't unignore something inside an ignored directory).*
     - ```**``` => *can be used to match any number of directories*
     - ```#``` => any line that starts with ```#``` are comments
+  - ```$ git rm --cached <filename>```: *removes the cached version of the file (in remote Github), does not delete local copy. This command must be entered if a file is already tracked but you want it to now be ignored.*
 
 ### Github Actions / Workflow (.yml)
 - Set up a new workflow for your project:
