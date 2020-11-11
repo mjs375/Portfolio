@@ -77,10 +77,23 @@ c = 3
   - ```$ git rm --cached <filename>```: *removes the cached version of the file (in remote Github), does not delete local copy. This command must be entered if a file is already tracked but you want it to now be ignored.*
 
 ### Github Actions / Workflow (.yml)
-- Set up a new workflow for your project:
+- Everytime you ```$ git push``` your work to Github, certain processes can be automated by writing a ```.yml``` file. Set up a new workflow for your project:
   - Github.com > Create New Workflow
-  - ```project/path/ .github/workflow/ ___.yml```
-- ```.yml```/```.yaml```: *...*
+  - ```project/path/ .github/workflow/ ___.yml```: *Create a ```.github/workflows/``` directory in your project.*
+- ```.yml```/```.yaml```: *Create a file to house the workflow details.*
+```yml
+name: Testing   #Name the workflow
+on: push  #when should the workflow run?– when pushed to repository
 
+jobs:   #jobs to run at every push
+  test_project:   #just 1 job (all jobs contain 2 components:)
+    runs-on: ubuntu-latest  #which Github VM to run our code on
+    steps:  #actions to take when run
+    - uses: actions/checkout@v2
+    - name: Run Django unit tests   #description of actions
+    run: |    #commands to run on Github's server
+      pip3 install --user django    #install Django
+      python3 manage.py test    #run the Test.py file
+```
 
 
