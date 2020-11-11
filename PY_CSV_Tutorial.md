@@ -19,7 +19,7 @@ Erica Meyers, IT, March
 ```
 
 ### Reading CSV Files
-- *Below is a simple output of a CSV file using a for-loop to iterate each row, and using indexing to get each row's column-data:*
+- *Reading from a CSV is done using the ```reader``` object, using the ```open()``` function, which returns a file object, which in turn is passed to the ```reader```, which does the most of the work. Below is a simple output of a CSV file using a for-loop to iterate each row, and using indexing to get each row's column-data:*
 ```python
 import csv
 
@@ -55,7 +55,7 @@ with open('employee_birthday.txt', mode='r') as csv_file:
 - **CSV Reader Optional Parameters:**
   - ```delimiter```: *specifies the character used to separate each field, the default being ",".*
     - *in the example below, you could specify a delimiter other than ",", so that a comma can be safely in the data itself.*
-  - ```quotechar```: *specifies the character used to surround fields that containing the delimiter character, the default is a double quote (' '' ').*
+  - ```quotechar```: *specifies the character used to surround fields that containing the delimiter character, the default is a double quote (' " ').*
     - *the special nature of the selected delimiter is ignored when in quoted strings, so as that as that special character isn't also in the data, you can wrap data in that to nullify the ",".*
   - ```escapechar```: *specifies the character used to escape the delimiter character, in case quotes aren't used (default is no escape character).*
     - *escape characters work just like in format strings.*
@@ -68,9 +68,20 @@ erica meyers, 120 South St Hoboken NJ, 07030, Mar 2
 
 ### Writing CSV Files
 - *you can write to a CSV file using a ```writer``` object and the ```.write_row()``` method.*
+  - ```quotechar``` optional parameter: *tells the ```writer``` which character to use to quote fields when writing; it is based on the ```quoting``` parameter:*
+    - ```quoting = csv.QUOTE_MINIMAL```: *```.writerow()``` will only quote fields if they contain the delimiter or the quotechar (default).*
+    - ```quoting = csv.QUOTE_ALL```: *```.writerow()``` will quote all fields.*
+    - ```quoting = csv.QUOTE_NONNUMERIC```: *```.writerow()``` will quote all fields containing text data and convert all numeric fields to the ```float``` data-type.*
+    - ```quoting = csv.QUOTE_NONE: *delimiters will be escaped instead of quoted (you must also provide a value for the ```escapechar``` parameter).*
+```csv
+import csv
 
-
-
+with open("employee_file.csv", mode="w") as employee_file:
+  employee_writer = csv.writer(employee_file, delimiter=",", quotechar='"', quoting=csv.QUOTE_MINIMAL)
+  
+  employee_writer.writerow(['John Smith', 'Accounting', 'November'])
+  employee_writer.writerow(['Erica Meyers', 'IT', 'March'])
+```
 
 
 - **Writing:**
