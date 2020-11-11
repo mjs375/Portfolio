@@ -116,7 +116,11 @@ import pandas
 df = pandas.read_csv('file.csv') # read CSV into a pandas DataFrame
 print(df)
 ```
-
+```shell
+             Name Hire Date   Salary  Sick Days remaining
+0  Graham Chapman  03/15/14  50000.0                   10
+1     John Cleese  06/01/15  65000.0                    8
+```
 
 
 
