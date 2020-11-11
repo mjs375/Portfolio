@@ -6,7 +6,7 @@
 - **Run Server:** ```$ python3 manage.py runserver```
 - **Create App:** ```$ python3 manage.py startapp APP_NAME```
   - **Install App:** *open ```settings.py```, add ```'myapp'``` to ```INSTALLED_APPS = [...]```*
-- **Update DB:*** ```$ python3 manage.py makemigrations
+- **Update DB:*** ```$ python3 manage.py makemigrations```, ```$ python3 manage.py migrate```
 
 - **Create an Admin User**: ```$ python3 manage.py createsuperuser```
   - *1. Enter a username, email, password.*
