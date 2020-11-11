@@ -4,38 +4,6 @@
 
 
 
-### CSS
-- ```stylesheet.css```: Cascading Style Sheets add style to HTML structure & content, such as coloring, fonts and text-alignment, spacing, padding, even animations.
-```css
-p {
-  color: grey;
-}
-#id1 {
-  padding: 5px;
-}
-div .class1 {
-  margin: 10px;
-}
-
-```
-
-### HTML
-- ```index.html```: HyperText Markup Language, a programming language that describes the basic, static structure and content of a webpage, comprised of nest tag-elements (<tag>) and raw content. CSS (inline, <style>, or external) can add style to the webpage (padding, colors, font-choices, animations, alignment), and Javascript can make the webpage interactive and dynamic (button clicking, &c.).
-```html
-<!DOCTYPE html>
-<html> <!-- an HTML comment -->
-  <head>
-    <style>
-      #first {color: grey;}
-    </style>
-    <title>My Website</title>
-  </head>
-  <body id="first">
-    <p class="content">Some content...</p>
-  </body>
-</html>
-```
-
 ### LICENSE
 - Informs the user that permissions they have– can they download, modify and re-publish, &c.
 
@@ -48,11 +16,19 @@ div .class1 {
 ### Requirements
 - ```Requirements.txt```: *a file that makes it easier for other users (that have downloaded your projects) to run the same Python libraries as it was written in/for. A user will encounter messages such as "No module named [...]"; download that library; then get the message again, again, again...*
   - ```$ pip install -r requirements.txt```: *command to download all the necessary libraries in a ```requirements.txt```*
-- **How to Generate a Requirements.txt**:
-  - ```$ pip freeze > requirements.txt```: *PIP generates the file for you– but with every library you've ever downloaded on your own computer system. (View in terminal with ```cat requirements.txt```.)*
-  - 1. Install Anaconda to make a 'clean-slate' Virtual Environment: ```$ conda create -n shiny_new_env python=3.8```
-    - ```$ conda env list```: _see a list of all available venv (the activated one will be denoted by a '*')_
-    - ```$ conda activate [venv_name]```: _switch to that venv (note that [venv_name] appears in terminal command-line name, left of the ```$```.)_
-  - 2. Now, install each package the project requires in this as-of-yet empty venv (yes, install each one again... but just you, this once, have to do it). Then, run ```$ pip freeze > requirements.txt``` once again and view the list of installs needed just for this project.
 
+
+### Virtual Environments
+- *```venv``` module lets you create virtual environments. It is good practice to have a venv for each project, instead of installing every package you need globally, in case conflicts later arise.*
+  - **Create venv:** ```$ python3 -m venv env``` (Anaconda: ```$ conda create -n venv_name python=3.8)```
+  - **Activate venv:** ```$ source env/bin/activate``` (Anaconda: ```$ conda activate [venv]```
+  - **Confirm you're in:** ```$ which python``` => ```.../env/bin/python``` (Anaconda: ```$ conda env list``` lists all available venv, the active one denoted by a "*").
+  - **Leave VENV:** ```$ deactivate```
+- **Working with VENV**:
+  - **Install packages:** ```$ pip install <module>```
+    - **Install specific version:** ```$ pip install MODULE==2.18.4
+    - **Install latest 2.x release:** ```$ pip install MODULE>=2.0.0,<3.0.0
+  - **Upgrade packages:** ```$ pip install --upgrade MODULE```
+- **Create Requirements.txt:** ```$ pip freeze > requirements.txt``` *PIP generates a list of all installed packages and their versions*
+- **Install all packages in a requirements.txt**: ```$ pip install -r requirements.txt```
 
