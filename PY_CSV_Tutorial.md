@@ -17,7 +17,8 @@ name,department,birthday month
 John Smith,Accounting,November
 Erica Meyers, IT, March
 ```
-- **Reading:**
+- **Reading CSV Files:**
+  - *Below is a simple output of a CSV file using a for-loop to iterate each row, and using indexing to get each row's column-data:*
 ```python
 import csv
 
@@ -33,6 +34,40 @@ with open('employee_birthday.txt') as csv_file:
       line_count += 1
     print(f"Processed {line_count} lines.")
 ```
+- **Reading CSV Files into a Dictionary:**
+  - *instead of just dealing with individual string elements, you can read CSV data into a dictionary, the keys coming from the first line (if not, specify your own keys by setting the ```fieldnames``` parameter to a list containing them).*
+```python
+import csv
+
+with open('employee_birthday.txt', mode='r') as csv_file:
+  csv_reader = csv.DictReader(csv_file)
+  line_count = 0
+  for row in csv_reader:
+    if line_count == 0:
+      print(f"Column names are {', '.join(row)}")
+      line_count += 1
+    print(f"\t{row['name']} works in the {row['department']} department, and was born in {row['birthday month']}.")
+    line_count +=1
+  print(f"Processed {line_count} lines.")
+```
+
+**CSV Reader Optional Parameters:**
+- ```delimiter```: *specifies the character used to separate each field, the default being ",".*
+  - **
+- ```quotechar```: *specifies the character used to surround fields that containing the delimiter character, the default is a double quote (' '' ').*
+- ```escapechar```: *specifies the character used to escape the delimiter character, in case quotes aren't used (default is no escape character).*
+```csv
+name,address,date joined
+john smith, 1132 Main St Hoboken NJ, 07030, Jan 4
+erica meyers, 120 South St Hoboken NJ, 07030, Mar 2
+    => Note that the address field contains a ",".
+```
+
+
+
+
+
+
 
 - **Writing:**
 
