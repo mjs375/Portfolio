@@ -17,8 +17,9 @@ name,department,birthday month
 John Smith,Accounting,November
 Erica Meyers, IT, March
 ```
-- **Reading CSV Files:**
-  - *Below is a simple output of a CSV file using a for-loop to iterate each row, and using indexing to get each row's column-data:*
+
+### Reading CSV Files
+- *Below is a simple output of a CSV file using a for-loop to iterate each row, and using indexing to get each row's column-data:*
 ```python
 import csv
 
@@ -51,11 +52,13 @@ with open('employee_birthday.txt', mode='r') as csv_file:
   print(f"Processed {line_count} lines.")
 ```
 
-**CSV Reader Optional Parameters:**
-- ```delimiter```: *specifies the character used to separate each field, the default being ",".*
-  - **
-- ```quotechar```: *specifies the character used to surround fields that containing the delimiter character, the default is a double quote (' '' ').*
-- ```escapechar```: *specifies the character used to escape the delimiter character, in case quotes aren't used (default is no escape character).*
+- **CSV Reader Optional Parameters:**
+  - ```delimiter```: *specifies the character used to separate each field, the default being ",".*
+    - *in the example below, you could specify a delimiter other than ",", so that a comma can be safely in the data itself.*
+  - ```quotechar```: *specifies the character used to surround fields that containing the delimiter character, the default is a double quote (' '' ').*
+    - *the special nature of the selected delimiter is ignored when in quoted strings, so as that as that special character isn't also in the data, you can wrap data in that to nullify the ",".*
+  - ```escapechar```: *specifies the character used to escape the delimiter character, in case quotes aren't used (default is no escape character).*
+    - *escape characters work just like in format strings.*
 ```csv
 name,address,date joined
 john smith, 1132 Main St Hoboken NJ, 07030, Jan 4
@@ -63,7 +66,8 @@ erica meyers, 120 South St Hoboken NJ, 07030, Mar 2
     => Note that the address field contains a ",".
 ```
 
-
+### Writing CSV Files
+- *you can write to a CSV file using a ```writer``` object and the ```.write_row()``` method.*
 
 
 
