@@ -78,7 +78,7 @@ c = 3
 
 ### Github Actions / Workflow (.yml)
 - Everytime you ```$ git push``` your work to Github, certain processes can be automated by writing a ```.yml``` file. Set up a new workflow for your project:
-  - Github.com > Create New Workflow
+  - Github.com > Create New Workflow | Github.com > Repository > Actions
   - ```project/path/ .github/workflow/ ___.yml```: *Create a ```.github/workflows/``` directory in your project.*
 - ```.yml```/```.yaml```: *Create a file to house the workflow details.*
 ```yml
