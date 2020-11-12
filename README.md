@@ -3,7 +3,7 @@
 I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field. My formal experience includes courses during my Rutgers University graduate program, an internship at Milne Library, SUNY Geneseo that included proofreading & editing XML code for the *Digital Thoreau* project, and finally, ongoing, self-directed coursework from Harvard as well as online programming practice, e.g. Codewars.
 
 ### Languages / Tools Experienced In:
-- **SQLite**: *a light-weight database (rarely used in production) [Structured Query Language]*
+- **SQLite**: *a light-weight relational database used in Django (rarely used in production) [Structured Query Language]*
   - **Postgres**: **
 - WebScraping:
 - ```★★★★☆``` **Microsoft Excel**: *a spreadsheet program to collect and sort data, make calculations, create charts & graphs, and conduct analysis using Excel functions.*  
