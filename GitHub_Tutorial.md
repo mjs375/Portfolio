@@ -94,6 +94,7 @@ jobs:   #jobs to run at every push
     - name: Run Django unit tests   #description of actions
     run: |    #commands to run on Github's server
       pip3 install --user django    #install Django
+      cd project
       python3 manage.py test    #run the Test.py file
 ```
 
