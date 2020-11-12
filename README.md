@@ -56,6 +56,8 @@ I am currently a public reference librarian in New Jersey who is interested in b
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
   - Harvard free online statistics course
+- [ ] **Montclair University: ______** *(Audit)*
+  
 ### Free Courses:
   - [ ] [Free Ivy League Courses](https://www.classcentral.com/collection/ivy-league-moocs?subject=cs)
 - [ ] **[MIT OpenCourseWare: Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/)**
