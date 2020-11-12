@@ -76,6 +76,7 @@ c = 3
     - ```**``` => *can be used to match any number of directories*
     - ```#``` => any line that starts with ```#``` are comments
   - ```$ git rm --cached <filename>```: *removes the cached version of the file (in remote Github), does not delete local copy. This command must be entered if a file is already tracked but you want it to now be ignored.*
+    - ```$ git rm -r --cached .```: *untrack every file [doesn't delete them locally] (first commit any outstanding changes). To re-add all files (except ones now in .gitignore), run ```$ git add .```, ```$ git commit -m ".gitignore updated'''*
 
 ### Github Actions / Workflow (.yml)
 - Everytime you ```$ git push``` your work to Github, certain processes can be automated by writing a ```.yml``` file. Set up a new workflow for your project:
