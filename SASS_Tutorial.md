@@ -20,6 +20,7 @@
 <td>
 
 ```sass
+/*VARIABLES*/
 $font-stack:    Helvetica, sans-serif
 $primary-color: #333
 
