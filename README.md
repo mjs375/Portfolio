@@ -13,11 +13,12 @@ I am currently a public reference librarian in New Jersey who is interested in b
 
 Skill | Level | Desc. | Misc.
 ------|-------|-------|-------
-**C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> |
-**Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
-**Flask** | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>*a lightweight web framework for __Python__.*</details></p> | 
-**Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
-**Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
+**C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> |
+**Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
+**Flask** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a lightweight web framework for __Python__.*</details></p> | 
+**HTML** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– the static structure & content of a webpage, styled by __CSS__ and made dynamic/interactive with __JS__. <br>– HyperText Markup Language.html*</details></p> | 
+**Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
+**Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
 
 
 
