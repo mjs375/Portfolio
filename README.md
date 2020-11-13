@@ -35,7 +35,7 @@ I am currently a public reference librarian in New Jersey who is interested in b
 Skill | Level | Misc.
 ------|-------|------
 Python | ★★★★☆ | <p> Hi<br>Bye </p>
-Flask | ★★☆☆☆ | <p><details><summary>Sample</summary>Hello?<br><br>Content<br>Content </details></p>
+Flask | ★★☆☆☆ | <p><details><summary>[ ]</summary>Content 1 <br> Content 2</details></p>
 
 
 
