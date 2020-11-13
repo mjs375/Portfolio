@@ -42,3 +42,75 @@ body {
 </td>
 </tr>
 </table>
+
+
+
+### Nesting
+- HTML has a clear nested hierarchy, –CSS does not. Sass lets you nest CSS selectors just like HMTL (however, it's bad practice to overdo it).
+
+
+
+<table>
+<tr>
+<th>SCSS</th>
+<th>CSS</th>
+</tr>
+<tr>
+<td>
+
+```sass
+nav
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
+
+  li
+    display: inline-block
+
+  a
+    display: block
+    padding: 6px 12px
+    text-decoration: none
+```
+
+</td>
+<td>
+
+```css
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+```
+
+</td>
+</tr>
+</table>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
