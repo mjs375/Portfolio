@@ -101,11 +101,49 @@ nav a {
 
 
 
+### Partials <=> Modules
+- Sass can be split up across files, and yet retain referenceability, using the ```@use``` rule, which loads another Sass file as a module, allowing access to its variables, &c.
+  - **Partials**: Sass files that only contain a snippet of isolated CSS, named with a leading underscore ```_partial.scss```. This naming tells Sass not to generate it into its own file (it will only be used by other, full Sass files, using the ```@use``` rule).
 
 
 
+<table><tr><th>SCSS</th><th>CSS</th></tr><tr><td>
 
+```sass
+nav
+  ul
+    margin: 0
+    padding: 0
+    list-style: none
 
+  li
+    display: inline-block
+
+  a
+    display: block
+    padding: 6px 12px
+    text-decoration: none
+```
+
+</td><td>
+
+```css
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  display: block;
+  padding: 6px 12px;
+  text-decoration: none;
+}
+```
+
+</td></tr></table>
 
 
 
