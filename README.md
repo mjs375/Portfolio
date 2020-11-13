@@ -32,10 +32,10 @@ I am currently a public reference librarian in New Jersey who is interested in b
 
 
 
-Skill | Level | Misc.
+Skill | Level | Desc. | Misc.
 ------|-------|------
-Python | ★★★★☆ | <p> Hi<br>Bye </p>
-Flask | ★★☆☆☆ | <p><details><summary>[ ]</summary>Content 1 <br> Content 2</details></p>
+Python | ★★★★☆ | | <p> Hi<br>Bye </p>
+Flask | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>Content 1 <br> Content 2</details></p> | <p><details><summary>[ ]</summary>Content 1 <br> Content 2</details></p>
 
 
 
