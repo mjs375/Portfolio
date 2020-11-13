@@ -13,8 +13,8 @@
 
 <table>
 <tr>
-<th>Json 1</th>
-<th>Markdown</th>
+<th>SCSS</th>
+<th>CSS</th>
 </tr>
 <tr>
 <td>
