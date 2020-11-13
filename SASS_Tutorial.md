@@ -9,7 +9,7 @@
     - *rather than manually re-compiling the CSS file with every ```.scss``` change, the watch flag tells Sass to watch the source file for changes, and re-compile CSS each time you save your Sass. Watching folders will watch all files in the input source, and compile all CSS in the output folder.*
 
 ### Variables
-
+- Sass allows the use of variables, entities you want to use again & again throughout the stylesheet: colors, font-stacks, &c. This is helpful when creating the stylesheet, so you don't have to copy & paste the website's primary color a dozen times, but also when modifying the stylesheet– you only have to make a change once, the variable value itself. Variables are prepended with ```$```. When Sass is processed, it replaces all ```$variable```s with the actual value.
 
 <table>
 <tr>
