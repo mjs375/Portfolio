@@ -24,7 +24,8 @@ Skill | Level | Desc. | Misc.
 **JavaScript** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server.*</details></p> |
 **Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
 **Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
-**SASS** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– an extension of CSS that allows the user of variables and other advanced features like inheritance when creating large, complicated stylesheets.<br>Syntactically Awesome StyleSheets (.scss)*</details></p> |
+**SASS** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– an extension of CSS that allows the user of variables and other advanced features like inheritance when creating large, complicated stylesheets.<br>– Syntactically Awesome StyleSheets (.scss)*</details></p> |
+**WebScraping** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– *<br>Beautiful Soup<br>Mechanical Soup<br>urllib</details></p> |
 
 
 
