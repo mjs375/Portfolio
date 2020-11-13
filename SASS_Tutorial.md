@@ -132,8 +132,8 @@ body
 </td><td>
 
 ```css
-/*Notice the partial file's body{} was wholly imported,
-as well as the variables for use in .inverse*/
+/*Notice partial file's body{} was imported,
+plus the variables for use in .inverse*/
 body { 
   font: 100% Helvetica, sans-serif;
   color: #333;
