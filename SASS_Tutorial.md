@@ -153,7 +153,8 @@ body {
   - ```=transform($property)``` declares a mixin: 'transform' is the name, and the ($property) passes a variable into the mixin for use.
   - ```@include:MIXIN_NAME``` lets you use it as a CSS declaration.
   
-  <table><tr><th>SCSS</th><th>CSS</th></tr><tr><td>
+  
+<table><tr><th>SCSS</th><th>CSS</th></tr><tr><td>
 
 ```sass
 =transform($property)
@@ -179,6 +180,7 @@ body {
 
 
 
+### Extend / Inheritance
 
 
 
