@@ -11,10 +11,10 @@ I am currently a public reference librarian in New Jersey who is interested in b
 <hr>
 
 
-Skill | Level | Desc. | Misc. | Tags
-------|-------|-------|-------|------
-**Bootstrap** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) |
-**C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | |
+Skill | Level | Desc. | Misc.
+------|-------|-------|------
+**Bootstrap** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+**C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | 
 **CSS** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
 **Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
 **Flask** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a lightweight web framework for __Python__.*</details></p> | 
@@ -23,7 +23,8 @@ Skill | Level | Desc. | Misc. | Tags
 **HTML** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– the static structure & content of a webpage, styled by __CSS__ and made dynamic/interactive with __JS__. <br>– HyperText Markup Language (.html)*</details></p> | 
 **JavaScript** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server.*</details></p> |
 **Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
-**Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> | | ```LANG```
+**Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
+**SASS** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– an extension of CSS that allows the user of variables and other advanced features like inheritance when creating large, complicated stylesheets.<br>Syntactically Awesome StyleSheets (.scss)*</details></p> |
 
 
 
