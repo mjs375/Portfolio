@@ -121,7 +121,7 @@ body
 ```
 ```sass
 // styles.scss
-@use 'base' //imports partial Sass file variables (as well as its body{...} declarations)
+@use 'base' //import _partial rules
 
 .inverse
   background-color: base.$primary-color
@@ -132,7 +132,9 @@ body
 </td><td>
 
 ```css
-body {
+/*Notice the partial file's body{} was wholly imported,
+as well as the variables for use in .inverse*/
+body { 
   font: 100% Helvetica, sans-serif;
   color: #333;
 }
