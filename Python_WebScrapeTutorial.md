@@ -183,8 +183,8 @@ for i in range(4): # we want to roll the dice 4 times total
 
 
 
-
-
+### Robots.txt
+https://developers.google.com/search/docs/advanced/robots/intro?hl=en&visit_id=637408797717484153-3352655891&rd=1
 
 
 
