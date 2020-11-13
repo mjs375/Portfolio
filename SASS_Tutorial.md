@@ -19,6 +19,7 @@
   <tr>
     <td>
       <pre>
+      
     ```css
     $font-stack: Helvetia, sans-serif
     $primary-color: #333
