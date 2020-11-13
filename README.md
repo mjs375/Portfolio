@@ -11,12 +11,12 @@ I am currently a public reference librarian in New Jersey who is interested in b
 <hr>
 
 
-Skill | Level | Desc. | Tutorial | Projects
-------|-------|-------|----------|----------
-**Bootstrap**<br>```framework``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | [getbootstrap.com](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
+Skill | Level | Desc. | Tutorial | Projects | Doc
+------|-------|-------|----------|----------|-----
+**Bootstrap**<br>```framework``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | | [getbootstrap.com](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 **C**<br>```lang``` | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | 
 **Command line** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a text interface for interacting with the computer, which takes in commands and can do almost anything.*</details></p> | [Common Commands](https://github.com/mjs375/Coding-Gymnasium/blob/main/Command_Line_Tutorial.md)
-**CSS** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
+**CSS**<br>```lang``` | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
 **Docker** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– provides the ability to package and run an application inside a discreet environment/container.*</details></p> |
 **Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
 **Flask** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a lightweight web framework for __Python__.*</details></p> | 
