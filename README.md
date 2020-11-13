@@ -77,7 +77,7 @@ Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/us
 <details>
   <summary>Collapsible Content...</summary>
   
-  ###Header
+###Header
   - One
   - Two
   - Three
