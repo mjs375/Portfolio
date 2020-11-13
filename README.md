@@ -13,15 +13,15 @@ I am currently a public reference librarian in New Jersey who is interested in b
 
 Skill | Level | Desc. | Misc.
 ------|-------|-------|-------
+**C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> |
 **Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
 **Flask** | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>*a lightweight web framework for __Python__.*</details></p> | 
-**Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*a language that allows Python functions & variables to be inserted into HTML templates used in both the __Flask__ & __Django__ frameworks.*</details></p> |
+**Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
 **Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
 
 
 
 - **Programming Languages:**
-  - ```★★☆☆☆``` **C**: *a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*
   - ```★★★★☆``` **HTML**: *the static structure & content of a webpage, styled by CSS and made dynamic/interactive with JS. [HyperText Markup Language.html]*
   - ```★★★☆☆``` **CSS**: *the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. [Cascading Style Sheets.css]*
       - ```★★★★☆``` **[Bootstrap CSS](https://getbootstrap.com/docs/4.5/getting-started/introduction/)**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*
