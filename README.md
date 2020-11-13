@@ -12,7 +12,7 @@ I am currently a public reference librarian in New Jersey who is interested in b
 
 
 Skill | Level | Desc. | Tutorial
-------|-------|-------|------
+------|-------|-------|---------
 **Bootstrap** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | [getbootstrap.com](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 **C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | 
 **Command line** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a text interface for interacting with the computer, which takes in commands and can do almost anything.*</details></p> | [Common Commands](https://github.com/mjs375/Coding-Gymnasium/blob/main/Command_Line_Tutorial.md)
@@ -35,10 +35,7 @@ Skill | Level | Desc. | Tutorial
 
 
 
-<p><details><summary>:bookmark:</summary>*– *</details></p> |
-
 - **Programming Languages:**
-      - ```★☆☆☆☆``` **SASS**: *an extension of CSS that lets you use variables ($color:red;)(p{color: $color}) and other advanced features in CSS format style more efficiently. Browsers only recognize .css, so you must 1. download Sass program, 2. run ```$ sass variables.scss:variables.css```, which will create a .css file with the variables 'hard-coded'. Run ```$ sass --watch variables.scss:variables.css``` to automatically change the .css file everytime a change is detected in the .scss file. You can also physically nest element{style} inside other elements{style}, and utilize Sass's "inheritance" feature (%somestyle)(div {@extend %somestyle}). [Syntactically Awesome Style Sheets.scss].*
 - **Programming Support, Libraries, Misc.:**
   - **Selenium + ChromeDriver**: *client-side testing that simulates opening a web browser and interacting with it with a Web Driver. Create a file that interacts with the webpage, running a series of accumulating tests as development advances. The file will run through the website and interact with it at computer-speed, saving time in the long run (rather than doing the full suite of accumulating tests manually).*
   - **Docker**: *instead of running a program on your own computer, your run it inside a virtual 'container' with specific packages installed, &c.– more importantly, when working on a group project, all the programmers have the exact same specifications. It also works when deployed– the program can be run by clients inside the same container so you don't have to program for every possible computer that could run it. Docker is lighter than a Virtual Machine, in that it is just a container, not an entire virtual computer running its own OS.*
@@ -83,38 +80,4 @@ Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/us
 ## Solo Projects
 - Web Scrapers
   - [ ] Wikipedia Links Scraper: *pulls all links from a given Wikipedia page.*
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-## COLLAPSE
-<details>
-  <summary>Collapsible Content...</summary>
-  
-###Header
-  - One
-  - Two
-  - Three
-</details>
-
-<details>
-  <summary>Collapsible Content...</summary>
-  
- ```python
- def square(n)
-  return n^^2
- ```
-</details>
-
-
 
