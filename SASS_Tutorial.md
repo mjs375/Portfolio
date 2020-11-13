@@ -28,7 +28,9 @@
     ```
     </td>
     <td>
-    
+    ```css
+    font-color: blue;  
+    ```
     </td>
   <tr>
 </table>
