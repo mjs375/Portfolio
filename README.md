@@ -32,7 +32,7 @@ Skill | Level | Desc. | Tutorial
 **WebScraping** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– programs that harvest data from websites, using a variety of tools and libraries.<br>– Beautiful Soup<br>– Mechanical Soup<br>– urllib*</details></p> |
 **Workflows** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– wherein certain actions are automated, e.g. __Github Actions__ performing program tests every time a version is pushed to the remote repository.<br>– (.yml/.yaml)*</details></p> |
 
-
+<p><details><summary>Skill Levels</summary>- ```☆☆☆☆☆```: *aware of, want to learn*<br>- ```★☆☆☆☆```: *learned in lesson*<br>- ```★★★☆☆```: *done in practice*<br>- ```★★★★☆```: *commonly used, utilized in projects*<br>- ```★★★★★```: *extremely confident, advanced level*</details></p>
 
 
 - **Programming Languages:**
