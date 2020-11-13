@@ -21,7 +21,9 @@ Skill | Level | Desc. | Misc.
 **HTML** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– the static structure & content of a webpage, styled by __CSS__ and made dynamic/interactive with __JS__. <br>– HyperText Markup Language (.html)*</details></p> | 
 **JavaScript** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server.*</details></p> |
 **Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
-**Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
+**Python**<br>```LANG``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
+
+
 
 <p><details><summary>:bookmark:</summary>*– *</details></p> |
 
