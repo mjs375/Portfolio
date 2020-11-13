@@ -18,7 +18,6 @@
   </tr>
   <tr>
     <td>
-    <pre>
     ```css
     $font-stack: Helvetia, sans-serif
     $primary-color: #333
@@ -27,7 +26,6 @@
       color: $primary-color:
      }
     ```
-    </pre>
     </td>
     <td>
     
