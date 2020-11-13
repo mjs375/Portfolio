@@ -25,7 +25,7 @@ Skill | Level | Desc. | Misc.
 **Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
 **Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
 **SASS** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– an extension of CSS that allows the user of variables and other advanced features like inheritance when creating large, complicated stylesheets.<br>– Syntactically Awesome StyleSheets (.scss)*</details></p> |
-**WebScraping** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– *<br>Beautiful Soup<br>Mechanical Soup<br>urllib</details></p> |
+**WebScraping** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– programs that harvest data from websites, using a variety of tools and libraries.<br>– Beautiful Soup<br>– Mechanical Soup<br>– urllib*</details></p> |
 
 
 
@@ -36,7 +36,6 @@ Skill | Level | Desc. | Misc.
 - **Programming Support, Libraries, Misc.:**
     - **Github Actions (workflows)**: *wherein certain actions are performed everytime someone pushes to a git repository (CI/CD), e.g. checking style or that units tests still pass. [.yaml/.yml]*
   - **Selenium + ChromeDriver**: *client-side testing that simulates opening a web browser and interacting with it with a Web Driver. Create a file that interacts with the webpage, running a series of accumulating tests as development advances. The file will run through the website and interact with it at computer-speed, saving time in the long run (rather than doing the full suite of accumulating tests manually).*
-  - ```★☆☆☆☆``` **{WebScraping}**: *URRLLIB, BeautifulSoup, MechanicalSoup*
   - **Docker**: *instead of running a program on your own computer, your run it inside a virtual 'container' with specific packages installed, &c.– more importantly, when working on a group project, all the programmers have the exact same specifications. It also works when deployed– the program can be run by clients inside the same container so you don't have to program for every possible computer that could run it. Docker is lighter than a Virtual Machine, in that it is just a container, not an entire virtual computer running its own OS.*
 
 
