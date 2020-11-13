@@ -70,3 +70,27 @@ Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/us
 - Web Scrapers
   - [ ] Wikipedia Links Scraper: *pulls all links from a given Wikipedia page.*
 
+
+
+
+## Header
+<details>
+  <summary>Collapsible Content...</summary>
+  
+  ###Header
+  - One
+  - Two
+  - Three
+</details>
+
+<details>
+  <summary>Collapsible Content...</summary>
+  
+ ```python
+ def square(n)
+  return n^^2
+ ```
+</details>
+
+
+
