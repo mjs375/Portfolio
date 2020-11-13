@@ -26,6 +26,8 @@ Skill | Level | Desc. | Misc.
 **Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
 **SASS** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– an extension of CSS that allows the user of variables and other advanced features like inheritance when creating large, complicated stylesheets.<br>– Syntactically Awesome StyleSheets (.scss)*</details></p> |
 **WebScraping** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– programs that harvest data from websites, using a variety of tools and libraries.<br>– Beautiful Soup<br>– Mechanical Soup<br>– urllib*</details></p> |
+**Workflows** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– wherein certain actions are automated, e.g. __Github Actions__ performing program tests every time a version is pushed to the remote repository.<br>– (.yml/.yaml)*</details></p> |
+
 
 
 
@@ -34,7 +36,6 @@ Skill | Level | Desc. | Misc.
 - **Programming Languages:**
       - ```★☆☆☆☆``` **SASS**: *an extension of CSS that lets you use variables ($color:red;)(p{color: $color}) and other advanced features in CSS format style more efficiently. Browsers only recognize .css, so you must 1. download Sass program, 2. run ```$ sass variables.scss:variables.css```, which will create a .css file with the variables 'hard-coded'. Run ```$ sass --watch variables.scss:variables.css``` to automatically change the .css file everytime a change is detected in the .scss file. You can also physically nest element{style} inside other elements{style}, and utilize Sass's "inheritance" feature (%somestyle)(div {@extend %somestyle}). [Syntactically Awesome Style Sheets.scss].*
 - **Programming Support, Libraries, Misc.:**
-    - **Github Actions (workflows)**: *wherein certain actions are performed everytime someone pushes to a git repository (CI/CD), e.g. checking style or that units tests still pass. [.yaml/.yml]*
   - **Selenium + ChromeDriver**: *client-side testing that simulates opening a web browser and interacting with it with a Web Driver. Create a file that interacts with the webpage, running a series of accumulating tests as development advances. The file will run through the website and interact with it at computer-speed, saving time in the long run (rather than doing the full suite of accumulating tests manually).*
   - **Docker**: *instead of running a program on your own computer, your run it inside a virtual 'container' with specific packages installed, &c.– more importantly, when working on a group project, all the programmers have the exact same specifications. It also works when deployed– the program can be run by clients inside the same container so you don't have to program for every possible computer that could run it. Docker is lighter than a Virtual Machine, in that it is just a container, not an entire virtual computer running its own OS.*
 
