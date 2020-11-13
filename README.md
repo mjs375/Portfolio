@@ -16,15 +16,18 @@ Skill | Level | Desc. | Misc.
 **Bootstrap** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 **C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | 
 **CSS** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
+**Docker** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– provides the ability to package and run an application inside a discreet environment/container.*</details></p> |
 **Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
 **Flask** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a lightweight web framework for __Python__.*</details></p> | 
-**Git** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a terminal command which lets users manage versions of source-code (e.g. connect & interact with Github.com)*</details></p> |
+**Git** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a series of terminal commands (add, commit, merge, branch, checkout...) which lets users manage versions of source-code (e.g. connect & interact with Github.com)*</details></p> |
 **Github** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a site which allows users to store & manage source-code and conduct version control.*</details></p> | 
 **HTML** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– the static structure & content of a webpage, styled by __CSS__ and made dynamic/interactive with __JS__. <br>– HyperText Markup Language (.html)*</details></p> | 
 **JavaScript** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server.*</details></p> |
 **Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
 **Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
+**React.js** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– a JavaScript library*</details></p> |
 **SASS** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– an extension of CSS that allows the user of variables and other advanced features like inheritance when creating large, complicated stylesheets.<br>– Syntactically Awesome StyleSheets (.scss)*</details></p> |
+**Selenium** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– a portable framework for testing programs*</details></p> |
 **WebScraping** | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– programs that harvest data from websites, using a variety of tools and libraries.<br>– Beautiful Soup<br>– Mechanical Soup<br>– urllib*</details></p> |
 **Workflows** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– wherein certain actions are automated, e.g. __Github Actions__ performing program tests every time a version is pushed to the remote repository.<br>– (.yml/.yaml)*</details></p> |
 
