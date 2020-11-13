@@ -11,11 +11,16 @@ I am currently a public reference librarian in New Jersey who is interested in b
 <hr>
 
 
+Skill | Level | Desc. | Misc.
+------|-------|-------|-------
+**Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
+**Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*a language that allows Python functions & variables to be inserted into HTML templates used in both the __Flask__ & __Django__ frameworks.*</details></p>
+**Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
+**Flask** | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>*a lightweight web framework for __Python__.*</details></p> | <p><details><summary>[ ]</summary>Content 1 <br> Content 2</details></p>
+
+
+
 - **Programming Languages:**
-  - ```★★★★☆``` **Python**: *an interpreted programming language (no need to compile into 'machine code' first).*
-      - ```★★☆☆☆``` **Flask**: *a lightweight web framework for Python.*
-      - ```★★★★☆``` **Django**: *a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*
-      - ```★★★☆☆``` **Jinja**: *a language that allows Python functions & variables to be inserted into HTML templates used in both the Flask & Django frameworks.*
   - ```★★☆☆☆``` **C**: *a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*
   - ```★★★★☆``` **HTML**: *the static structure & content of a webpage, styled by CSS and made dynamic/interactive with JS. [HyperText Markup Language.html]*
   - ```★★★☆☆``` **CSS**: *the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. [Cascading Style Sheets.css]*
@@ -32,10 +37,6 @@ I am currently a public reference librarian in New Jersey who is interested in b
 
 
 
-Skill | Level | Desc. | Misc.
-------|-------|-------|-------
-**Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
-**Flask** | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>*a lightweight web framework for __Python__.*</details></p> | <p><details><summary>[ ]</summary>Content 1 <br> Content 2</details></p>
 
 
 
