@@ -1,4 +1,4 @@
-#SYNTACTICALLY AWESOME STYLE SHEETS
+# SYNTACTICALLY AWESOME STYLE SHEETS
 
 ### Preprocessing
 - **Install:** ```$ npm install -g sass```
