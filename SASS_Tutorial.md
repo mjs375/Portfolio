@@ -18,14 +18,16 @@
 </tr>
 <tr>
 <td>
-<pre>
+
+```json
 {
-  "id": 1,
-  "username": "joe",
-  "email": "joe@example.com",
-  "order_id": "3544fc0"
+  "id": 5,
+  "username": "mary",
+  "email": "mary@example.com",
+  "order_id": "f7177da"
 }
-</pre>
+```
+
 </td>
 <td>
 
