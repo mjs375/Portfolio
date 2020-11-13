@@ -11,3 +11,27 @@
 ### Variables
 
 
+<table>
+  <tr>
+    <th>SCSS</th>
+    <th>CSS</th>
+  </tr>
+  <tr>
+    <td>
+    <pre>
+    ```css
+    $font-stack: Helvetia, sans-serif
+    $primary-color: #333
+    
+    body {
+      font: 100% $font-stack;
+      color: $primary-color:
+     }
+    ```
+    </pre>
+    </td>
+    <td>
+    
+    </td>
+  <tr>
+</table>
