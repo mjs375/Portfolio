@@ -102,10 +102,8 @@ nav a {
 
 
 ### Partials <=> Modules
-- Sass can be split up across files, and yet retain referenceability, using the ```@use``` rule, which loads another Sass file as a module, allowing access to its variables, &c. When you load a module, just ```@filename```, not need to add the ```.scss``` extension.
+- Sass can be split up across files, and yet retain referenceability, using the ```@use``` rule, which loads another Sass file as a module, allowing access to its variables, &c. When you load a module, just use ```@filename```, no need to add the ```.scss``` extension.
   - **Partials**: Sass files that only contain a snippet of isolated CSS, named with a leading underscore ```_partial.scss```. This naming tells Sass not to generate it into its own file (it will only be used by other, full Sass files, using the ```@use``` rule).
-
-
 
 <table><tr><th>SCSS</th><th>CSS</th></tr><tr><td>
 
@@ -148,6 +146,36 @@ body {
 
 </td></tr></table>
 
+
+
+### Mixins
+- Mixins are *groups* of CSS declarations that you can use repeatedly (still using Sass variables!).
+  - ```=transform($property)``` declares a mixin: 'transform' is the name, and the ($property) passes a variable into the mixin for use.
+  - ```@include:MIXIN_NAME``` lets you use it as a CSS declaration.
+  
+  <table><tr><th>SCSS</th><th>CSS</th></tr><tr><td>
+
+```sass
+=transform($property)
+  -webkit-transform: $property
+  -ms-transform: $property
+  transform: $property
+.box
+  +transform(rotate(30deg))
+
+```
+
+</td><td>
+
+```css
+.box {
+  -webkit-transform: rotate(30deg);
+  -ms-transform: rotate(30deg);
+  transform: rotate(30deg);
+}
+```
+
+</td></tr></table>
 
 
 
