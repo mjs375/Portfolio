@@ -32,6 +32,10 @@ I am currently a public reference librarian in New Jersey who is interested in b
 
 
 
+Skill | Level
+------|------
+Python | ★★★★☆
+Flask | ★★☆☆☆
 
 
 
@@ -73,7 +77,17 @@ Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/us
 
 
 
-## Header
+
+
+
+
+
+
+
+
+
+
+## COLLAPSE
 <details>
   <summary>Collapsible Content...</summary>
   
