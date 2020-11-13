@@ -102,7 +102,7 @@ nav a {
 
 
 ### Partials <=> Modules
-- Sass can be split up across files, and yet retain referenceability, using the ```@use``` rule, which loads another Sass file as a module, allowing access to its variables, &c.
+- Sass can be split up across files, and yet retain referenceability, using the ```@use``` rule, which loads another Sass file as a module, allowing access to its variables, &c. When you load a module, just ```@filename```, not need to add the ```.scss``` extension.
   - **Partials**: Sass files that only contain a snippet of isolated CSS, named with a leading underscore ```_partial.scss```. This naming tells Sass not to generate it into its own file (it will only be used by other, full Sass files, using the ```@use``` rule).
 
 
@@ -120,8 +120,8 @@ body
 
 ```
 ```sass
-// styles.scss
-@use 'base' //import _partial rules
+// styles.scss (import partial below):
+@use 'base' 
 
 .inverse
   background-color: base.$primary-color
