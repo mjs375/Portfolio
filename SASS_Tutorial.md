@@ -12,28 +12,32 @@
 
 
 <table>
-  <tr>
-    <th>SCSS</th>
-    <th>CSS</th>
-  </tr>
-  <tr>
-    <td>
-      <pre>
-      
-    ```css
-    $font-stack: Helvetia, sans-serif
-    $primary-color: #333
-    body {
-      font: 100% $font-stack;
-      color: $primary-color:
-     }
-    ```
-    </pre>
-    </td>
-    <td>
-    ```css
-    font-color: blue;  
-    ```
-    </td>
-  <tr>
+<tr>
+<th>Json 1</th>
+<th>Markdown</th>
+</tr>
+<tr>
+<td>
+<pre>
+{
+  "id": 1,
+  "username": "joe",
+  "email": "joe@example.com",
+  "order_id": "3544fc0"
+}
+</pre>
+</td>
+<td>
+
+```json
+{
+  "id": 5,
+  "username": "mary",
+  "email": "mary@example.com",
+  "order_id": "f7177da"
+}
+```
+
+</td>
+</tr>
 </table>
