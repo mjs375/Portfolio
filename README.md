@@ -35,7 +35,7 @@ I am currently a public reference librarian in New Jersey who is interested in b
 Skill | Level | Desc. | Misc.
 ------|-------|-------|-------
 **Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
-Flask | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>*a lightweight web framework for Python.*</details></p> | <p><details><summary>[ ]</summary>Content 1 <br> Content 2</details></p>
+**Flask** | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>*a lightweight web framework for __Python__.*</details></p> | <p><details><summary>[ ]</summary>Content 1 <br> Content 2</details></p>
 
 
 
