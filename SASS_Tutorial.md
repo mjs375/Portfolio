@@ -110,37 +110,38 @@ nav a {
 <table><tr><th>SCSS</th><th>CSS</th></tr><tr><td>
 
 ```sass
-nav
-  ul
-    margin: 0
-    padding: 0
-    list-style: none
+//_base.sass
+$font-stack: Helvetica, sans-serif
+$primary-color: #333
 
-  li
-    display: inline-block
+body
+  font: 100% $font-stack
+  color: $primary-color
 
-  a
-    display: block
-    padding: 6px 12px
-    text-decoration: none
+```
+```sass
+// styles.scss
+@use 'base' //imports partial Sass file variables (as well as its body{...} declarations)
+
+.inverse
+  background-color: base.$primary-color
+  color: white
+
 ```
 
 </td><td>
 
 ```css
-nav ul {
-  margin: 0;
-  padding: 0;
-  list-style: none;
+body {
+  font: 100% Helvetica, sans-serif;
+  color: #333;
 }
-nav li {
-  display: inline-block;
+
+.inverse {
+  background-color: #333;
+  color: white;
 }
-nav a {
-  display: block;
-  padding: 6px 12px;
-  text-decoration: none;
-}
+
 ```
 
 </td></tr></table>
