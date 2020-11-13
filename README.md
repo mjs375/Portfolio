@@ -11,17 +11,19 @@ I am currently a public reference librarian in New Jersey who is interested in b
 <hr>
 
 
-Skill | Level | Desc. | Misc.
-------|-------|-------|-------
-**Bootstrap** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
-**C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> |
+Skill | Level | Desc. | Misc. | Tags
+------|-------|-------|-------|------
+**Bootstrap** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | [Bootstrap](https://getbootstrap.com/docs/4.5/getting-started/introduction/) |
+**C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | |
 **CSS** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
 **Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
 **Flask** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a lightweight web framework for __Python__.*</details></p> | 
+**Git** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a terminal command which lets users manage versions of source-code (e.g. connect & interact with Github.com)*</details></p> |
+**Github** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a site which allows users to store & manage source-code and conduct version control.*</details></p> | 
 **HTML** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– the static structure & content of a webpage, styled by __CSS__ and made dynamic/interactive with __JS__. <br>– HyperText Markup Language (.html)*</details></p> | 
 **JavaScript** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server.*</details></p> |
 **Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
-**Python**<br>```LANG``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
+**Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
 
 
 
@@ -30,7 +32,6 @@ Skill | Level | Desc. | Misc.
 - **Programming Languages:**
       - ```★☆☆☆☆``` **SASS**: *an extension of CSS that lets you use variables ($color:red;)(p{color: $color}) and other advanced features in CSS format style more efficiently. Browsers only recognize .css, so you must 1. download Sass program, 2. run ```$ sass variables.scss:variables.css```, which will create a .css file with the variables 'hard-coded'. Run ```$ sass --watch variables.scss:variables.css``` to automatically change the .css file everytime a change is detected in the .scss file. You can also physically nest element{style} inside other elements{style}, and utilize Sass's "inheritance" feature (%somestyle)(div {@extend %somestyle}). [Syntactically Awesome Style Sheets.scss].*
 - **Programming Support, Libraries, Misc.:**
-  - **Git/Github**: *Github.com allows users to store & manage source code and conduct version control (i.e. maintain 'stable/master' branches of programs, while also developing new features in branched versions of the program, and finally, 'merging' the new, fully-debugged features into the stable branch). 'Git' is a terminal command to do these things.*
     - **Github Actions (workflows)**: *wherein certain actions are performed everytime someone pushes to a git repository (CI/CD), e.g. checking style or that units tests still pass. [.yaml/.yml]*
   - **Selenium + ChromeDriver**: *client-side testing that simulates opening a web browser and interacting with it with a Web Driver. Create a file that interacts with the webpage, running a series of accumulating tests as development advances. The file will run through the website and interact with it at computer-speed, saving time in the long run (rather than doing the full suite of accumulating tests manually).*
   - ```★☆☆☆☆``` **{WebScraping}**: *URRLLIB, BeautifulSoup, MechanicalSoup*
