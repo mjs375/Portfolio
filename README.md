@@ -14,9 +14,9 @@ I am currently a public reference librarian in New Jersey who is interested in b
 Skill | Level | Desc. | Misc.
 ------|-------|-------|-------
 **Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
-**Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*a language that allows Python functions & variables to be inserted into HTML templates used in both the __Flask__ & __Django__ frameworks.*</details></p>
+**Flask** | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>*a lightweight web framework for __Python__.*</details></p> | 
+**Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*a language that allows Python functions & variables to be inserted into HTML templates used in both the __Flask__ & __Django__ frameworks.*</details></p> |
 **Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
-**Flask** | ★★☆☆☆ |<p><details><summary>:bookmark:</summary>*a lightweight web framework for __Python__.*</details></p> | <p><details><summary>[ ]</summary>Content 1 <br> Content 2</details></p>
 
 
 
