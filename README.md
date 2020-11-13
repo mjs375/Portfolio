@@ -13,18 +13,18 @@ I am currently a public reference librarian in New Jersey who is interested in b
 
 Skill | Level | Desc. | Misc.
 ------|-------|-------|-------
+**Bootstrap** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | [Bootstrap]((https://getbootstrap.com/docs/4.5/getting-started/introduction/))
 **C** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> |
-**CSS** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c.* <br>– Cascading Style Sheets (.css)*</details></p> | 
+**CSS** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
 **Django** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> |
 **Flask** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a lightweight web framework for __Python__.*</details></p> | 
 **HTML** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– the static structure & content of a webpage, styled by __CSS__ and made dynamic/interactive with __JS__. <br>– HyperText Markup Language (.html)*</details></p> | 
 **Jinja** | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a templating-language that allows __Python__ functions & variables to be inserted into HTML templates, used in both the __Flask__ & __Django__ frameworks.*</details></p> |
 **Python** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> |
 
-
+<p><details><summary>:bookmark:</summary>*– *</details></p> |
 
 - **Programming Languages:**
-  - ```★★★☆☆``` **CSS**: *the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. [Cascading Style Sheets.css]*
       - ```★★★★☆``` **[Bootstrap CSS](https://getbootstrap.com/docs/4.5/getting-started/introduction/)**: *pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*
       - ```★☆☆☆☆``` **SASS**: *an extension of CSS that lets you use variables ($color:red;)(p{color: $color}) and other advanced features in CSS format style more efficiently. Browsers only recognize .css, so you must 1. download Sass program, 2. run ```$ sass variables.scss:variables.css```, which will create a .css file with the variables 'hard-coded'. Run ```$ sass --watch variables.scss:variables.css``` to automatically change the .css file everytime a change is detected in the .scss file. You can also physically nest element{style} inside other elements{style}, and utilize Sass's "inheritance" feature (%somestyle)(div {@extend %somestyle}). [Syntactically Awesome Style Sheets.scss].*
   - ```★★☆☆☆``` **JavaScript**: *a programming language that makes a website dynamic and interactive. Often client-side, meaning the client's web browser processes it rather than a more length web request to the web server. Along with HTML & CSS, JS completes the classic trio of web development languages. [JS.js]*
