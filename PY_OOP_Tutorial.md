@@ -1,7 +1,7 @@
 # Object-Oriented Programming (OOP)
 
 ### Programming Paradigms
-- **Object-Oriented:** *structuring of programs so that properties and behaviors are bundled into individual __objects__. Objects are the center of OOP, not just in representing data, but the overall structure of the program.*
+- **Object-Oriented:** *structuring of programs so that properties and behaviors are bundled into individual __objects__. Objects are the center of OOP, not just in representing data, but the overall structure of the program. Most modern programming languages follow OOP principles.*
   - **Object:** *represents an entity with __properties__, e.g. a Person with a Name, Age, Address, and __behaviors__ (like walking, speaking); or an Email, with properties such as a Recipient List, Subject, Body, and behaviors like adding attachments and ending.*
 - **Procedural/Functional:** *structures a program like a recipe, i.e. a series of steps in the form of functions and code blocks, which flow sequentially to complete a task.*
 
@@ -71,6 +71,7 @@ miles.speak('Bow wow') # => 'Miles says Bow wow'
 ### Inheritance
 - *when one class takes on the attributes and methods of another (child derives from parent).*
   - **Parent classes** => **Child classes**
+- **Parent class:** *all attributes & methods of the parent will be inherited by the child-class objects/instances. Importantly, any change to the parent class automatically propagates to the child class unless overridden.*
 - **Child classes:** *inherit all the attributes/methods of the parent, but can override or extend them in a way unique to themselves.*
   - **Create a Child Class:** ```class ShetlandSheepdog(Dog): pass``` => ```class ChildClass(ParentClass): pass``` *(the 'pass' because here you're simply inheriting the attributes/methods of class 'Dog')*
     - *E.g. as a child of your parent, you inherit the attribute 'hair color'– but you can override the value itself if you have brown-hair and she is blonde. Perhaps you also learn a 2nd language in addition to your mothertongue in primary school– in this case you've extended the 'language attribute'.*
@@ -104,6 +105,38 @@ print(cassie.species) # => 'Canis familiaris'
 print(eli.name) # => 'Eli'
 print(eli.speak('Woof')) # => 'Eli says Woof'
 ```
+
+### Extending
+- *Extend/override the functionality of a parent class in the child class.*
+- **Override:** *to override a method defined on a parent-class, define the method with the same name on the child-class.*
+  - *Now when you call ```.speak()``` on a child-classed Dog instance, you don't need to pass an argument of 'sound', as its value is inherent (though you can still provide it and override the child-class inherent value in the particular moment).*
+```python
+class ShetlandSheepdog(Dog): # child-class of 'Dog'
+  def speak(self, sound="Mommm..."):
+    return f"{self.name} says {sound}"
+```
+- **Parent overrides Child**: *if you change the attributes/methods of the parent, they automatically propagate to the child-class objects as well, unless otherwise overridden by the child instance.*
+```python
+class Dog:
+  # (other stuff from above is the same...)
+  def speak(self, sound): # changed
+    return f"{self.name} BARKS: {sound}"
+#
+eli.speak("Momm...") # => 'Eli BARKS: Momm...'
+eli.speak() # => 'Eli says Momm...' # NOT overridden by parent
+```
+- **Completely Orverride a Method from Parent:** *access the parent-class from inside a method of a child-class with ```super()```.*
+  - *When you call ```super().speak(sound)``` inside the child-class, Python searches for the parent-class (Dog), for a ```.speak()``` method, and calls it with the variable ```sound```.*
+```python
+class ShetlandSheepdog(Dog):
+  def speak(self, sound="arf"):
+    return super().speak(sound)
+#
+eli.speak() # => 'Eli BARKS: arf' (reflects new parent-child formatting of speak().)
+```
+
+
+
 
 
 
