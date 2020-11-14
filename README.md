@@ -58,6 +58,15 @@ Solo Projects | Tags
   - HTML, CSS, Javascript, MySQL, PHP
 - [x] **Rutgers: 559 Web Programming** *(Grade: ```A```)*
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
+- [ ] **Montclair State University: CSIT 505 Python Programming** *(unofficial course audit)*
+  - <p><details><summary>Course Description</summary>*This course covers both the fundamentals and advanced techniques of Python programming. The basic concepts including data types, expressions, classes, flow control, and debugging will be discussed. Furthermore, this class will introduce some advanced skills such as object‑oriented design, functional design, and multiple data structures such as list, dictionary, dataframe, and series. In addition, advanced topics of data science in Python will be covered. Students will learn related data structures and libraries for data collecting, cleaning, analysis, and visualization.*</details></p>
+- [ ] **Montclair State University: ________** *(unofficial course audit)*
+  -
+  
+  
+  
+  
+  
 #### Online Coursework:
 - [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
   - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
