@@ -2,6 +2,8 @@
 # # # T I C - T A C - T O E # # #
 # # # # # # # # # # # # # # # # #
 
+# $ python3 tictactoe.py
+
 import re
 import time
 import sys
@@ -26,7 +28,7 @@ def get_move(player, turn, board, move):
     ### Prompt for move
     move = input(f"What is your move, {player}?\n>>> ")
     ### Check if legal move (first time):
-    if move == "r":
+    if move == "r": # player(s) can resign(/call a draw) by declaring 'r' move
         sys.exit(f"Player {player} resigned.")
     if move in board and move != "X" and move != "0":
         return move
