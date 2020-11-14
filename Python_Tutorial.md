@@ -128,8 +128,9 @@
 - **enumerate()**: *attaches an iterator (counter) to an object*
   -```for index, value in enumerate(list/string):```
 
-<hr>
+
 ### Resources
+
 - (Python Visualizer)[http://pythontutor.com/visualize.html#mode=edit]: *runs through your code & the console, side-by-side, one-line-at-a-time, showing the values of each variable at each step and the flow of the program. Incredibly useful!*
 <hr>
 
