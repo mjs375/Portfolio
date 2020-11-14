@@ -43,7 +43,7 @@ eli = Dog('Eli', 3)
 - *__Instance methods__ are functions that are defined inside a class and can only be called from an instance of that class. Just like ```__init__(self, a, b)```, an instance method's first parameter is always ```self```.*
   - *A common and useful instance method is to have something which returns a a 'description' of that instance/object.*
     - ```print(miles)``` => ```<__main__.Dog object at 0x00aeff70>``` *(non-useful memory address)*
-    - ```print(miles)``` => ```'Miles is 4 years old'``` *(output IF __str__ is set)*
+    - ```print(miles)``` => ```'Miles is 4 years old'``` *(output IF \__str__ is set)*
     
 ```python
 class Dog
