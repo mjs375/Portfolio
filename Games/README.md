@@ -1,6 +1,6 @@
 # G A M E S
 
-
+- *Below are some examples of games that I have developed, made from scratch without tutorials (so probably room for improvement!)*
 
 
 Game | Tags | Description | Link
