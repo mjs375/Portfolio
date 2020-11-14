@@ -44,6 +44,7 @@ eli = Dog('Eli', 3)
   - *A common and useful instance method is to have something which returns a a 'description' of that instance/object.*
     - ```print(miles)``` => ```<__main__.Dog object at 0x00aeff70>``` *(non-useful memory address)*
     - ```print(miles)``` => ```'Miles is 4 years old'``` *(output IF \__str__ is set)*
+ - **Dunder Methods:** *these methods begin and end with double underscores(\__), like ```__init__()``` and ```__str__()```, and are special.*
     
 ```python
 class Dog
