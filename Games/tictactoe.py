@@ -1,7 +1,7 @@
+# # # # # # # # # # # # # # # # #
+# # # T I C - T A C - T O E # # #
+# # # # # # # # # # # # # # # # #
 
-                    # # # # # # # # # # # # # # # # #
-                    # # # T I C - T A C - T O E # # #
-                    # # # # # # # # # # # # # # # # #
 """
 Usage: $ python3 tictactoe.py
     - [x] Version 1.0: 2-player mode.
