@@ -15,7 +15,17 @@
   - **Class vs. Instance:** *the Class is the blueprint, the 'idea' of a dog (that a Dog has a name, age, breed); an Instance is one actual Dog (Spot, age 3, dalmatian).*
 
 #### Defining a Class
--
+- **Properties:** ```.__init__()``` *method defines all properties that an object of its class must have. Everytime an Object of a Class is initialized, ```.__init__()``` sets initial states for the object by assigning values (any number of parameters, but the first is always ```self```, which helps define attributes on itself).*
+- **Instance Attributes:** *created in ```.__init__()```, and are particular to each particular object instance (one dog is named Spot, another Grover).*
+- **Class Attributes:** *attributes that have the same value for all instances of the class. Define them by assigning a value to a variable outside of ```.__init__()``` (below the class definition). They must always have an initial value, as all instances of the class are automatically assigned these values.*
+
+```python
+class PetDog: # name classes in this way: class ClassName
+  species = "Canis familiaris" # class attribute
+  def __init__(self, name, age): # method, creating attributes
+    self.name = name # creates 'name' attribute, assigns it to the value of the 'name' parameter
+    self.age = age # instance attribute
+```
 
 
 
