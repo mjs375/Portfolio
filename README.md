@@ -1,7 +1,7 @@
 # P O R T F O L I O
 ### About Me:
 - I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field. My formal experience includes courses during my Rutgers University graduate program, an internship at Milne Library, SUNY Geneseo that included proofreading & editing XML code for the *Digital Thoreau* project, and finally, ongoing, self-directed coursework from Harvard as well as online programming practice, e.g. Codewars.
-  - *...*
+  - *[Email me](spitzer.matthewjames@gmail.com)*
 
 ### Languages / Tools Experienced In:
 - **SQLite**: *a light-weight relational database used in Django (rarely used in production) [Structured Query Language]*
