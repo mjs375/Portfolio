@@ -18,14 +18,28 @@
 - **Properties:** ```.__init__()``` *method defines all properties that an object of its class must have. Everytime an Object of a Class is initialized, ```.__init__()``` sets initial states for the object by assigning values (any number of parameters, but the first is always ```self```, which helps define attributes on itself).*
 - **Instance Attributes:** *created in ```.__init__()```, and are particular to each particular object instance (one dog is named Spot, another Grover).*
 - **Class Attributes:** *attributes that have the same value for all instances of the class. Define them by assigning a value to a variable outside of ```.__init__()``` (below the class definition). They must always have an initial value, as all instances of the class are automatically assigned these values.*
-
 ```python
 class PetDog: # name classes in this way: class ClassName
-  species = "Canis familiaris" # class attribute
+  species = "Canis familiaris" # class attribute (value same in all objects of class Dog)
   def __init__(self, name, age): # method, creating attributes
     self.name = name # creates 'name' attribute, assigns it to the value of the 'name' parameter
-    self.age = age # instance attribute
+    self.age = age # instance attribute (value particular in each class Dog instance)
 ```
+
+#### Instantiating a Class Object
+- **Creating a New Object:** ```Dog()``` => *creating an instance is called __instantiation__. Type the name of the class like this: Class(). Each instance is totally unique and stored in a different memory address (even 2 instances like 'a=Dog()' and 'b=Dog()', which are both 'empty' of attributes because in this case there are no attributes inside 'Dog')*
+- **Providing Values:** *you need to provide values for each instance attribute, or else you will encounter a ```TypeError```.*
+```python
+cassie = Dog('Cassie', 12) # creates an instance of Dog 
+eli = Dog('Eli', 3) 
+```
+- **Access Attributes:** *use __dot notation__ to access a particular attribute of any object (a class attribute or an instance attribute).*
+  - ```cassie.age``` => ```12```
+  - ```eli.species``` => ```Canis familiaris```
+- **Changing an Object's Attributes:** *attributes are guaranteed to exist for each instance of a class object. But, you can still change them. Objects are __mutable__!*
+  - ```cassie.age = 13 #`changed from '12'```
+
+
 
 
 
