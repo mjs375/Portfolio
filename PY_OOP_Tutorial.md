@@ -65,11 +65,47 @@ miles = Dog('miles', 4) # instantiate an object of class Dog
 miles.description() # => 'Miles is 4 years old'
 miles.speak('Woof Woof!') # => 'Miles says Woof Woof!'
 miles.speak('Bow wow') # => 'Miles says Bow wow'
-
-  
-  
-
 ```
+
+
+### Inheritance
+- *when one class takes on the attributes and methods of another (child derives from parent).*
+  - **Parent classes** => **Child classes**
+- **Child classes:** *inherit all the attributes/methods of the parent, but can override or extend them in a way unique to themselves.*
+  - **Create a Child Class:** ```class ShetlandSheepdog(Dog): pass``` => ```class ChildClass(ParentClass): pass``` *(the 'pass' because here you're simply inheriting the attributes/methods of class 'Dog')*
+    - *E.g. as a child of your parent, you inherit the attribute 'hair color'– but you can override the value itself if you have brown-hair and she is blonde. Perhaps you also learn a 2nd language in addition to your mothertongue in primary school– in this case you've extended the 'language attribute'.*
+- **type(obj)**: *determine which class an object belongs to*
+  - ```type(eli)``` => ```<class '__main__.BorderCollie'>```
+- **isinstance(obj, class)**: *determine if an object is an instance of a particular class (returns True or False)*
+  - *e.g. Cassie & Eli are both instances of the 'Dog' parent-class, but not equivalent in child-class type.*
+```python
+class Dog # PARENT CLASS
+  species = "Canis familiaris"
+  def __init__(self, name, age):
+    self.name = name
+    self.age = age
+  def __str__(self):
+    return f"{self.name} is {self.age} years old"
+  def speak(self, sound):
+    return f"{self.name} says {sound}"
+
+class ShetlandSheepdog(Dog): # CHILD CLASS (inherits from 'Dog')
+  pass # simply inheriting attributes/methods of parent-class Dog
+
+class BorderCollie(Dog):
+  pass
+
+# Instantiate some child-class dogs
+cassie = ShetlandSheepdog('Cassie', 10)
+eli = BorderCollie('Eli', 3)
+
+# Test inheritance
+print(cassie.species) # => 'Canis familiaris'
+print(eli.name) # => 'Eli'
+print(eli.speak('Woof')) # => 'Eli says Woof'
+```
+
+
 
 
 
