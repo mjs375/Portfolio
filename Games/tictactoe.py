@@ -1,8 +1,13 @@
 # # # # # # # # # # # # # # # # #
 # # # T I C - T A C - T O E # # #
 # # # # # # # # # # # # # # # # #
+"""
+Usage: $ python3 tictactoe.py
+    - [x] Version 1.0: 2-player mode.
+    - [ ] Version 1.1: 1-player mode, vs. random AI... TODO
+    - [ ] Version 1.2: Improved command-line graphics of board game... TODO
 
-# $ python3 tictactoe.py
+"""
 
 import re
 import time
