@@ -6,8 +6,8 @@
 Usage: $ python3 tictactoe.py
     - [x] Version 1.0: 2-player mode.
     - [x] Version 1.1: Added (dumb) AI 1-player mode, improved efficiency of check_win f(x)
-    - [ ] Version 1.2: Only check_win for player of that turn (needless inefficiency)
-    - [ ] Version 1.2: Improved command-line graphics of board game... TODO
+    - [x] Version 1.2: Improved console printout of board. Added 'cheat'. Xs/0s are now emoji
+    - [ ] Version 1.?: 
 
 """
 
@@ -15,9 +15,12 @@ import re           # re.search, re.sub
 import time         # time.sleep
 import sys          # sys.exit, sys.argv
 import random       # random.choice
-
-players = {1:"X", -1:"0"} # dict of turn/players
+#
+players = {1:"💩", -1:"👺"} # dict of turn/players(piece)
 AI_moves = ['7','8','9','4','5','6','1','2','3'] # for 1-player
+
+
+
 
 def game_mode(mode):
     if mode == "1" or mode == "2":
@@ -32,7 +35,13 @@ def game_mode(mode):
 #
 # # # Display the gameboard in the console:
 def print_board(board):
-    print("", board[:3], "\n", board[3:6], "\n", board[6:])
+    time.sleep(0.5)
+    #print("", board[:3], "\n", board[3:6], "\n", board[6:])
+    print(" ",board[0]," | ", board[1]," | ",board[2])
+    print("----------------")
+    print(" ",board[3]," | ", board[4]," | ",board[5])
+    print("----------------")
+    print(" ",board[6]," | ", board[7]," | ",board[8])
     time.sleep(0.5)
 #
 #
@@ -49,6 +58,8 @@ def get_move(player, turn, board, move):
     ### Check if legal move (first time):
     if move == "r": # player(s) can resign(/call a draw) by declaring 'r' move
         sys.exit(f"Player {player} resigned.")
+    if move == "cheat":
+        sys.exit(f"Player {player} cheated! They win!")
     if move in board and move != "X" and move != "0":
         AI_moves.remove(move) # remove move from AI's next possible moves
         return move
@@ -135,7 +146,7 @@ def game():
         ### Check for win conditions:
         winner = win_check(board, turn)
         ### Check for winner:
-        if winner == "X" or winner == "0":
+        if winner == players.get(1) or winner == players.get(-1):
             print(f"The winner is {winner}!")
             sys.exit()
         ### Rinse & Repeat!
@@ -153,7 +164,6 @@ def game():
 #
 # # # Get game mode:
 try:
-    print("X",sys.argv[1])
     mode = game_mode(sys.argv[1])
 except:
     mode = ""
@@ -179,3 +189,4 @@ TESTER:
 - Check full code: press 'l'
 - Check variable value: press 'p' + 'variable_name'
 """
+
