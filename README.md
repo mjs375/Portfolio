@@ -59,7 +59,8 @@ Solo Projects | Tags
 - [x] **Rutgers: 559 Web Programming** *(Grade: ```A```)*
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
 - [ ] **Montclair State University: CSIT 505 Python Programming** *(unofficial course audit)*
-  - <p><details><summary>Course Description</summary>*This course covers both the fundamentals and advanced techniques of Python programming. The basic concepts including data types, expressions, classes, flow control, and debugging will be discussed. Furthermore, this class will introduce some advanced skills such as object‑oriented design, functional design, and multiple data structures such as list, dictionary, dataframe, and series. In addition, advanced topics of data science in Python will be covered. Students will learn related data structures and libraries for data collecting, cleaning, analysis, and visualization.*</details></p>
+  - *<p><details><summary>Course Description</summary>This course covers both the fundamentals and advanced techniques of Python programming. The basic concepts including data types, expressions, classes, flow control, and debugging will be discussed. Furthermore, this class will introduce some advanced skills such as object‑oriented design, functional design, and multiple data structures such as list, dictionary, dataframe, and series. In addition, advanced topics of data science in Python will be covered. Students will learn related data structures and libraries for data collecting, cleaning, analysis, and visualization.</details></p>*
+  - Projects:
 - [ ] **Montclair State University: ________** *(unofficial course audit)*
   -
   
@@ -78,7 +79,6 @@ Solo Projects | Tags
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
   - Harvard free online statistics course
-- [ ] **Montclair University: ______** *(Audit)*
   
 ### Free Courses:
   - [ ] [Free Ivy League Courses](https://www.classcentral.com/collection/ivy-league-moocs?subject=cs)
