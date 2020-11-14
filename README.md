@@ -1,6 +1,6 @@
 # P O R T F O L I O
 ### About Me:
-- I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field. My formal experience includes courses during my Rutgers University graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (SUNY Geneseo) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard as well as online programming practice, e.g. Codewars.
+- I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field. My formal experience includes courses during my Rutgers University graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (SUNY Geneseo) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard (its cs50 series), as well as online programming practice, e.g. Codewars.
   - Email: *spitzer.matthewjames@gmail.com*
 
 ### Languages / Tools Experienced In:
