@@ -60,7 +60,6 @@ Solo Projects | Tags
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
 - [ ] **Montclair State University: CSIT 505 Python Programming** *(```ungraded audit```)*
   - Projects:
-- [ ] **Montclair State University: ________** *(unofficial course audit)*
   -
   
   
