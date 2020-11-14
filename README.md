@@ -77,11 +77,12 @@ Solo Projects | Tags
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
   - Harvard free online statistics course
-  
 ### Free Courses:
   - [ ] [Free Ivy League Courses](https://www.classcentral.com/collection/ivy-league-moocs?subject=cs)
 - [ ] **[MIT OpenCourseWare: Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/)**
 - [ ] **[MIT OpenCourseWare: Introduction to C and C++](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/)**
+### Books & Guides
+- [ ] [Pep 8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/#maximum-line-length)
 
 ## Codewars-Kata
 Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375). *Note: Codewars 'kyu' levels are from 8 (easiest) to 1 (hardest).*
