@@ -131,7 +131,7 @@
 
 ### Resources
 
-- (Python Visualizer)[http://pythontutor.com/visualize.html#mode=edit]: *runs through your code & the console, side-by-side, one-line-at-a-time, showing the values of each variable at each step and the flow of the program. Incredibly useful!*
+- [Python Visualizer](http://pythontutor.com/visualize.html#mode=edit): *runs through your code & the console, side-by-side, one-line-at-a-time, showing the values of each variable at each step and the flow of the program. Incredibly useful!*
 <hr>
 
 # P Y T H O N  •  A D V A N C E D 
