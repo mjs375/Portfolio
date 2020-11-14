@@ -42,7 +42,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 
 
 
-Solo Projects |
+Solo Projects | Tags
 --------------|------
 [Tic-Tac-Toe](https://github.com/mjs375/Coding-Gymnasium/blob/main/Games/tictactoe.py) |
 
