@@ -117,10 +117,9 @@ def win_check(board, turn):
             return piece
 
     return ""
-
-
-
-# ## ### #### ##### ###### ##### #### ### ## #
+#
+#
+#
 # # # Each step in game, looped until game-over:
 def game():
     # # # Starting variables:
@@ -179,7 +178,7 @@ print("Start!")
 time.sleep(0.3)
 
 
-game()
+game() #_>--RUN THE GAME--<_#
 
 
 """
