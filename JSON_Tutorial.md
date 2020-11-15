@@ -46,9 +46,14 @@ data = {
 ```
 ```python
 with open("data_file.json", "w") as write_file:
-  json.dump(data, write_file)
+  json.dump(data, write_file) 
+#
+json_string = json.dumps(data) # if inclined to continue using JSON data...
 ```
-
+- **```.dump(a, b)```:** *method for writing data to JSON files*
+  - 'a': *data object to be serialized*
+  - 'b': *filelike object to write bytes to*
+- **```.dumps()```:** *writing to a Python string*
 
 
 
