@@ -35,6 +35,24 @@ True | true
 False | false
 None | null
 
+### Writing a JSON File
+```python
+data = {
+  "president": {
+    "name": "Barack Obama",
+    "term": 44
+    }
+} # this information needs to be saved/stored!
+```
+```python
+with open("data_file.json", "w") as write_file:
+  json.dump(data, write_file)
+```
 
+
+
+
+
+<hr>
 
 [Source](https://realpython.com/python-json/)
