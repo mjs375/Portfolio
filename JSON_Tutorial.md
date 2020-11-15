@@ -24,6 +24,7 @@
 ### Using JSON in Python
 - **```import json```**: *JSON is Python-native, and can be encoded / decoded easily.*
   - **Encoding:** *aka __serialization__, or the transformation of data into a 'series of bytes' to be stored/transmitted. (Decoding = 'deserialization'.)*
+  
 Python | JSON
 -------|------
 dict | object
