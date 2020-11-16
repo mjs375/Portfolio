@@ -2,14 +2,9 @@
 ### About Me:
 - I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field. My formal experience includes courses during my Rutgers University graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (SUNY Geneseo) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard *(CS50 series)*, as well as online programming practice, e.g. Codewars and miscellaneous solo projects, such as forays into Webscraping and game design. This spring I will be taking gradaute-level courses from Montclair State University (*ungraded, unofficial audits*).
   - Email: *spitzer.matthewjames@gmail.com*
-- This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on..
-
-### Languages / Tools Experienced In:
-- WebScraping:
-- ```★★★★☆``` **Microsoft Excel**: *a spreadsheet program to collect and sort data, make calculations, create charts & graphs, and conduct analysis using Excel functions.*  
+- This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on. *Note: the 'Tutorials' folder simply contains near-verbatim, personal notes taken from online sources (cited within), they are not my own and are merely for study/practice purposes.*
  
 <hr>
-
 
 Skill | Level | Desc. | Tutorial | Projects | Doc
 ------|-------|-------|----------|----------|-----
@@ -19,6 +14,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 **CSS**<br>```lang``` | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
 **Docker** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– provides the ability to package and run an application inside a discreet environment/container.*</details></p> |
 **Django**<br>```framework``` ```python``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> | | | [:information_source:](https://docs.djangoproject.com/en/3.1/)
+**Microsoft Excel**<br>```spreadsheet``` ```db```  | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a common office spreadsheet program to collect and sort data, make calculations and do analysis, design charts, &c.*</details></p> | 
 **File Handling**<br>```json``` ```csv``` | | | | |
 **Flask**<br>```framework``` ```python```  | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a lightweight web framework for __Python__.*</details></p> | 
 **Git** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a series of terminal commands (add, commit, merge, branch, checkout...) which lets users manage versions of source-code (e.g. connect & interact with Github.com)*</details></p> |
