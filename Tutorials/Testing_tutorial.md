@@ -11,7 +11,8 @@
 
 ```python
 def square(x):
-  return x + x   # <- BUG
+  return x + x   # <- BUG 
+  # return x * x # <- fixed code
 assert square(10) == 100
 ```
 
