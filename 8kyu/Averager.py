@@ -1,4 +1,9 @@
 def get_average(marks):
+    return sum(marks) // len(marks)
+
+# # # # # # # # # # # # # # # # # #
+
+def get_average(marks):
     sum, count = 0, 0
     for mark in marks:
         sum += mark
