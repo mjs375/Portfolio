@@ -3,7 +3,7 @@
 - I am currently a public reference librarian in **```New Jersey```** who is interested in branching out to the programming field. My formal experience includes courses during my **```Rutgers University```** graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (**```SUNY Geneseo```**) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard's **```CS50 series```**, as well as online programming practice, e.g. **```Codewars```** and miscellaneous solo projects, such as forays into Webscraping and game design. This spring I will be taking graduate-level courses from **```Montclair State University```** (*ungraded, unofficial audits*).
   - Email: *spitzer.matthewjames@gmail.com*
   - Résumé: TBD
-- This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. The chart below is simply a rough outline of my experience, the skill levels are all relative (indeed that of a beginner). Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on. *Note: the 'Tutorials' folder simply contains near-verbatim, personal notes taken from online sources (cited within), they are not my own and are merely for study/practice purposes.*
+- This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. The chart below is simply a rough outline of my experience, the skill levels are all between Beginner to Intermediate. Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on. *Note: the 'Tutorials' folder simply contains near-verbatim, personal notes taken from online sources (cited within), they are not my own and are merely for study/practice purposes.*
  
 <hr>
 
@@ -31,7 +31,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 **WebScraping**<br> ```BeautifulSoup``` ```MechanicalSoup``` | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– programs that harvest data from websites, using a variety of tools and libraries.<br>– Beautiful Soup<br>– Mechanical Soup<br>– urllib*</details></p> |
 **Workflows**<br> ```Github``` ```.yml``` | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– wherein certain actions are automated, e.g. __Github Actions__ performing program tests every time a version is pushed to the remote repository.<br>– (.yml/.yaml)*</details></p> |
 
-<p><details><summary>Skill Levels</summary>- ☆☆☆☆☆: aware of, want to learn<br>- ★☆☆☆☆: learned in lesson<br>- ★★☆☆☆: exercise practice<br>- ★★★☆☆: used for a big project<br>- ★★★★☆: used all the time/utilized in many projects<br>- ★★★★★: extremely confident, advanced level</details></p>
+<p><details><summary>Skill Levels</summary>- ☆☆☆☆☆: aware of, want to learn<br>- ★☆☆☆☆: learned in lesson<br>- ★★☆☆☆: exercise practice<br>- ★★★☆☆: used for a big project<br>- ★★★★☆: used all the time/utilized in many projects<br>- ★★★★★: extremely confident, intermediate level</details></p>
 
 
 - **Programming Languages:**
