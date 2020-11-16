@@ -1,0 +1,14 @@
+# Testing
+
+### Print()
+- *the simplest debugger/tester, simply print out various variables/results at various points in your code in order to ensure it is acting as you want and, if not, you can diagnose where and why it is misbehaving.*
+  - ```print(f"Variable 'x' was squared to {answer}."
+  
+### Try/Except
+
+
+### Assert
+```python
+
+```
+
