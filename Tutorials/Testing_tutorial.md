@@ -1,8 +1,27 @@
 # TESTING & DEBUGGING
 
+## Manual Tests
+
 ### ```Print()```
 - *the simplest debugger, simply place several ```print()``` statements in your code to examine the computations at each step of your program to ensure it is behaving as you want.*
   - ```print(f"Variable 'x' at step 3 is {x}."```
+  
+### Python Interpreter
+- ``` $ python3```: *pull up the Python interpreter, where you can run or write Python code.*
+- ``` $ from prime import is_prime```: *import your own functions [is_prime() from prime.py] to test.*
+  - ```quit()```: *exit the interpreter*
+```bash
+mjs $ python3
+Python 3.8.2 (...)
+>>> from square import square
+>>> square(10)
+100
+>>>
+```  
+
+
+
+
 
 ### ```Assert```
 - *the assert command tests whether a given function (and supplied parameters) evaluates to ```True```. If it does, nothing will happen, but if it is ```False```, an exception will be thrown.*
@@ -28,6 +47,22 @@ Traceback (most recent call last):
 </td></tr></table>
 
 
+### Test-Driven Development
+- *every time you fix a bug (or add a new feature)*
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -42,21 +77,14 @@ Traceback (most recent call last):
 <hr>
 <hr>
 
-- **Print**: *print a message with a msg and a variable to check if the variable is as expected. Print() at each step of a function to locate where the bug is. The simplest debugger.*
-  - ```print(f"Message {variable}...")```
+
   
 - ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
   - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
   - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
+ 
   
-- **Assert**: *Assert will be ignored if its statement is True; but if False, it will stop the program and throw out an exception, 'Traceback: ... line #... AssertionError', thus signaling the location of the bug in the code.*
-  - ```assert square(10) == 100```
-  
-- **Python Interpreter**: *type ```$ python``` into the terminal to pull up the Python interpreter, where you can run/write Python code. To use a function inside your program, import the function, then call the function. To quit: ```quit()```.*
-  - ```$ python``` = > ```>>>    ```
-  - ```>>> from prime import is_prime``` *(where file prime(.py) contains func is_prime(n).)*
-  - ```>>> is_prime(5)``` => ```True``` *(is_prime takes 1 parameter, 'n', and returns True/False)*
-  
+
 - **Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses. Run the test.py file from the Python interpreter to easily provide some input parameters (thing to test) and some expected values (what it should equal/return).*
   - ```$ python``` *open the Python interpreter*
   - ``` >>> from tests import test_function``` *import the test_function*
