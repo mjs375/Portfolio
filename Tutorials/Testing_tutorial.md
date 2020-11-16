@@ -4,6 +4,20 @@
 - *the simplest debugger, simply place several ```print()``` statements in your code to examine the computations at each step of your program to ensure it is behaving as you want.*
   - ```print(f"Variable 'x' at step 3 is {x}."```
 
+### ```Assert```
+- *the assert command tests whether a given function (and supplied parameters) evaluates to ```True```. If it does, nothing will happen, but if it is ```False```, an exception will be thrown.*
+```python
+def square(x):
+  return x + x   # <- BUG
+assert square(10) == 100
+```
+
+
+
+
+
+
+
 
 <hr>
 <hr>
