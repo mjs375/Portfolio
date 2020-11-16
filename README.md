@@ -5,6 +5,10 @@
   - Résumé: TBD
 - This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. The chart below is simply a rough outline of my experience, the skill levels are all between Beginner to Intermediate. Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on. *Note: the 'Tutorials' folder simply contains near-verbatim, personal notes taken from online sources (cited within), they are not my own and are merely for study/practice purposes.*
  
+TODO:
+ - [ ] API/json practice
+ - [ ] Testing practice
+ 
 <hr>
 
 Skill | Level | Desc. | Tutorial | Projects | Doc
