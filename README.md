@@ -2,10 +2,9 @@
 ### About Me:
 - I am currently a public reference librarian in New Jersey who is interested in branching out to the programming field. My formal experience includes courses during my Rutgers University graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (SUNY Geneseo) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard *(CS50 series)*, as well as online programming practice, e.g. Codewars.
   - Email: *spitzer.matthewjames@gmail.com*
+- This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on..
 
 ### Languages / Tools Experienced In:
-- **SQLite**: *a light-weight relational database used in Django (rarely used in production) [Structured Query Language]*
-  - **Postgres**: **
 - WebScraping:
 - ```★★★★☆``` **Microsoft Excel**: *a spreadsheet program to collect and sort data, make calculations, create charts & graphs, and conduct analysis using Excel functions.*  
  
@@ -31,6 +30,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 **React.js** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– a JavaScript library*</details></p> |
 **SASS**<br>```css``` ```extension``` | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– an extension of CSS that allows the user of variables and other advanced features like inheritance when creating large, complicated stylesheets.<br>– Syntactically Awesome StyleSheets (.scss)*</details></p> | [Syntax Guide](https://github.com/mjs375/Coding-Gymnasium/blob/main/SASS_Tutorial.md) | | [:information_source:](https://sass-lang.com/)
 **Selenium** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– a portable framework for testing programs*</details></p> |
+**SQL**<br>```db``` | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a relational database. Most familiar with SQLite, Django's built-in DB during production.*</details></p> |
 **WebScraping**<br> ```BeautifulSoup``` ```MechanicalSoup``` | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– programs that harvest data from websites, using a variety of tools and libraries.<br>– Beautiful Soup<br>– Mechanical Soup<br>– urllib*</details></p> |
 **Workflows**<br> ```Github``` ```.yml``` | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– wherein certain actions are automated, e.g. __Github Actions__ performing program tests every time a version is pushed to the remote repository.<br>– (.yml/.yaml)*</details></p> |
 
