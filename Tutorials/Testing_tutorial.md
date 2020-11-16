@@ -6,11 +6,30 @@
 
 ### ```Assert```
 - *the assert command tests whether a given function (and supplied parameters) evaluates to ```True```. If it does, nothing will happen, but if it is ```False```, an exception will be thrown.*
+
+<table><tr><th>Python</th><th>Console</th></tr><tr><td>
+
 ```python
 def square(x):
   return x + x   # <- BUG
 assert square(10) == 100
 ```
+
+</td><td>
+
+```terminal
+Traceback (most recent call last):
+  File "assert.py", line 3, in <module>
+    assert square(10) == 100
+  AssertionError
+```
+
+</td></tr></table>
+
+
+
+
+
 
 
 
