@@ -1,7 +1,6 @@
 # TESTING & DEBUGGING
 
 ## Manual Tests
--
 
 ### ```Print()```
 - *the simplest debugger, simply place several ```print()``` statements in your code to examine the computations at each step of your program to ensure it is behaving as you want.*
@@ -20,12 +19,8 @@ Python 3.8.2 (...)
 >>>
 ```  
 
-
-
-
-
 ### ```Assert```
-- *the assert command tests whether a given function (and supplied parameters) evaluates to ```True```. If it does, nothing will happen, but if it is ```False```, an exception will be thrown.*
+- *the assert command tests whether a given function (and supplied parameters) evaluates to ```True```. If it does, nothing will happen, but if it is ```False```, an exception will be thrown. Toss a few of these at the end of your function with some random tests and known tricky-cases to check each time you run the program.*
 
 <table><tr><th>Python</th><th>Console</th></tr><tr><td>
 
@@ -48,15 +43,34 @@ Traceback (most recent call last):
 </td></tr></table>
 
 
-### Test-Driven Development
-- *every time you fix a bug (or add a new feature)*
+## Test-Driven Development
+- *every time you fix a bug (or add a new feature), why not automatically test the program with a growing collection of tests? Not only do you only have to write the test once, you keep stacking tests to ensure your program is air-tight, even as it gets more complicated (don't lose earlier capabilities when developing new features accidentally!)*
 
+### ```Test.py```
+-
 
+<table><tr><th>Python</th><th>Console</th></tr><tr><td>
 
+```python
+from prime import is_prime # your own function in file prime.py
 
+def test_prime(n, expected):
+  if is_prime(n) != expected:
+    print(f"ERROR on is_prime({n}), expected {expected}")
+```
 
+</td><td>
+  
+```bash
+$ python3
+>>> test_prime(5, True)
+>>> test_prime(10, False)
+>>> test_prime(25, False)
+ERROR on is_prime(25), expected False
+>>>
+```
 
-
+</td></tr></table>
 
 
 
