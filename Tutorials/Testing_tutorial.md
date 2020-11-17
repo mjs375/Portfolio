@@ -1,6 +1,7 @@
 # TESTING & DEBUGGING
 
 ## Manual Tests
+-
 
 ### ```Print()```
 - *the simplest debugger, simply place several ```print()``` statements in your code to examine the computations at each step of your program to ensure it is behaving as you want.*
