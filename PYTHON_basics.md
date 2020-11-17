@@ -121,6 +121,9 @@
 - **Lambda f(x)**: *a small, anonymous function with exactly 1 expression (but any number of arguments/inputs)*
   - ```lambda arguments : expression```
     - ```x = lambda a : a + 10``` > ```print(x(5))```
+- **Type Hinting**: *a form of program documentation (comments) that tell you what a function is expected to receive (parameters) and what it will output (return).*
+  - ```def hello_name(name: str) -> str:   return(f"Hello {name}.")
+  
 
 ## USEFUL FUNCTIONS:
 - **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive). Negative step number will go from the end to the beginning of the range.*
@@ -129,10 +132,7 @@
   -```for index, value in enumerate(list/string):```
 
 
-### Resources
 
-- [Python Visualizer](http://pythontutor.com/visualize.html#mode=edit): *runs through your code & the console, side-by-side, one-line-at-a-time, showing the values of each variable at each step and the flow of the program. Incredibly useful!*
-<hr>
 
 
 
