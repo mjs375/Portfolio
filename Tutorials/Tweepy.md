@@ -18,6 +18,7 @@ import tweepy #
  
  # Create a Tweet
  api.update_status("Hello Tweepy")
+ ```
  
  ### TWITTER API
  - Twitter's API lets developers access most of Twitter's functionality: read and write information related to Twitter entities such as tweets, users, and trends (and more: likes, DMs, media...)
