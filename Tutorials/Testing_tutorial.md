@@ -7,7 +7,7 @@
   - ```print(f"Variable 'x' at step 3 is {x}."```
 
 
-### ```Try``` / ```Except``` (/ ```Finally```)
+### ```Try``` / ```Except``` / ( ```Finally```)
 
 - ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
   - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
@@ -81,34 +81,8 @@ ERROR on is_prime(25), expected False
 *We can still do better– every time you fix a bug (or add a new feature), why not automatically test the program with a growing collection of tests? Not only do you only have to write the test once, you keep stacking tests to ensure your program is air-tight, even as it gets more complicated (don't lose earlier capabilities when developing new features accidentally!)*
 
 ### Shell Script
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<hr>
-<hr>
-
-
-  
-
-  
-
+- *Automate many command-line tests at once in a shell script (```filename.sh```), which enables you to run a series of terminal commands in one click.*
+  - You'll need: ```function.py``` + ```test.py``` + ```tests.sh```
 
   
 - **Shell Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one. ```python3``` is which version of Python, ```-c``` means we intend to run a command, and the ```"..."``` includes the command in a string format*
