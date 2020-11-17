@@ -125,7 +125,13 @@ class Animal:
 
 
 ### Package and Module Docstrings
-
+- *Package docstrings are put at the top of the package's ```__init__.py``` file, and should list the __modules__ and __sub-packages__ exported by the package.*
+  - Package Docstring Includes: *briefly describe the module, list any classes, exceptions, functions, &c. exported by the module.*
+  - Module Function Docstring Includes: *briefly describe the function, any arguments (requirements, optional), any exceptions raised, any resitrctions on when the function can be called.*
+  
+### Script Docstrings
+- Scripts are considered single-file executables run from the console.
+  - Script Docstrings should be placed at the top of the file and ...
 
 
 
