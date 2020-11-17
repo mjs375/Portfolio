@@ -92,9 +92,11 @@ ERROR on is_prime(25), expected False
 ### Shell Script
 - *Automate many command-line tests at once in a shell script (```filename.sh```), which enables you to run a series of terminal commands in one click.*
   - You'll need: ```function.py``` + ```test.py``` + ```tests.sh```.
-  - Run the Shell Script: ```$ ./tests.sh```
-    - *The shell script will run the test file many times (each with a different input parameter & expected result), which in turn will import the actual function from the original file with the actual program.*
-- *The terminal will print the same "ERROR on..." statement written in ```test.py``` however many times the test fails (the shell script is literally just running the ```test.py``` file multiple times).*
+    - Run the Shell Script: ```$ ./tests.sh```
+  - *The shell script will run the test file many times (each with a different input parameter & expected result), which in turn will import the actual function from the original file with the actual program.*
+- *The terminal will print the exact same "ERROR on..." statement written in ```test.py``` however many times the test fails (the shell script is literally just running the ```test.py``` file multiple times).*
+  - *If you get ```Permission Denied```, you may need to change file permissions:*
+    - ```$ cd path/to/file```, ```chmod +x filename```: *gives you run permissions*
 ```shell
 python3 -c "from tests import test_prime; test_prime(1, False)"
 python3 -c "from tests import test_prime; test_prime(2, True)"
