@@ -47,7 +47,7 @@ Traceback (most recent call last):
 - *every time you fix a bug (or add a new feature), why not automatically test the program with a growing collection of tests? Not only do you only have to write the test once, you keep stacking tests to ensure your program is air-tight, even as it gets more complicated (don't lose earlier capabilities when developing new features accidentally!)*
 
 ### ```Test.py```
--
+- *Write a ```test.py``` file that runs ```function()``` inside a ```test_function()```, and, if the input does not equal the expected result, return a print statement. Then call up the python interpreter to run the test as many times as you like.*
  
 <table><tr><th>Test.py</th><th>Python Interpreter (console)</th></tr><tr><td>
 
@@ -101,18 +101,7 @@ ERROR on is_prime(25), expected False
  
   
 
-- **Test-Driven Development**: *everytime you fix a bug, you add a test that checks for that bug to a growing list of bug-tests. Thus, anytime you add an additional feature, you run the tests and check for any bug-relapses. Run the test.py file from the Python interpreter to easily provide some input parameters (thing to test) and some expected values (what it should equal/return).*
-  - ```$ python``` *open the Python interpreter*
-  - ``` >>> from tests import test_function``` *import the test_function*
-  - ``` >>> test_function(5, True)``` *run the test_function (which itself runs the original function), giving it an input and expected return value.*
-  - *if n!= expected:* ```ERROR on...``` *if the return != expected, then a message will be printed*
-``` 
-<<tests.py>> #test file_name
-from <file> import <func> #import the func to run tests on (original program)
-  def test_function(n, expected):
-  if func(n) != expected: # checks: does func(n) return what we expect?
-    print(f"ERROR on func({n}), expected {expected}") # print statement when expected is not met
-```
+
   
 - **Shell Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one. ```python3``` is which version of Python, ```-c``` means we intend to run a command, and the ```"..."``` includes the command in a string format*
   - Run these script commands by running ```./tests.sh``` in the terminal: will execute all shell commands at once, and print out the same "ERROR on..." statement if particular test fails.
