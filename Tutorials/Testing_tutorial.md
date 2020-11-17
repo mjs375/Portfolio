@@ -48,8 +48,8 @@ Traceback (most recent call last):
 
 ### ```Test.py```
 -
-
-<table><tr><th>Python</th><th>Console</th></tr><tr><td>
+ 
+<table><tr><th>Test.py</th><th>Python Interpreter (console)</th></tr><tr><td>
 
 ```python
 from prime import is_prime 
