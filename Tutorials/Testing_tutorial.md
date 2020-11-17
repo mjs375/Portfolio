@@ -5,6 +5,14 @@
 ### ```Print()```
 - *the simplest debugger, simply place several ```print()``` statements in your code to examine the computations at each step of your program to ensure it is behaving as you want.*
   - ```print(f"Variable 'x' at step 3 is {x}."```
+
+
+### ```Try``` / ```Except``` (/ ```Finally```)
+
+- ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
+  - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
+  - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
+ 
   
 ### Python Interpreter
 - ``` $ python3```: *pull up the Python interpreter, where you can run or write Python code.*
@@ -42,10 +50,6 @@ Traceback (most recent call last):
 
 </td></tr></table>
 
-
-## Test-Driven Development
-- *every time you fix a bug (or add a new feature), why not automatically test the program with a growing collection of tests? Not only do you only have to write the test once, you keep stacking tests to ensure your program is air-tight, even as it gets more complicated (don't lose earlier capabilities when developing new features accidentally!)*
-
 ### ```Test.py```
 - *Write a ```test.py``` file that runs ```function()``` inside a ```test_function()```, and, if the input does not equal the expected result, return a print statement. Then call up the python interpreter to run the test as many times as you like.*
  
@@ -73,6 +77,13 @@ ERROR on is_prime(25), expected False
 
 </td></tr></table>
 
+## Test-Driven Development
+*We can still do better– every time you fix a bug (or add a new feature), why not automatically test the program with a growing collection of tests? Not only do you only have to write the test once, you keep stacking tests to ensure your program is air-tight, even as it gets more complicated (don't lose earlier capabilities when developing new features accidentally!)*
+
+### Shell Script
+
+
+
 
 
 
@@ -95,10 +106,7 @@ ERROR on is_prime(25), expected False
 
 
   
-- ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
-  - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
-  - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
- 
+
   
 
 
