@@ -2,7 +2,7 @@
 *Most of the tutorials are entirely verbatim from online sources– go to those sources for more in-depth lessons than my notes just for my own study purposes.*
 
 Tutorial | Source | Notes
----------|--------
+---------|--------|-------
 Command line | Homemade | 
 Django | Homemade | 
 Git/Github Commands | Homemade | 
