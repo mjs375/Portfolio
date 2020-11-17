@@ -20,9 +20,9 @@
 ```bash
 mjs $ python3
 Python 3.8.2 (...)
->>> from square import square
->>> square(10)
-100
+>>> from prime import is_prime
+>>> is_prime(3)
+True
 >>>
 ```  
 
@@ -94,20 +94,10 @@ ERROR on is_prime(25), expected False
   - You'll need: ```function.py``` + ```test.py``` + ```tests.sh```.
   - Run the Shell Script: ```$ ./tests.sh```
     - *The shell script will run the test file many times (each with a different input parameter & expected result), which in turn will import the actual function from the original file with the actual program.*
+- *The terminal will print the same "ERROR on..." statement written in ```test.py``` however many times the test fails (the shell script is literally just running the ```test.py``` file multiple times).*
 ```shell
-python3 -c
-
-```
-
-
-
-  
-- **Shell Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one. ```python3``` is which version of Python, ```-c``` means we intend to run a command, and the ```"..."``` includes the command in a string format*
-  - Run these script commands by running ```./tests.sh``` in the terminal: will execute all shell commands at once, and print out the same "ERROR on..." statement if particular test fails.
-```
 python3 -c "from tests import test_prime; test_prime(1, False)"
 python3 -c "from tests import test_prime; test_prime(2, True)"
-    # and so on, as many tests as you want.
 ```
 
 
