@@ -36,4 +36,17 @@ $ cd tweepy-bots # change directory
 $ python3 -m venv env # create virtual environment
 $ source env/bin/activate # activate venv
 $ pip install tweepy # install Tweepy
+$ pip freeze > requirements.txt # create a requirements.txt, putting all dependencies in the venv inside
 ```
+
+### Twitter API Authentication Credentials
+
+
+
+
+
+
+
+
+
+Source: [Real Python](https://realpython.com/twitter-bot-python-tweepy/#installation)
