@@ -111,6 +111,13 @@
   - ```switch = True```: *when declaring the value of a boolean variable, they must be capitalized (True/False).*
   - Boolean Rules: *any value that exists and returns a non-zero(+ or -) or non-empty value is True; 0 returns False. (Thus some variables, like strings, always return True as long as they aren't empty.)*
 
+## USEFUL FUNCTIONS:
+- **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive). Negative step number will go from the end to the beginning of the range.*
+  -```for i in range(0,10,1):```
+- **enumerate()**: *attaches an iterator (counter) to an object*
+  -```for index, value in enumerate(list/string):```
+
+
 ## MISCELLANEOUS
 - **Ternary Operator**: ```value_if_true if condition else value_if_false```
   -  *consolidating multiple lines of code into one. ```If```s and ```else```s with only 1 line of code can skip the newline/indent; even simple for-loops can be reduced to one line*
@@ -123,14 +130,8 @@
     - ```x = lambda a : a + 10``` > ```print(x(5))```
 - **Type Hinting**: *a form of program documentation (comments) that tell you what a function is expected to receive (parameters) and what it will output (return).*
   - ```def hello_name(name: str) -> str: return(f"Hello {name}.")```
-  
-
-## USEFUL FUNCTIONS:
-- **range(start,stop,step)**: *start/step are optional. 'Stop' means it stop before that number (non-inclusive). Negative step number will go from the end to the beginning of the range.*
-  -```for i in range(0,10,1):```
-- **enumerate()**: *attaches an iterator (counter) to an object*
-  -```for index, value in enumerate(list/string):```
-
+- **Docstrings**: *an important key to documenting your program that help user's understand the code.*
+    - ```help(str)```: *a built-in Python function that prints out an object's docstring to the console.* ```$ python3``` => ```>>>help(str)``` => ```Help on class str in module builtins. class str(object): Create a new string object ...```
 
 
 
