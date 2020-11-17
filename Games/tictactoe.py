@@ -3,7 +3,7 @@
 # # # # # # # # # # # # # # # # #
 
 """
-Usage: $ python3 tictactoe.py
+Usage: $ python3 tictactoe.py [num_of_players]
     - [x] Version 1.0: 2-player mode.
     - [x] Version 1.1: Added (dumb) AI 1-player mode, improved efficiency of check_win f(x)
     - [x] Version 1.2: Improved console printout of board. Added 'cheat'. Xs/0s are now emoji
