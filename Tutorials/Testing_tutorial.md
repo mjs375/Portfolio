@@ -63,6 +63,7 @@ def test_prime(n, expected):
   
 ```bash
 $ python3
+>>> from test import test_square
 >>> test_prime(5, True)
 >>> test_prime(10, False)
 >>> test_prime(25, False)
