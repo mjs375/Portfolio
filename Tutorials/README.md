@@ -15,3 +15,7 @@ Testing | [CS50 w/ Web Programming](https://cs50.harvard.edu/web/2020/notes/7/) 
 ## Useful Programming Resources
 - [PythonTutor.com](http://pythontutor.com/): *this amazing program lets you paste in your Python code and watch it compute, line-by-line. Great for beginners and anyone stuck in debugging. At each line it shows what is happening where, what each variable is equal to, &c.*
 - [W3Schools.com](https://www.w3schools.com/python/): *a great learn/practice website. Teaches the basics of Python programming (from comments and variables to lambda functions, modules, and more). Each teaching block has Python editor built-in so you can tinker with the code as you learn.*
+
+
+## READING LOG: Real Python Tutorials
+- [ ] [Documenting Python Code: A Complete Guide](https://realpython.com/documenting-python-code/)
