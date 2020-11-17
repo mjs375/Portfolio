@@ -45,10 +45,6 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 
 
 
-Solo Projects | Tags
---------------|------
-[Tic-Tac-Toe](https://github.com/mjs375/Coding-Gymnasium/blob/main/Games/tictactoe.py) |
-
 
 
 
@@ -86,6 +82,6 @@ Solo Projects | Tags
 Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375). *Note: Codewars 'kyu' levels are from 8 (easiest) to 1 (hardest).*
 
 ## Solo Projects
-- Web Scrapers
-  - [ ] Wikipedia Links Scraper: *pulls all links from a given Wikipedia page.*
+- [x] [Wikipedia Links Scraper](https://github.com/mjs375/Workshop/blob/main/Web_Scraping/WikiArticle_scraper.py): *pulls all links from a given Wikipedia page.*
+- [x] [Tic-Tac-Toe](https://github.com/mjs375/Coding-Gymnasium/blob/main/Games/tictactoe.py): *1 or 2-player game of tic-tac-toe, played in command-line.*
 
