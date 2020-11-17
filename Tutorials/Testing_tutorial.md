@@ -52,8 +52,8 @@ Traceback (most recent call last):
 <table><tr><th>Python</th><th>Console</th></tr><tr><td>
 
 ```python
-from prime import is_prime # your own function in file prime.py
-
+from prime import is_prime 
+  # ^^your own function in file prime.py
 def test_prime(n, expected):
   if is_prime(n) != expected:
     print(f"ERROR on is_prime({n}), expected {expected}")
