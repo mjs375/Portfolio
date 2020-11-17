@@ -128,11 +128,6 @@
 - **Lambda f(x)**: *a small, anonymous function with exactly 1 expression (but any number of arguments/inputs)*
   - ```lambda arguments : expression```
     - ```x = lambda a : a + 10``` > ```print(x(5))```
-- **Type Hinting**: *a form of program documentation (comments) that tell you what a function is expected to receive (parameters) and what it will output (return).*
-  - ```def hello_name(name: str) -> str: return(f"Hello {name}.")```
-- **Docstrings**: *an important key to documenting your program that help user's understand the code.*
-    - ```help(str)```: *a built-in Python function that prints out an object's docstring to the console.* ```$ python3``` => ```>>>help(str)``` => ```Help on class str in module builtins. class str(object): Create a new string object ...```
-
 
 
 
