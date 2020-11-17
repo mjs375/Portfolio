@@ -122,7 +122,7 @@
   - ```lambda arguments : expression```
     - ```x = lambda a : a + 10``` > ```print(x(5))```
 - **Type Hinting**: *a form of program documentation (comments) that tell you what a function is expected to receive (parameters) and what it will output (return).*
-  - ```def hello_name(name: str) -> str:   return(f"Hello {name}.")
+  - ```def hello_name(name: str) -> str: return(f"Hello {name}.")```
   
 
 ## USEFUL FUNCTIONS:
