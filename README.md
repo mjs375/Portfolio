@@ -70,7 +70,7 @@ Solo Projects | Tags
   - Projects: Mario, Cash, Credit, Readability, Caesar, Substition, Plurality, Runoff, Filter, Recover, Speller, Mario, Cash, Readability, DNA, Movies, Houses, Homepage, Finance, Capstone
   - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf) ```2020```
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
-  - **Projects:** [Mail](https://github.com/mjs375/CS50Python/tree/master/mail), [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce), [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
+  - **Projects:** [Mail](https://github.com/mjs375/CS50Python/tree/master/mail) [[demo](https://youtu.be/Q_k1aYlhL0g)], [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce)[[demo](https://youtu.be/_4-p51yivLI)], [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki), [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) 
   - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
