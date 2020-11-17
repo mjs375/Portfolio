@@ -19,7 +19,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 **CSS**<br>```lang``` | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
 **Docker** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– provides the ability to package and run an application inside a discreet environment/container.*</details></p> |
 **Django**<br>```framework``` ```python``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> | | | [:information_source:](https://docs.djangoproject.com/en/3.1/)
-**Microsoft Excel**<br>```spreadsheet``` ```db```  | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a common office spreadsheet program to collect and sort data, make calculations and do analysis, design charts, &c.*</details></p> | 
+**Microsoft Excel**<br>```spreadsheet``` ```db```  | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a common office spreadsheet program to collect and sort data, make calculations and do analysis, design charts, &c.*</details></p> | 
 **File Handling**<br>```json``` ```csv``` | | | | |
 **Flask**<br>```framework``` ```python```  | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a lightweight web framework for __Python__.*</details></p> | 
 **Git** | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a series of terminal commands (add, commit, merge, branch, checkout...) which lets users manage versions of source-code (e.g. connect & interact with Github.com)*</details></p> |
@@ -62,12 +62,8 @@ Solo Projects | Tags
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
 - [ ] **Montclair State University: CSIT 505 Python Programming** *(```ungraded audit```)*
   - Projects:
-  -
   
-  
-
-  
-  
+ 
 #### Online Coursework:
 - [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
   - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
