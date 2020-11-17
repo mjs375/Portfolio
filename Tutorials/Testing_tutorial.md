@@ -8,7 +8,6 @@
 
 
 ### ```Try``` / ```Except``` / ( ```Finally```)
-
 - ```try:``` ... ```except:```: *'Try' some code, while the 'Except' code will be run if any Error is encountered (specify a specific error: ```Except IndexError:```)* 
   - ```try: except: finally```: *Try will attempt some code, Except will activate if Try fails... and Finally will run its code along with Try or Except anyway.*
   - ```try: except: else:```: *if no Error is encountered in the Try block, it and the Else branch will run.*
@@ -33,9 +32,19 @@ Python 3.8.2 (...)
 <table><tr><th>Python</th><th>Console</th></tr><tr><td>
 
 ```python
-def square(x):
-  return x + x   # <- BUG 
-  # return x * x # <- fixed code
+import math
+def is_prime(n):
+  if n < 2:
+    return False
+  for i in range(2, int(math.sqrt(n))): # <- bug here
+  #for i in range(2, int(math.sqrt(n)) + 1):
+    if n % i == 0:
+      return False # (composite)
+  return True # no factors found (prime!)
+  
+  
+  
+  
 assert square(10) == 100
 ```
 
@@ -82,7 +91,15 @@ ERROR on is_prime(25), expected False
 
 ### Shell Script
 - *Automate many command-line tests at once in a shell script (```filename.sh```), which enables you to run a series of terminal commands in one click.*
-  - You'll need: ```function.py``` + ```test.py``` + ```tests.sh```
+  - You'll need: ```function.py``` + ```test.py``` + ```tests.sh```.
+  - Run the Shell Script: ```$ ./tests.sh```
+    - *The shell script will run the test file many times (each with a different input parameter & expected result), which in turn will import the actual function from the original file with the actual program.*
+```shell
+python3 -c
+
+```
+
+
 
   
 - **Shell Script**: *Automate many testings at once in a shell script, extension: ```.sh```. Overall, you'll have the original file ```function.py``` with the program, the ```test.py``` file, and a shell script ```tests.sh```. Shell scripts simply contain many terminal commands to execute, all-in-one. ```python3``` is which version of Python, ```-c``` means we intend to run a command, and the ```"..."``` includes the command in a string format*
@@ -92,6 +109,24 @@ python3 -c "from tests import test_prime; test_prime(1, False)"
 python3 -c "from tests import test_prime; test_prime(2, True)"
     # and so on, as many tests as you want.
 ```
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 - **Unittest**: *Python's unnittest library.*
 ```
