@@ -197,7 +197,8 @@ print(soup.prettify) # ALL the HTML content
 print(list(soup.children)) #
 print([type(item) for item in list(soup.children)])
 ```
-```bash
+```
+# => CONSOLE PRINTOUT
 <!DOCTYPE html>
 <html>
  <head>
@@ -227,6 +228,35 @@ print([type(item) for item in list(soup.children)])
 [<class 'bs4.element.Doctype'>, <class 'bs4.element.NavigableString'>, <cla
 ss 'bs4.element.Tag'>]
 ```
+- All the items are ```BeautifulSoup``` objects: the first a ```DocType``` ('DOCTYPE HTML'), the second a ```NavigableString``` (text found in HTML), and the final a ```Tag``` object (contains other nested tags).
+  - **```Tag```**: allows us to navigate the HTML document, extracting other tags and text.
+- **```.children```**:
+```python
+import requests
+from bs4 import BeautifulSoup
+# # # GOING DOWN CHILDREN ELEMENTS UNTIL WE FIND A PARTICULAR TAG
+url = "" # webpage you want to scrape
+page = requests.get(url) # GET! => '<Response [200]>' (page retrieved OK)
+  # page.content # ALL the HTML content on the page
+soup = BeautifulSoup(page.content, 'html.parser')
+print(soup.prettify) # a neater printout of ALL the HTML content
+list(soup.children) # lists all the children elements # (print() to see)
+print([type(item) for item in list(soup.children)]) 
+#
+html = list(soup.children)[2] # we want the <html> tag...
+print(list(html.children)) # keep calling for child-tags as we dive into the nests... (=><head>, <body>)
+body = list(html.children)[3] # now we are in <body> tag nest
+print(list(body.children)) # we are here! the <p> tags
+p = list(body.children)[1]
+print(p.get_text()) # the raw content, sans <p> tags.
+# # # OR: WE CAN FIND ALL INSTANCES OF A TAG # # #
+soup.find('p') # finds first instance of a tag
+soup.find_all('p') # returns a list, so either loop thru or index a particular one!
+```
+
+
+
+
 
 
 
