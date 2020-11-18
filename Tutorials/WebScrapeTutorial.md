@@ -197,7 +197,7 @@ print(soup.prettify) # ALL the HTML content
 print(list(soup.children)) #
 print([type(item) for item in list(soup.children)])
 ```
-```shell
+```bash
 <!DOCTYPE html>
 <html>
  <head>
