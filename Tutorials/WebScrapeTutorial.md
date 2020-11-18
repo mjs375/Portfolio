@@ -1,4 +1,16 @@
 ## W E B _ S C R A P I N G _ I N _ P Y T H O N
+- Many websites have fantastic datasets that are publicly available, but not all are made accessible via CSV download, or API-link. So what's left to try, besides mass copy-&-pasting?
+- **Rules:** *webscraping is the same as your going on to a website and making requests... so if you scrape 1000 times in a minute, that's expensive!*
+  - *check Terms and Conditions of website to see if webscraping is permitted*
+  - *cache or download data you need, so that next analysis, you don't need to download it again (or only download the latest data, not the entire set again)*
+  - *build pauses into the program (```time.sleep()```) to not overwhelm the server*
+  
+### Components of a Web Page
+- **HTML**: *main content/structure of the page*
+- **CSS**: *styling of the page content*
+- **Javascript**: *added interactivity to webpages (forms, buttons)*
+- Images
+  - *our browser receives these main files types (plus others), and combines them into a rendered page. With webscraping we are interested in __content__, so look to the __HTML__.*
 
 - **Web Scraper Libraries**:
   - [Requests Library](#python's-requests-library)
@@ -174,7 +186,8 @@ for i in range(4): # we want to roll the dice 4 times total
 - TBD . . .
 
 
-
+<hr>
+### 
 
 
 
@@ -194,3 +207,4 @@ https://developers.google.com/search/docs/advanced/robots/intro?hl=en&visit_id=6
 ### SOURCES
 - [A Practical Introduction to Web Scraping in Python](https://realpython.com/python-web-scraping-practical-introduction/): *this file is a summarized reproduction of this guide*
 - [Beautiful Soup: Build a Web Scraper with Python](https://realpython.com/beautiful-soup-web-scraper-python/)
+- [DataQuest Beautiful Soup tutorial](https://www.dataquest.io/blog/web-scraping-tutorial-python/)
