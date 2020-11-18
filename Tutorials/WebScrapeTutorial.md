@@ -253,8 +253,16 @@ print(p.get_text()) # the raw content, sans <p> tags.
 soup.find('p') # finds first instance of a tag
 soup.find_all('p') # returns a list, so either loop thru or index a particular one!
 ```
-
-
+- **Search by ID or Class**
+  - ```search.find_all('p', class_='outer-text')``` => ```[<p class="outer-text first-item" id="second"> <b> First outer paragraph. </b></p>, <p> class="outer-text">...```
+  - ```search.find_all('p', id='first')``` => ```[<p class="inner-text first-item" id="first"> First paragraph.</p>]```
+- **Search by CSS Selectors**:
+  -```soup.select("div p")```: use the ```.select()``` method to search for CSS selectors. Here, we search for all ```p``` tags inside a ```div```. Note: this returns a ```list```, like ```find_all```.
+    - ```p a```: finds all ```a``` tags inside a ```p``` tag.
+    - ```body p a```: finds all ```a``` tags inside of a ```p``` tag inside of a ```body``` tag.
+    - ```p.outer-text```: finds all ```p```tags with a class of ```outer-text```.
+    - ```p#first```: finds all ```p```tags with an id of ```first```.
+    - ```body p.outer-text```: finds any ```p``` tags with a class of ```outer-text``` inside of a ```body``` tag.
 
 
 
