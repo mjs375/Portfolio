@@ -1,4 +1,5 @@
 # TWEEPY: Twitter Bot in Python
+- Automatically post tweets, follow followers, retweet, reply to mentions, &c.
 
 ### Send a Tweet with ```Tweepy```
 - **Basic Steps for all Tweepy Programs**:
@@ -25,7 +26,7 @@ import tweepy #
   - **```OAth```**: commonly-used open authorization protocol, used to authenticate each request.
 - Different kinds fo automations: *bots, analytics, tools...*
   - Restrictions: *rate limits, spamming, misleading users, &c.*
-    - Rate Limits: *if you exceed rate limits, you'll be locked out for 5-15 minutes.*
+    - Rate Limits: *if you exceed rate limits, you'll be locked out for 5-15 minutes... careful!*
  
  ### Installing Tweepy
  - **Tweepy**: an open-source Python package that gives an easy way to access Twitter API.
@@ -40,6 +41,20 @@ $ pip freeze > requirements.txt # create a requirements.txt, putting all depende
 ```
 
 ### Twitter API Authentication Credentials
+- Twitter API needs 4 things (text strings):
+  – ```Consumer key```, ```Consumer secret```
+  - ```Access token```, ```access secret```
+- 1. Create a Twitter Account, then go to the [Twitter developer site](https://developer.twitter.com/). Twitter grants API access to *apps*, not accounts. Create an application for a developer account.
+
+WAITING ON TWITTER DEVELOPER APPROVAL...
+
+
+
+
+
+
+
+
 
 
 
