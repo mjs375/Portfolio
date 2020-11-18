@@ -187,9 +187,46 @@ for i in range(4): # we want to roll the dice 4 times total
 
 
 <hr>
-### 
+
+### More BeautifulSoup Tools
+- **```list(soup.children)```:** *since HTML tags are nested, we can move through the structure one level at a time. To select all the elements at the top level of the page, use the ```.children``` property of the ```soup``` object. Note: returns a list generator, so use ```list()``` on it.*
+```python
+soup = BeautifulSoup(page.content, 'html.parser')
+print(soup.prettify) # ALL the HTML content
+# # # 
+print(list(soup.children)) #
+print([type(item) for item in list(soup.children)])
+```
+```shell
+<!DOCTYPE html>
+<html>
+ <head>
+  <title>
+   A simple example page
+  </title>
+ </head>
+
+ <body>
+  <p>
+   Here is some simple content for this page.
+  </p>
+ </body>
+</html>
 
 
+['html', '\n', <html>
+<head>
+<title>A simple example page</title>
+</head>
+<body>
+<p>Here is some simple content for this page.</p>
+</body>
+</html>]
+
+
+[<class 'bs4.element.Doctype'>, <class 'bs4.element.NavigableString'>, <cla
+ss 'bs4.element.Tag'>]
+```
 
 
 
