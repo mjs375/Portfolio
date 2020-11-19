@@ -10,8 +10,7 @@
   - The strength of the association (if one)
   - Equation that describes the relationship (to be used to predict unknown values)
 ```
-the linear model takes the following form:
-$y = \beta_0 + \beta_1x$
+y = β₀ + β₁x
 ```
 - **Our Problem:** *does the price of a barrel of oil impact (significantly) the price of a single share of Exxon-Mobile stock?*
   - **Data**: *date, oil_price, stock_price (in .xlsx file)*
