@@ -1,7 +1,7 @@
 # LOGISTIC REGRESSION
 
 
-### Classification
+## Classification
 - **Classification:** *supervised machine learning that tries to predict which class or category some entity belongs to, based on its features, with some mathematical expression. E.g. analyzing company employees and trying to establish a dependence on some __feature__ or __variable___, like level of education, number of years in role, age, salary, &c.*
   - **Observation:** *the set of data related to one entity.*
   - **Variables:** *variables, of __features__, of the data.*
@@ -75,11 +75,22 @@
 ### Multi-Variate Logistic Regression
 - more than one input variable. Below is an example of the classification with 2 independent variables, x₁ & x₂:
 ![Multi-Variate Logistic Regression](https://files.realpython.com/media/log-reg-3.b1634d335c4f.png)
+- Here, both axes represent the inputs. The outputs differ in color: white circles are observations classified as 0s, and green circles are those classified as 1s.
+  - Logistic regression determines the weights b₀, b₁ & b₂ that maximize the LLF. Once you have these, you can get:
+    - __Logit__: ```f(x₁,x₂) = b₀ + b₁x₁ + b₂x₂```
+    - __The probabilities__: ```p(x₁,x₂) = 1/(1+exp(-f(x₁,x₂)))
+  - The dash-dotted line linearly separates the two classes. This line corresponds to ```p(x₁,x₂)=0.5``` and ```f(x₁,x₂)=0```.
 
+### Regularization
+- **Overfitting:** *a serious problem related to Machine Learning. It happens when a model learns the training data too well– then it learns not only the __relationships__ among data, but also the __noise__ in the data. This leads to good performance with the data used to __fit__ them (i.e. training data), but they behave poorly with unseen data (test data).*
+  - __Regularization__ tries to reduce or penalize the complexity of a model (as overfitting usually occurs on complex models). Regularization techniques applied with logistic regression mostly tend to penalize large coefficients ```b₀,b₁,b₂, ... bᵣ```. Regularization significantly improves model performance on unseen data.
+    - **L1 regularization**: penalizes the LFF with the scaled sum of the absolute values of the weights (```|b₀|+|b₁|+|b₂| ... +|bᵣ|```).
+    - **L2 regularization**: penalizes the LFF with the scaled sum of the squares of the weights (```|b₀|+|b₁|+|b₂| ... +|bᵣ|```).
+    - **Elastic-net regularization**: a linear combination of L1 & L2 regularization.
 
+## Logistic Regression in Python
 
-
-
+###
 
 
 
