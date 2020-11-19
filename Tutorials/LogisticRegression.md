@@ -45,7 +45,7 @@
     - If ```p(xᵢ)``` is far from 1, then ```log(p(xᵢ))``` is a large negative number.
 - Use Python's logistic regression libraries to approach these problems!
   - Once you determine the best weights that define the function ```p(x)```, you can get the predicted outputs ```p(x)ᵢ``` for any given input ```xᵢ```.
-    - For ecah observation i=1,...,n, the predicted output is 1 IF ```p(x)ᵢ``` > 0.5, else 0 (this is the *usual* threshold– you can raise/lower it).
+    - For each observation i=1,...,n, the predicted output is 1 IF ```p(x)ᵢ``` > 0.5, else 0 (this is the *usual* threshold– you can raise/lower it).
 - Finally, one more important relationship between ```p(x)``` and ```f(x)```:
   - ```log( p(x)/(1-p(x)) )  = f(x)```.
     - This explains why f(x) is the __logit__. It implies that p(x) = 0.5 when f(x) = 0, and that the predicted output is 1 if f(x)>0 and 0 otherwise.
@@ -69,9 +69,12 @@
 ### Single-Variate Logistic Regression
 - The most straightforward case of logistic regression, with only 1 independent variable (or feature), which is x=```x```.
 ![Single-Variate Logistic Regression](https://files.realpython.com/media/log-reg-2.e88a21607ba3.png)
+- Here you have pairs of inputs-outputs (x-y pairs, the green circles). These are your __observations__. ```y``` can only be 0 or 1.
+  - __Logistic regression__ finds the weights b₀ & b₁ that correspond to the maximum __LLF__. These weights define the __logit__ ```f(x) = b₀ + b₁x₁```, which is the dashed black line. They also define the predicted probability ```p(x) = 1 / (1 + exp(-f(x)))```, shown as the solid black line.
 
-
-
+### Multi-Variate Logistic Regression
+- more than one input variable. Below is an example of the classification with 2 independent variables, x₁ & x₂:
+![Multi-Variate Logistic Regression](https://files.realpython.com/media/log-reg-3.b1634d335c4f.png)
 
 
 
