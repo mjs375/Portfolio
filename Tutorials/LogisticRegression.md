@@ -98,3 +98,6 @@
 ### Ex 1: Logistic Regression w/ ```scikit-learn```
 - A single-variate binary classification problem (the most straightforward kind). We'll need to: *import, get data to work with, create a classification model (and train it), and evaluate the model to see if its performance is satisfactory.*
 
+
+<hr>
+PAUSE: return to after 'Linear Regression'
