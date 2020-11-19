@@ -11,3 +11,31 @@
   - **Classification problems:** *tend to have discrete and finite outputs, called __classes__ or __categories__.*
     - **Binary/Binomial Classification:** *exactly two classes to choose from (0/1, True/False, positive/negative).*
     - **Multiclass/Multinomial Classification:** *three or more classes of the outputs to choose from.*
+
+### Understanding When to Classify
+- Examples of when to use classification:
+  - *Text classification algorithms separate legitimate and spam emails*
+  - *Sorting positive and negative comments*
+  - *Credit scoring, applications, biological classification...*
+  - *Image recognition tasks (human face or not? mouse or elephant?*
+- **Logistic Regression:** *a fundamental classification technique, belongs to a group of __linear classifiers__. Fast and relatively uncomplicated. Essentially a method for binary classification (but can be applied to multiclass problems too).*
+  - **Sigmoid Function**: *a mathematical function having an "S-shaped" curve. All sigmoids have the property that they map the entire number line into a small range between 0<>1 or -1<>1 (such that the use of a sigmoid function to convert a real value to a value that can be interpreted as a __probability__. The commonest sigmoid is the __Logistic Function__, which maps any real value from 0<>1 (which maps the variables (x1, x2... xr).*
+  - **Natural Logarithm Function**: *```log(x)```-> as x approaches 0, the natural log of 'x' drops toward negative infinity. When ```x=1, log(x)=0```. The opposite is true for ```log(1-x)```.*
+    - ```math.log(x)```, ```numpy.log(x)``` => natural logarithm of 'x' in Python (it is otherwise often denoted with 'ln' instead of 'log').
+
+
+
+### Problem Formulation
+- Logistic regression applied to binary classification: implementing logistic regression of some dependent variable ```y``` on the set of independent variables x=```(x₁, x₂, ..., xᵣ)``` where 'r' is the number of predictors/inputs.
+  - **Goal:** *find the __logistic regression function__ ```p(x)``` such that the __predicted responses__ ```p(xᵢ)``` are as close as possible to the __actual response__ ```yᵢ``` for each observation ```i=1, ..., n```. (Each ```p(xᵢ)``` should be close to either 0 or 1– convenient!). Once you have the function ```p(x)```, you can use it to predict the outputs for new and unseen inputs (assuming the underlying mathematical dependence is unchanged).*
+
+### Methodology
+- **Logit:** ```f(x) = b₀ + b₁x₁ + ... + bᵣxᵣ```
+  - **Estimators:** *the variables b0, b1,...,br, also called __prediction weights__ or just __coefficients__.*
+
+
+
+
+
+
+
