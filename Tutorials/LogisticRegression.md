@@ -67,8 +67,8 @@
 
 
 ### Single-Variate Logistic Regression
-- The most straightforward case of logistic regression, with only 1 independent variable (or feature), which is x=```x````.
-
+- The most straightforward case of logistic regression, with only 1 independent variable (or feature), which is x=```x```.
+![Single-Variate Logistic Regression](https://octodex.github.com/images/yaktocat.png)
 
 
 
