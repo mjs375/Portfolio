@@ -1,7 +1,7 @@
 # P O R T F O L I O
 
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=anuraghazra)](https://github.com/anuraghazra/github-readme-stats)
+[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mjs375)](https://github.com/anuraghazra/github-readme-stats)
 
 
 ### About Me:
