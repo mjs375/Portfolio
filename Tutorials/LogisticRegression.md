@@ -37,6 +37,44 @@
 - Logistic Regression determines the best predicted weights b₀,b₁,...,bᵣ such that the function ```p(x)``` is as close as possible to all actual responses y₁,i=1,..,n where n is the number of observations. The process of calculating the best weights using available observations is called __model training__ or __fitting__.
 - To get the best weights, you usually maximize the __log-likelihood function (LLF)__ for all observations i=1,...,n. This method is called the __maximum likelihood estimation__ and is represented by the equation:
   - ```LLF = Σᵢ(𝑦ᵢ log(𝑝(𝐱ᵢ)) + (1 − 𝑦ᵢ) log(1 − 𝑝(𝐱ᵢ)))```
+- When ```𝑦ᵢ=0```, the LLF for the corresponding observation is equal to ```log(1-p(xᵢ))```.
+  - If ```p(xᵢ)``` is close to ```𝑦₀=0```, then ```log(1-p(x))``` is close to 9. This is the result you want.
+    - If ```p(xᵢ)``` is far from 0, then ```log(1-p(x))``` drops significantly. You don't want that b/c your goal is to obtain the max LLF.
+- When ```𝑦ᵢ=0```, the LLF for the corresponding observation is equal to ```yᵢlog(1-p(xᵢ))```.
+  - If ```p(xᵢ)``` is close to ```𝑦₁=0```, then ```log(p(xᵢ))``` is close to 9. 
+    - If ```p(xᵢ)``` is far from 1, then ```log(p(xᵢ))``` is a large negative number.
+- Use Python's logistic regression libraries to approach these problems!
+  - Once you determine the best weights that define the function ```p(x)```, you can get the predicted outputs ```p(x)ᵢ``` for any given input ```xᵢ```.
+    - For ecah observation i=1,...,n, the predicted output is 1 IF ```p(x)ᵢ``` > 0.5, else 0 (this is the *usual* threshold– you can raise/lower it).
+- Finally, one more important relationship between ```p(x)``` and ```f(x)```:
+  - ```log( p(x)/(1-p(x)) )  = f(x)```.
+    - This explains why f(x) is the __logit__. It implies that p(x) = 0.5 when f(x) = 0, and that the predicted output is 1 if f(x)>0 and 0 otherwise.
+    
+    
+### Classification Performance
+- 4 Types of Results for binary classification:
+  - **True negatives:** *correctly predicted negatives (0s)*
+  - **True positives:** *correctly predicted positives (1s)*
+  - **False negatives:** *incorrectly predicted negatives (0s)*
+  - **False positives:** *incorrectly predicted positives (1s)*
+    - You can evaluate the performance of your classififer by comparing the *actual* and *predicted* outputs and by counting the correct/incorrect predictions.
+- **Classification Accuracy:** *ratio of correct predictions to the total number predictions (or observations). The most straightforward indicator.*
+  - **Other Indicators of Binary Classifiers:**
+    - **Positive Prediction value**: ratio of the number of true positives to the sum of the numbers of true & false positives.
+    - **Negative Prediction value**: ratio of the number of true negatives to the sum of the numbers of true & false negatives.
+    - **Sensitivity**: ratio of the number of true positives to the number of actual positives (also known as recall or true positive rate).
+    - **Specificity**: ratio of number of true negatives to the number of actual negatives (true negative rate).
+
+
+### Single-Variate Logistic Regression
+- The most straightforward case of logistic regression, with only 1 independent variable (or feature), which is x=```x````.
+
+
+
+
+
+
+
 
 
 
