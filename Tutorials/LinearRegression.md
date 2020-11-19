@@ -30,5 +30,5 @@
 
 
 
-[Tutorial Video: Sigma Coding](https://www.youtube.com/watch?v=MRm5sBfdBBQ)
-[Source code](https://github.com/areed1192/sigma_coding_youtube/tree/master/python/python-data-science/machine-learning/simple-linear-regression)
+- [Tutorial Video: Sigma Coding](https://www.youtube.com/watch?v=MRm5sBfdBBQ)
+  - [Source code](https://github.com/areed1192/sigma_coding_youtube/tree/master/python/python-data-science/machine-learning/simple-linear-regression)
