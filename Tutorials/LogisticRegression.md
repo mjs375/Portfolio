@@ -90,8 +90,11 @@
 
 ## Logistic Regression in Python
 
-###
+### Python Packages
+- **```NumPy```**: *fundamental package for scientific and numerical computing in Python. It allows for high-performance operations on single- and multi-dimensional arrays.*
+- **```scikit-learn```**: *data science/machine-learning library. It can: preprocess data, reduce dimensionality of problems, validate models, select the most appropriate model, solve regression and classification problems, and implement cluster analysis.*
+- **```Matplotlib```**: *used to visualize your classification. Widely-used for high-quality plotting.*
 
-
-
+### Ex 1: Logistic Regression w/ ```scikit-learn```
+- A single-variate binary classification problem (the most straightforward kind). We'll need to: *import, get data to work with, create a classification model (and train it), and evaluate the model to see if its performance is satisfactory.*
 
