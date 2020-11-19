@@ -1,8 +1,6 @@
 # P O R T F O L I O
 
 
-[![Anurag's github stats](https://github-readme-stats.vercel.app/api?username=mjs375)](https://github.com/anuraghazra/github-readme-stats)
-
 
 ### About Me:
 - I am currently a public reference librarian in **```New Jersey```** who is interested in branching out to the programming field. My formal experience includes courses during my **```Rutgers University```** graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (**```SUNY Geneseo```**) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard's **```CS50 series```**. For some fun learning I do online programming practice, e.g. **```Codewars```** and miscellaneous solo projects, such as forays into Webscraping and game design. This spring I will be taking graduate-level courses from **```Montclair State University```** (*ungraded, unofficial audits*).
