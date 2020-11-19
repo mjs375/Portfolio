@@ -5,10 +5,16 @@
 
 
 ### Linear Regression
-- Attempts to model the relationship between 2 variables by fitting a linear equation (a line) between ('on average') the data-set.
-  - Once we have set a line, we can use that equation to further predict unknown values.
+- Attempts to model the relationship between 2 variables by fitting a linear equation (a line) between ('on average') the data-set. Once we have set a line, we can use that equation to further predict unknown values.
+  - Is one measurement variables associated with another measurement variable?
+  - The strength of the association (if one)
+  - Equation that describes the relationship (to be used to predict unknown values)
+```
+the linear model takes the following form:
+$y = \beta_0 + \beta_1x$
+```
 - **Our Problem:** *does the price of a barrel of oil impact (significantly) the price of a single share of Exxon-Mobile stock?*
-  - **Data**: *date, oil_price, stock_price*
+  - **Data**: *date, oil_price, stock_price (in .xlsx file)*
 
 
 
