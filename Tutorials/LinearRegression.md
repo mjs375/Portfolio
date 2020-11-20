@@ -11,10 +11,15 @@
   - Equation that describes the relationship (to be used to predict unknown values)
 ```
 y = β₀ + β₁x
+  - y is the response
+  - x is the feature
+  - β₀ is the intercept
+  - β₁ is the coefficient for x
 ```
 - **Our Problem:** *does the price of a barrel of oil impact (significantly) the price of a single share of Exxon-Mobile stock?*
   - **Data**: *date, oil_price, stock_price (in .xlsx file)*
 
+**See ```linearRegression.py```!**
 
 
 
