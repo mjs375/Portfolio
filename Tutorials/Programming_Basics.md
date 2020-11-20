@@ -3,6 +3,8 @@
 [License](#license) | [Readme](#readme) | [Requirements](#requirements)
 
 
+### .BAK (BBACKUPS)
+- Many users, when saving copies of backup files, rename the backup as ```filename.bak``` to distinguish from the current version (with the true file ext, e.g. ```filename.py```).
 
 ### LICENSE
 - Informs the user that permissions they have– can they download, modify and re-publish, &c.
