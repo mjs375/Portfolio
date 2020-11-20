@@ -85,8 +85,11 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 ## Codewars-Kata
 Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375). *Note: Codewars 'kyu' levels are from 8 (easiest) to 1 (hardest).*
 
-## Solo Projects
+## Solo Projects:
 - [x] [Wikipedia Links Scraper](https://github.com/mjs375/Workshop/blob/main/Web_Scraping/WikiArticle_scraper.py): *pulls links (entry body only) from a given Wikipedia page.*
 - [x] [Tic-Tac-Toe](https://github.com/mjs375/Coding-Gymnasium/blob/main/Games/tictactoe.py): *1 or 2-player game of tic-tac-toe, played in command-line. Randomized AI.*
-- [x] [National Weather Service 7-Day Forecast Scraper](https://github.com/mjs375/Workshop/blob/main/Web_Scraping/Weatherscrape.py): *Tutorial-based project that scrapes data about the upcoming 7-day forecast from a given area. Added prompt that asks user if they want to export it as a ```.csv``` file.*
 - [ ] Wheel of Fortune: *command-line based Wheel of Fortune game.*
+
+## Tutorial Projects:
+- [x] [National Weather Service 7-Day Forecast Scraper](https://github.com/mjs375/Workshop/blob/main/Web_Scraping/Weatherscrape.py): *Tutorial-based project that scrapes data about the upcoming 7-day forecast from a given area. Added prompt that asks user if they want to export it as a ```.csv``` file.*
+- [x] [Linear Regression Model](https://www.youtube.com/watch?v=MRm5sBfdBBQ): *[Tutorial](https://github.com/areed1192/sigma_coding_youtube/blob/master/python/python-data-science/machine-learning/simple-linear-regression/Linear%20Regression%20Model.pdf) on creating, training, and analyzing a Linear Regression Model. [My code](https://github.com/mjs375/Workshop/tree/main/Regression%20Models)*
