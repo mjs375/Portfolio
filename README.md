@@ -71,7 +71,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
   - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
   - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf) ```2020```
 - [ ] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
-  - **Projects:** [Network](https://github.com/mjs375/cs50_Network), [Mail](https://github.com/mjs375/CS50Python/tree/master/mail) [[demo](https://youtu.be/Q_k1aYlhL0g)], [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce) [[demo](https://youtu.be/_4-p51yivLI)], [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki) [[demo](https://youtu.be/_A0URKeuQmM)], [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) [[demo](https://youtu.be/qz-boka5HxA)]
+  - **Projects:** [Network](https://github.com/mjs375/cs50_Network) [[demo](https://youtu.be/ZVWUChcXROc)], [Mail](https://github.com/mjs375/CS50Python/tree/master/mail) [[demo](https://youtu.be/Q_k1aYlhL0g)], [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce) [[demo](https://youtu.be/_4-p51yivLI)], [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki) [[demo](https://youtu.be/_A0URKeuQmM)], [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) [[demo](https://youtu.be/qz-boka5HxA)]
   - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
 - [ ] **CS50: Artificial Intelligence with Python**
 - [ ] **Fat Chance: Probability from the Ground Up**
