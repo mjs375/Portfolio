@@ -8,9 +8,6 @@
   - Résumé: TBD
 - This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. The chart below is simply a rough outline of my own experience, the skill levels are all relative between Beginner to Intermediate. Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on. *Note: the 'Tutorials' folder simply contains near-verbatim, personal notes taken from online sources (cited within), they are not my own and are merely for study/practice purposes.*
  
-TODO:
- - [ ] API/json practice
- - [ ] Testing practice
  
 <hr>
 
@@ -21,7 +18,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 **C**<br>```lang``` | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | 
 **Command line** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a text interface for interacting with the computer, which takes in commands and can do almost anything.*</details></p> | [Common Commands](https://github.com/mjs375/Coding-Gymnasium/blob/main/Command_Line_Tutorial.md)
 **CSS**<br>```lang``` | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
-**Docker** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– provides the ability to package and run an application inside a discreet environment/container.*</details></p> |
+**Docker** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– provides the ability to package and run an application inside a discreet environment/container. (Docker containerifies a whole OS system; a Virtual Environment, only Python dependencies; a Virtual Machine, all the harddrive and OS.) *</details></p> |
 **Django**<br>```framework``` ```python``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– a framework for Python & SQL centered around Models-Templates-Views, that easily builds websites, and even includes an admin module for easy data/DB editing.*</details></p> | | | [:information_source:](https://docs.djangoproject.com/en/3.1/)
 **Excel**<br>```spreadsheet``` ```db```  | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*– a common office spreadsheet program to collect and sort data, make calculations and do analysis, design charts, &c.*</details></p> | 
 **File Handling**<br>```json``` ```csv``` | | | | |
@@ -35,24 +32,12 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 **Python**<br> ```lang``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– an interpreted programming language (no need to compile into 'machine code' first).*</details></p> | [Basics](https://github.com/mjs375/Coding-Gymnasium/blob/main/Python_Tutorial.md)
 **React.js** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– a JavaScript library*</details></p> |
 **SASS**<br>```css``` ```extension``` | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– an extension of CSS that allows the user of variables and other advanced features like inheritance when creating large, complicated stylesheets.<br>– Syntactically Awesome StyleSheets (.scss)*</details></p> | [Syntax Guide](https://github.com/mjs375/Coding-Gymnasium/blob/main/SASS_Tutorial.md) | | [:information_source:](https://sass-lang.com/)
-**Selenium** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– a portable framework for testing programs*</details></p> |
+**Selenium & ChromeDriver** | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– a portable framework for testing programs. Simulates opening a web browser for client-side interaction/testing.*</details></p> |
 **SQL**<br>```db``` | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a relational database. Most familiar with SQLite, Django's built-in DB during production.*</details></p> |
 **WebScraping**<br> ```BeautifulSoup``` ```MechanicalSoup``` | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– programs that harvest data from websites, using a variety of tools and libraries.<br>– Beautiful Soup<br>– Mechanical Soup<br>– urllib*</details></p> |
 **Workflows**<br> ```Github``` ```.yml``` | ☆☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– wherein certain actions are automated, e.g. __Github Actions__ performing program tests every time a version is pushed to the remote repository.<br>– (.yml/.yaml)*</details></p> |
 
-<p><details><summary>Skill Levels</summary>- ☆☆☆☆☆: aware of, want to learn<br>- ★☆☆☆☆: learned in lesson<br>- ★★☆☆☆: exercise practice<br>- ★★★☆☆: used for a big project<br>- ★★★★☆: used all the time/utilized in many projects<br>- ★★★★★: extremely confident, intermediate level</details></p>
-
-
-- **Programming Languages:**
-- **Programming Support, Libraries, Misc.:**
-  - **Selenium + ChromeDriver**: *client-side testing that simulates opening a web browser and interacting with it with a Web Driver. Create a file that interacts with the webpage, running a series of accumulating tests as development advances. The file will run through the website and interact with it at computer-speed, saving time in the long run (rather than doing the full suite of accumulating tests manually).*
-  - **Docker**: *instead of running a program on your own computer, your run it inside a virtual 'container' with specific packages installed, &c.– more importantly, when working on a group project, all the programmers have the exact same specifications. It also works when deployed– the program can be run by clients inside the same container so you don't have to program for every possible computer that could run it. Docker is lighter than a Virtual Machine, in that it is just a container, not an entire virtual computer running its own OS.*
-
-
-
-
-
-
+<p><details><summary>Skill Levels</summary>- ☆☆☆☆☆: aware of, want to learn<br>- ★☆☆☆☆: learned in lesson<br>- ★★☆☆☆: exercise practice<br>- ★★★☆☆: used for a project<br>- ★★★★☆: used all the time/utilized in many projects<br>- ★★★★★: extremely confident, intermediate level</details></p>
 
 <hr>
 
@@ -63,6 +48,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
 - [ ] **Montclair State University: CSIT 505 Python Programming** *(```ungraded audit```)*
   - Projects:
+  - [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
   
  
 #### Online Coursework:
