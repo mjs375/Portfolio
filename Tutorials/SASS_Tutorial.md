@@ -9,12 +9,57 @@
   - *Watch/output to folders:** ```$ sass --watch app/sass:static/stylesheets```
     - *rather than manually re-compiling the CSS file with every ```.scss``` change, the watch flag tells Sass to watch the source file for changes, and re-compile CSS each time you save your Sass. Watching folders will watch all files in the input source, and compile all CSS in the output folder.*
 
+
+#### NOTE: Sass and SCSS Syntax
+<table>
+<tr>
+<th>Sass</th>
+<th>SCSS</th>
+<th>CSS</th>
+</tr>
+<tr>
+<td>
+
+```scss
+$base-color: #c6538c;
+$border-dark: rgba($base-color, 0.88);
+
+.alert {
+  border: 1px solid $border-dark;
+}
+```
+
+</td>
+<td>
+
+```sass
+$base-color: #c6538c
+$border-dark: rgba($base-color, 0.88)
+
+.alert
+  border: 1px solid $border-dark
+```
+
+</td>
+<td>
+
+```css
+.alert {
+  border: 1px solid rgba(198, 83, 140, 0.88);
+}
+```
+
+</td>
+</tr>
+</table>
+
+
 ### Variables
 - Sass allows the use of variables, entities you want to use again & again throughout the stylesheet: colors, font-stacks, &c. This is helpful when creating the stylesheet, so you don't have to copy & paste the website's primary color a dozen times, but also when modifying the stylesheet– you only have to make a change once, the variable value itself. Variables are prepended with ```$```. When Sass is processed, it replaces all ```$variable```s with the actual value.
 
 <table>
 <tr>
-<th>SCSS</th>
+<th>Sass</th>
 <th>CSS</th>
 </tr>
 <tr>
@@ -53,7 +98,7 @@ body {
 
 <table>
 <tr>
-<th>SCSS</th>
+<th>Sass</th>
 <th>CSS</th>
 </tr>
 <tr>
@@ -105,7 +150,7 @@ nav a {
 - Sass can be split up across files, and yet retain referenceability, using the ```@use``` rule, which loads another Sass file as a module, allowing access to its variables, &c. When you load a module, just use ```@filename```, no need to add the ```.scss``` extension.
   - **Partials**: Sass files that only contain a snippet of isolated CSS, named with a leading underscore ```_partial.scss```. This naming tells Sass not to generate it into its own file (it will only be used by other, full Sass files, using the ```@use``` rule).
 
-<table><tr><th>SCSS</th><th>CSS</th></tr><tr><td>
+<table><tr><th>Sass</th><th>CSS</th></tr><tr><td>
 
 ```sass
 //_base.sass
@@ -154,7 +199,7 @@ body {
   - ```@include:MIXIN_NAME``` lets you use it as a CSS declaration.
   
   
-<table><tr><th>SCSS</th><th>CSS</th></tr><tr><td>
+<table><tr><th>Sass</th><th>CSS</th></tr><tr><td>
 
 ```sass
 =transform($property)
