@@ -13,8 +13,8 @@
 #### NOTE: Sass and SCSS Syntax
 <table>
 <tr>
-<th>Sass</th>
 <th>SCSS</th>
+<th>SASS</th>
 <th>CSS</th>
 </tr>
 <tr>
