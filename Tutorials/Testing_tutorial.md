@@ -166,4 +166,11 @@ class class_nameTestCase(TestCase):
   - **Django Client Testing**: *test whether individual web pages load as intended, simulating the making of requests.*
   - **Selenium**: *test out the client-side code, i.e. the HTML/Javascript on a webpage. Selenium framework simulates opening a web browser in the terminal, using a Web [Chrome]Driver.*
 
+
+## Coverage
+  - a tool that measures code coverage, typically during testing runs. It has 3 phases:
+    - 1. **Execution**: *coverage.py runs your code, and monitors it to see what lines were executed.*
+    - 2. **Analysis**: *examines your code to determine which lines could have run.*
+    - 3. **Reporting**: *combines the above 2 steps to produce a coverage number and an indication of missing execution.*
+
   
