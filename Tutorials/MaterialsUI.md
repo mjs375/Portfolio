@@ -5,4 +5,5 @@
   - *sliders, switches, app bars, &c.*
 
 ### Install
-```$ npm i @material-ui/core ```: *installs main packages for Material UI for use in a project-folder called [here] 'core'*
+- ```$ npm i @material-ui/core ```: 
+  - *installs main packages for Material UI for use in a project-folder called [here] 'core'*
