@@ -1,7 +1,7 @@
 # REACT JS
 
 ### React
-- **React** is a library, not a framework. It can help create a powerful Front-End pipeline for a web app.
+- **React** is an open-source, front-end Javascript library, not a framework. It can help create a powerful Front-End pipeline for a web app (esp. a single-page app).
   - manages specific areas of an app's UI, rather than it in entirety
   - *only concerned with the __V__ in __MVC__*
   
