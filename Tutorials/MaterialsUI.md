@@ -6,4 +6,4 @@
 
 ### Install
 - ```$ npm i @material-ui/core ```: 
-  - *installs main packages for Material UI for use in a project-folder called [here] 'core'*
+  - *installs main packages for Material UI for use in a project-folder called [here] 'core'. After this install, bring in individual components as you need them.*
