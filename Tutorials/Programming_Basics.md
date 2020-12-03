@@ -14,6 +14,10 @@
 - ```README.md```: Answers a user's questions about installations & usage of a project, located in the root (top-leve) directory. Written in a ```.md``` or ```.markdown``` file (supports lightweight markdown).
   - Include: *project name, description (function of program, context, links for reference), visuals (screenshots/GIFs/video), installation procedure (nod to requirements.txt), usage (e.g. ```python3 manage.py runserver```), support (where to go for help), authors/acknowledgement, project status/roadmap.*
   
+### Programming Terms
+- **Front-End**: *concerned with UI (User Interface) and website styles. Most often program in HTML, CSS, and Javascript. 'Client-side'.*
+- **Back-End**: *often written in server-side languages, e.g. Python, Ruby, PHP. Back-End developers handle interaction with the database*
+-**Full Stack**: *term for a Web Developer role that handles both the Front & Back Ends*
 
 ### Requirements
 - ```Requirements.txt```: *a file that makes it easier for other users (that have downloaded your projects) to run the same Python libraries as it was written in/for. A user will encounter messages such as "No module named [...]"; download that library; then get the message again, again, again...*
