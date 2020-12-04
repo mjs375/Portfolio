@@ -121,7 +121,7 @@ python3 -c "from tests import test_prime; test_prime(2, True)"
 
 
 - **Unittest**: *Python's unnittest library.*
-```
+```python
 <<testings.py>> # filename 
 import unittest 
 from filename import function_name # function you are debugging
