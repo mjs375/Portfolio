@@ -61,4 +61,5 @@ network={
 - ```$ sudo apt install realvnc-vnc-server realvnc-vnc-viewer```
 - ```$ free```: *check available memory on microSD/Pi*
 - Enable **VNC** in ```Preferences``` => ```R-Pi Configuration```
-- ```$ ```: *get Raspberry Pi's private IP address*
+- ```$ hostname -I```: *get Raspberry Pi's private IP address*
+
