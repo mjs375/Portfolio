@@ -3,7 +3,6 @@
 
 ### Imports
 ```python
-  #IMPORTS
 from time import sleep 
   #--control length of pin pulses (on/off, high/low)
 import sys
@@ -11,10 +10,8 @@ import sys
 import RPi.GPIO
   #--control Raspberry PI GPIO pins
 
-
-#### Demo
 ```
-- **Sample example, toggles an output pin on/off for 200ms x10.
+#### Demo
 ```python
 import RPi.GPIO as GPIO
 import time
