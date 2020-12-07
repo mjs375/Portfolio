@@ -28,6 +28,7 @@
 
 
 ## SETUP
+- **```$ sudo reboot```**: reboot the Raspberry Pi
 
 ### Configuring Raspberry Pi for Wifi Access
 - Take out microSD card and load on computer. Access ```/boot``` Volume folder that appears. Create a file called ```wpa_supplicant.conf``` and enter the content below *(allows a computer to pick up the Raspberry Pi via WiFi instead of using an HDMI cable, monitor, keyboard & mouse).*
@@ -54,4 +55,10 @@ network={
 
 ### Connecting to a Monitor via HDMI
 - Connect USB mouse/keyboard to Raspberry Pi unit. Link monitor and Pi with HDMI cable. Plug power cord into Pi unit.
-###
+
+### Connect to Raspberry Pi w/ Computer via VNC
+- ```$ sudo apt update```
+- ```$ sudo apt install realvnc-vnc-server realvnc-vnc-viewer```
+- ```$ free```: *check available memory on microSD/Pi*
+- Enable **VNC** in ```Preferences``` => ```R-Pi Configuration```
+- ```$ ```: *get Raspberry Pi's private IP address*
