@@ -49,9 +49,9 @@ network={
 
 }
 ```
-- In a terminal window, run ```arp -a``` to see a list of all devices on the WiFi Network.
-- Run ```ssh pi@[IP NUMBER]```.
-https://spin.atomicobject.com/2019/06/09/raspberry-pi-laptop-display/
+- *(In a terminal window, run ```arp -a``` to see a list of all devices on the WiFi Network.)*
+- Go to ```Localisation``` settings and set WiFi Country.
 
 ### Connecting to a Monitor via HDMI
 - Connect USB mouse/keyboard to Raspberry Pi unit. Link monitor and Pi with HDMI cable. Plug power cord into Pi unit.
+###
