@@ -16,10 +16,11 @@
 ### Mathematics
 - **Format**: Cartesian Coordinates
   - *i.e. if I want the pen at point(x,y), how long should the L-belt and R-belt be?*
+- **Variables**:
+  - **```h```**: height of paper
+  - **```w```**: width between two motor spindles
 
 
-
-![Hey](https://github.com/mjs375/Workshop/issues/2)
 
 
 
