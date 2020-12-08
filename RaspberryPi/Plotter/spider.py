@@ -44,6 +44,14 @@ class Weaver:
   #
   #
   #
+  def move_relative(self, ):
+    """ Move relative to current position. """
+    pass
+  #
+  def move_from_center():
+    """ Move relative to starting position (center of board). """
+    pass
+  #
   def move(self, next_position):
     """ Move pen-gondola to new position """
     #--Calc delta of belt lengths (start position & next position):
@@ -68,3 +76,4 @@ class Weaver:
   def borders(self):
     """ Add 'corner borders' to the paper. """  
     pass
+                                            
