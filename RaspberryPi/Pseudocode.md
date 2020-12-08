@@ -11,29 +11,16 @@ import RPi.GPIO
   #--control Raspberry PI GPIO pins
 
 ```
-#### Demo
+### Class Plotter()
 ```python
-import RPi.GPIO as GPIO
-import time
+class Plotter(self, ):
+  def __init__(self, ):
+  self. = 
+  self. = 
 
-LED = 18
-switch = 31
 
-GPIO.setmode(GPIO.BOARD)
-GPIO.setup(led, GPIO.OUT)
-GPIO.setup(switch, GPIO.IN)
-
-for i in range(10):
-  GPIO.output(LED, GPIO.HIGH)
-  time.sleep(0.2)
-  GPIO.output(LED, GPIO.LOW)
-  time.sleep(0.2)
-  print("Switch states = ", GPIO.input(switch))
-
-GPIO.cleanup()
 
 ```
-
 
 
 
