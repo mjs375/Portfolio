@@ -13,13 +13,40 @@ import RPi.GPIO
 ```
 ### Classes
 ```python
-class Plotter(self, ):
-  def __init__(self, ):
-    self. = 
-    self. = 
+class Plotter:
+  """
+  class Plotter
+  
+  Attributes:
+  -
+  -
+  Methods:
+  -
+  -
+  """
+  def __init__(self, width, height, **kwargs):
+    #--
+    self.width = width 
+    #--
+    self.height = height
+    #--Initialize the pen position (which will change):
+    self.position = kwargs.pop(...)
+    #--Save the start position:
+    self.initial = kwargs.pop(...)
+    
+  #
+  def calc_belt_length(self, position):
+    
+    
+    
 ```
+
+
+
+
+
 ```python
-class Point(self, x, y, z, c):
+class Point:
   def __init__(self, x, y, c):
     self.x = x                  #--Horizontal coordinate
     self.y = y                  #--Vertical coordinate
