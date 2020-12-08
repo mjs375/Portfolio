@@ -58,22 +58,47 @@ class Weaver:
     start_lengths = self._calc_belt_lengths(self.position)
     stop_lengths =  self._calc_belt_lengths(next.position
     #--Calc motor movement to reach new lengths (new position):
-    left_steps =
-    right_steps =
+    # left_steps =
+    # right_steps =
     #--Calc duration based on move length & speed:
-    duration = 
+    # duration = 
     #--Move the motors:
-    self.spin
+    # self.spin
     #--Sleep so commands don't stack
     time.sleep(duration/1000)
-  #                                         
+  #                                                   
   #
   #
   def sign(self):
     """ Apply a signature to the artwork in the lower-right corner. """
     pass
-  #                                      
+  #                                                 
   def borders(self):
     """ Add 'corner borders' to the paper. """  
     pass
+ 
+                                            
+                                            
+#
+#
+#                                            
+class Spinneret:
+  """ Controls the pen-gondola (i.e. pen drawing or not). """
+  #                                          
+  def __init__(self, wait=0.3):
+    self.wait = wait   
+  #
+  #                                          
+  def draw(self):
+    #--Lower the pen:
+                                            
+    #--Wait for mechanism to actually move before continuing on thru code:                                        
+    time.sleep(self.wait)                                        
+  #                                            
+  def hover(self):
+    #-- 
+                                            
+    #--Wait for mechanism to actually move before continuing on thru code:                                        
+    time.sleep(self.wait)                                         
+  #                                          
                                             
