@@ -6,9 +6,9 @@ Y-axis is positive downwards
 """
 
 
-class Plotter:
+class Weaver:
   """
-  class Plotter – a single drawing.
+  class Weaver – a single drawing instance. Moves belts to align pen-gondola with a point in the drawing-area.
   
   Attributes:
   -
