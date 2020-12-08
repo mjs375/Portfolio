@@ -14,14 +14,13 @@ import spider
 #
 # # # 
   
-
 #--Instantiate plotter class instance
-s = spider.Weaver(
-  #
+webster = spider.Weaver(
+  #--Width of motors:
   
-  #
+  #--Height of drawing-wall:
   
-  #
+  #--**kwargs
   
   #
   )
@@ -32,4 +31,5 @@ s = spider.Weaver(
 #
 #--Set SPIDER in motion, get weaving! ... er, drawing!
 for point in path:
-  #
+  webster.move  (  )
+  
