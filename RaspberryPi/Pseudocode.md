@@ -11,7 +11,7 @@ import RPi.GPIO
   #--control Raspberry PI GPIO pins
 
 ```
-### Class Plotter()
+### Classes
 ```python
 class Plotter(self, ):
   def __init__(self, ):
