@@ -34,6 +34,25 @@
 - Take out microSD card and load on computer. Access ```/boot``` Volume folder that appears. Create a file called ```wpa_supplicant.conf``` and enter the content below *(allows a computer to pick up the Raspberry Pi via WiFi instead of using an HDMI cable, monitor, keyboard & mouse).*
   - Additionally, create a file called ```ssh``` in ```/boot```. Leave it empty.
 ```
+$ sudo iwlist wlan0 scna |more
+  #--See ESSIDs...
+$ ifconfig wlan0
+  #--Check wlan0 (once Wifi is up, rerunning this line will display IP address, &c.)
+$ sudo wpa_passphrase "WIFI_NETWORK_NAME" "password" | sudo tee -a /etc/wpa_supplicant/wpa_supplicant.conf
+  #--Will print out 'network={...}', with #psk (plaintext password commented out)
+$ sudo nano -w /etc/wpa_supplicant/wpa_supplicant.conf 
+  #--Open the file and remove the commented-out psk, keeping only the hashed 'psk'
+  #--Save & close the file
+$ ifconfig wlan0
+  #--No IP Address yet...
+$ sudo wpa_cli -i wlan0 reconfigure
+  #--'OK'
+$ reboot
+  #--If necessary...
+
+```
+```
+# # # wpa_supplicant.conf # # #
 ctrl_interface=DIR=/var/run/wpa_supplicant GROUP=NETDEV
 
 update_config=1
@@ -41,14 +60,10 @@ update_config=1
 country=US
 
 network={
-
-  ssid="WIFI_NAME"
-
-  psk="WIFI_PASSWORD"
-
-  scan_ssid=1
-
+  ssid="WIFI_NETWORK_NAME"
+  psk="930e.............694f49" #--hashed version of Wifi Password
 }
+
 ```
 - *(In a terminal window, run ```arp -a``` to see a list of all devices on the WiFi Network.)*
 - Go to ```Localisation``` settings and set WiFi Country.
