@@ -13,6 +13,14 @@ import RPi.GPIO
 ```
 ### Classes
 ```python
+"""
+Origin => (0,0) # top-left corner
+X-axis is positive to the right,
+Y-axis is positive downwards
+  
+"""
+
+
 class Plotter:
   """
   class Plotter
