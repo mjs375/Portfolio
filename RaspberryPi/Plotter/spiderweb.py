@@ -14,8 +14,8 @@ import spider
 #
 # # # 
   
-#--Instantiate plotter class instance
-webster = spider.Weaver(
+#--Create a Weaver class instance (our spider is called Webster):
+webster = spider.Weaver( #--Provide class attributes:
   #--Width of motors:
   
   #--Height of drawing-wall:
