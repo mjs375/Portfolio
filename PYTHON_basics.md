@@ -129,7 +129,7 @@
   - ```lambda arguments : expression```
     - ```x = lambda a : a + 10``` > ```print(x(5))```
 
-### ```*args``` & ```**kwargs```
+#### ```*args``` & ```**kwargs```
 - In function definitions, parameters (inputs) are __named entities__ that specify an argument that a given f(x) can accept/has access to.
   - ```*args``` & ```**kwargs``` allow your function to accept unspecified/additional arguments without breaking the function. 
     - **```*args```**: a function that accepts a variable-length argument list, thus allowing it to take any number of arguments. Note: ```*args``` aren't named (non- keyworded)! More flexible.
@@ -156,7 +156,53 @@ multiply(20, 3, 1)
 multiply(3, 8, 4, 9)
 
 ```
+- **```**kwargs```**: *used to pass a dictionary of keyworded (named) arguments to a function. ```**kwargs``` can take any number of arguments, but, being a dictionary, must be assigned keywords. In Python 3.6+, the key-value pairs in the dict{} will be in order.*
+```python
+def print_kwargs(**kwargs):
+  print(kwargs) # function parameter 'kwargs' is a dictionary {...}
 
+#--Call the function, suppling it kwargs
+a = print_kwargs(s1="Hello", s2="World")
+print(a) # => {'s1': 'Hello', 's2': 'World'}.
+
+def hello_name(**kwargs):
+  for k, v in kwargs.items():
+    print(f"Hello {k}, a {v}!")
+#--Call the function, giving it **kwargs:
+hello_names('Jane Doe': 'teacher', 'John Smith': 'banker)
+```
+- **Ordering Arguments**: *when ordering arguments within a function definition or function call, arguments need to occur in a particular order:*
+  - 1. Formal positional arguments
+  - 2. ```*args```
+  - 3. Keyworded arguments
+  - 4. ```**kwargs```
+- Explicit positional parameters example:
+  - ```def example1(arg1, arg2, *args, **kwargs): ...```
+- Positional parameters + named keyword arguments:
+  - ```def example2(arg1, arg2, *args, kw_1='value1', kw_2='value2', **kwargs): ... ```
+- **Function Calls**:
+```python
+def some_args(arg1, arg2, arg3):
+  print(arg1, arg2, arg3)
+
+args = ("Jack", "Tommy", "Susie") #--a tuple that will be the *args
+some_args(*args) #--Note we pass in 'args' with an asterisk
+```
+```python
+def some_args(arg1, arg2, arg3):
+  print(arg1, arg2, arg3)
+
+my_list = [2,3]
+some_args(1, *my_list) #--order matters!
+```
+```python
+def some_kwargs(kwarg1, kwarg2, kwarg3):
+  print(kwarg1, kwarg2, kwarg3)
+
+#--
+kwargs = {'k1': 'v1', 'k2': 'v2', 'k3': 'v3'}
+some_kwargs(**kwargs)
+```
 
 
 
