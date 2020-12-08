@@ -129,9 +129,33 @@
   - ```lambda arguments : expression```
     - ```x = lambda a : a + 10``` > ```print(x(5))```
 
+### ```*args``` & ```**kwargs```
+- In function definitions, parameters (inputs) are __named entities__ that specify an argument that a given f(x) can accept/has access to.
+  - ```*args``` & ```**kwargs``` allow your function to accept unspecified/additional arguments without breaking the function. 
+    - **```*args```**: a function that accepts a variable-length argument list, thus allowing it to take any number of arguments. Note: ```*args``` aren't named (non- keyworded)! More flexible.
+```python
+def multiply (x, y):
+  return x * y
+  
+#--Call on the multiply function
+product = multiply(5,4)
+print(product) # => 20
 
+#--What happens if we call on multiply() with 3 inputs?
+print(multiply(5, 4, 3))
+# => TypeError: multiply() takes 2 positional arguments, but 3 were given.
+```
+```python
+def multiply(*args):
+  z = 1
+  for num in args:
+    z *= num
+  return num
+multiply(5, 4)
+multiply(20, 3, 1)
+multiply(3, 8, 4, 9)
 
-
+```
 
 
 
