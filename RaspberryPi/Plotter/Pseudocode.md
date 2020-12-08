@@ -15,7 +15,17 @@ import time
   #--Timing programs/stalling programs...
 
 ```
+
+
+
+
+
+
+
+
+
 ### Classes
+\
 ```python
 """
 Origin => (0,0) # top-left corner
@@ -42,12 +52,19 @@ class Plotter:
     #--
     self.height = height
     #--Initialize the pen position (which will change):
-    self.position = kwargs.pop(...)
-    #--Save the start position:
-    self.initial = kwargs.pop(...)
+    self.position = kwargs.pop('initial_position', [width/2, height/2])
+    #--Save the starting position:
+    self.initial_position = kwargs.pop('initial_position', [width/2, height/2])
     
   #
   def calc_belt_length(self, position):
+    """ Calculates the length of each belt based on its current or expected position. c = sqrt(a**2 + b**2)"""
+    #--self.position = width, height (x,y).
+
+    left_belt = math.sqrt(position[0]**2 + position[1]**2)
+    right_belt = 
+    return left_belt, right_belt
+    
     
     
     
