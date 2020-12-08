@@ -9,6 +9,8 @@ import sys
   #--
 import RPi.GPIO
   #--control Raspberry PI GPIO pins
+import math # math.sqrt
+  #--Calc'ing the belt lengths using PythagTheorem
 
 ```
 ### Classes
