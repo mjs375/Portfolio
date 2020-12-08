@@ -31,7 +31,7 @@ class Weaver:
     self.speed = 
     #--
     
-  #
+  # 
   #
   #
   def _calc_belt_length(self, position): # (method starts w/ '_' to indicate it is for internal use only)
