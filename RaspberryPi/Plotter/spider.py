@@ -58,12 +58,13 @@ class Weaver:
     self.spin
     #--Sleep so commands don't stack
     time.sleep(duration/1000)
-    
-class Point:
-  def __init__(self, x, y, c):
-    self.x = x                  #--Horizontal coordinate
-    self.y = y                  #--Vertical coordinate
-    self.z = z or 1             #--1 if pen-up, 0 if pen-down
-    self.c = 'blk' or c         #--Point color
-  def __str__(self):
-    return f"{self.x},{self.y},{self.z} (self.c)."
+  #                                         
+  #
+  #
+  def sign(self):
+    """ Apply a signature to the artwork in the lower-right corner. """
+    pass
+  #                                      
+  def borders(self):
+    """ Add 'corner borders' to the paper. """  
+    pass
