@@ -21,8 +21,8 @@
   - **```w```**: width between two motor spindles
 
 
-
-
+### Project SPIDERWEB
+- a hanging pen plotter
 
 
 
