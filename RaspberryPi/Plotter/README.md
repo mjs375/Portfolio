@@ -1,6 +1,12 @@
 # SPIDER
 
 ### What is Spider?
+- __Spider__ is a DIY, custom-built XY plotter, also known as a *polargraph*, *pen plotter*, *vertical pltter*, or *hanging plotter*.
+
+### Hardware
+- Raspberry Pi 3 Model B
+- Raspberry Pi Breadboard (Half Size) [$4](https://thepihut.com/products/raspberry-pi-breadboard-half-size)
+
 
 
 
