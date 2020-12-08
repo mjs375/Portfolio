@@ -16,7 +16,15 @@ import spider
   
 
 #--Instantiate plotter class instance
-s = spider.Plotter
+s = spider.Weaver(
+  #
+  
+  #
+  
+  #
+  
+  #
+  )
   
 
   
