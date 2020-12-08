@@ -37,7 +37,7 @@ Y-axis is positive downwards
 
 class Plotter:
   """
-  class Plotter
+  class Plotter – a single drawing.
   
   Attributes:
   -
@@ -47,26 +47,46 @@ class Plotter:
   -
   """
   def __init__(self, width, height, **kwargs):
-    #--
+    #--Distance between L/R motors (width of drawing area):
     self.width = width 
-    #--
+    #--Distance to bottom of drawing area:
     self.height = height
-    #--Initialize the pen position (which will change):
+    #--Initialize the pen position to center of wall (which will change):
     self.position = kwargs.pop('initial_position', [width/2, height/2])
     #--Save the starting position:
     self.initial_position = kwargs.pop('initial_position', [width/2, height/2])
+    #
+    #--Set pen speed
+    self.speed = 
+    #--
     
   #
-  def calc_belt_length(self, position):
-    """ Calculates the length of each belt based on its current or expected position. c = sqrt(a**2 + b**2)"""
-    #--self.position = width, height (x,y).
-
+  #
+  #
+  def _calc_belt_length(self, position): # (method starts w/ '_' to indicate it is for internal use only)
+    """ Calculates the length of each belt based on its current or expected position. {c = sqrt(a**2 + b**2) / self.position = width, height (x,y).}"""
+    #-- left belt = sqrt(width**2, height**2)
     left_belt = math.sqrt(position[0]**2 + position[1]**2)
+    #--
     right_belt = 
     return left_belt, right_belt
-    
-    
-    
+  #
+  #
+  #
+  def move(self, next_position):
+    """ Move pen-gondola to new position """
+    #--Calc delta of belt lengths (start position & next position):
+    start_lengths = self._calc_belt_lengths(self.position)
+    stop_lengths =  self._calc_belt_lengths(next.position
+    #--Calc motor movement to reach new lengths (new position):
+    left_steps =
+    right_steps =
+    #--Calc duration based on move length & speed:
+    duration = 
+    #--Move the motors:
+    self.spin
+    #--Sleep so commands don't stack
+    time.sleep(duration/1000)
     
 ```
 
