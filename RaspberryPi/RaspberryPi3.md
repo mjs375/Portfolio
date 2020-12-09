@@ -24,7 +24,8 @@
     - ```VNC```: *allow remote access to your Raspberry Pi Desktop from another computer using VNC.*
   - 
 
-
+- **Custom Aliases:** *you can create an ```alias```, or a custom terminal shortcut command, by running the following in a terminal session: ```$ alias new_name='command to run'.``` To permanently save the alias/shortcut, save that same bit of code in the ```pi``` directory by running ```$ nano /home/pi/.bash_aliases```, then typing and saving your alias.*
+  - **```temp```**: *check CPU temperature of the Raspberry Pi (```/opt/vc/bin/vcgencmd measure_temp```)*
 
 
 ## SETUP
