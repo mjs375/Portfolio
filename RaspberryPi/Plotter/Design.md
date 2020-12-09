@@ -20,6 +20,13 @@
   - **```h```**: height of paper
   - **```w```**: width between two motor spindles
 
+### G-CODE
+- the numerically-controlled language of 3D printing.
+  - a series of commands, most starting with ```G``` (some ```M```). They tell the printer where to move, at what speed, &c., &c. Each code is written on a separate line.
+- **G-Code**:
+  - ```G28; home all axes (x, y, z)```: home all axes by default (to [0,0,0], or elsewhere by providing X,Y,Z).
+    - ```G28 Z ; home z-axis only```
+    - ```G28 X Y ; home X/Y-axis```
 
 ### Project SPIDERWEB
 - a hanging pen plotter
