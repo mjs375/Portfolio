@@ -25,7 +25,7 @@ import time
 
 
 ### Classes
-\
+
 ```python
 """
 Origin => (0,0) # top-left corner
