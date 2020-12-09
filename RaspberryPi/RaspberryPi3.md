@@ -48,8 +48,8 @@ $ ifconfig wlan0
   #--No IP Address yet...
 $ sudo wpa_cli -i wlan0 reconfigure
   #--'OK'
-$ reboot
-  #--If necessary...
+$ sudo reboot
+  #--(If necessary/WiFi doesn't appear yet)...
 
 ```
 ```
@@ -78,4 +78,6 @@ network={
 - ```$ free```: *check available memory on microSD/Pi*
 - Enable **VNC** in ```Preferences``` => ```R-Pi Configuration```
 - ```$ hostname -I```: *get Raspberry Pi's private IP address*
+- Download RealVNC app on device that will take control.
+  - Create an Address entry for the Raspberry Pi. Enter IP Address as Address. Use Ras-Pi login to authenticate. 'Connect'!
 
