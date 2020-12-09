@@ -34,4 +34,4 @@
 - [inkylinesplots](https://linktr.ee/inkylinesplots)
 - [Pen plotter](https://www.basjacobs.com/post/pen-plotter/)
 - [Travelling Salesman Tutorial/Code](https://towardsdatascience.com/solving-travelling-salesperson-problems-with-python-5de7e883d847)
-- [Optimizing TSP](https://nb.paulbutler.org/optimizing-plots-with-tsp-solver/)
+- [Optimizing TSP: Code!](https://nb.paulbutler.org/optimizing-plots-with-tsp-solver/)
