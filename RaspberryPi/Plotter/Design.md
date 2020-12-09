@@ -27,4 +27,9 @@
 
 
 ### Sources
-- https://hackspace.raspberrypi.org/articles/use-pythagoras-theorem-to-draw-pictures
+- [Maths (J. Proudlock)](https://hackspace.raspberrypi.org/articles/use-pythagoras-theorem-to-draw-pictures)
+- [erik](https://github.com/yosemitebandit/erik)
+- [Brachiograph](https://github.com/evildmp/BrachioGraph)
+- [polargraph](http://www.polargraph.co.uk/)
+- [inkylinesplots](https://linktr.ee/inkylinesplots)
+- [Pen plotter](https://www.basjacobs.com/post/pen-plotter/)
