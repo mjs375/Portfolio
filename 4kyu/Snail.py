@@ -1,3 +1,5 @@
+# My / others' solutions
+
 import unittest
 import os
 
@@ -47,3 +49,26 @@ array = [[1,2,3],
 expected = [1,2,3,6,9,8,7,4,5]
 #
 assert snail(array) == expected
+
+
+
+
+
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+def snail(snail):
+    #--Start with an empty list, you'll be adding (as below) each step of the 'snailing' as a new sublist
+    ans = [[]]
+
+    while True:
+        try:
+            ans.append(snail.pop(0))
+            ans.append([x.pop(-1) for x in snail])
+            ans.append(snail.pop(-1)[::-1])
+            ans.append([x.pop(0) for x in snail][::-1])
+        except:
+            break
+    print(sum(ans, []))
+    return sum(ans, [])
+
