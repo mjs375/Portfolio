@@ -22,6 +22,7 @@
     - ```$ git -am commit "some message"```: *combines add/commit in one command (only if you modified files, not added new ones)*
 - **(3) Send version to Github:** ```$ git push```
   - *the 'Save' button of git, this sends your noted changes to the remote repository.*
+  - ```$ git push -f <origin> <main>```: *override remote version with local version*
 - **Pull down more updated version from remote repository:** ```$ git pull```
   - ```git pull``` *requests changes from remote to local repository;* ```$ git push``` *does the opposite. If both sides have changes, they will need to be reconciled first.*
 
@@ -48,6 +49,7 @@
   - **Delete Local Branch**: ```$ git branch -d <branch_name>```: *after a merge, if you are sure you don't need the merged-from branch anymore, you can permanently delete it.*
     - **Delete Remote Branch:** ```$ git push origin --delete <remote-branch-name>``` **
   - **Rename Branch**: ```$ git checkout <old_name>``` + ```$ git branch -m <new_name>```: *just in case, you can always keep around old branches, even if you've merged them to the ```main```. (Note: if the branch is also in the remote repository, complete the following: ```$ git push origin -u <new_name>``` + ```$ git push origin --delete <old_name>```.)*
+  
   
 ### Merging
 - **Merge Conflict:** *when merging a local copy and the repository code, if one thing has been changed to two different things, that presents a merge conflict– Github cannot decide which to keep, so you must choose (or re-combine) them until no conflicts exist, then re-commit the version you want.*
