@@ -2,7 +2,7 @@ def filter_long_words(sentence, n):
     sentence = sentence.split(" ")
     answer = []
     for word in sentence:
-        if len(word) > 4:
+        if len(word) > n:
             answer.append(word)
     return answer
 
