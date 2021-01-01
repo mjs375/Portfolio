@@ -3,6 +3,9 @@ def solution(string, limit):
         return string
     ans = string[0:limit] + "..."
     return ans
+
+def solution(string, limit): 
+    return string if len(string) <= limit else string[0:limit]+"..."
     
     
 """
