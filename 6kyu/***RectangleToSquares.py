@@ -53,3 +53,67 @@ You will return a collection or a string (depending on the language; Shell bash,
   sqInRect(5, 3) should return [3, 2, 1, 1]
   sqInRect(3, 5) should return [3, 2, 1, 1]
 """
+
+
+
+
+
+
+
+"""
+The above function works on its own, but not in Codewars because I modified the inputs of the given function, which must have broken the testing apparatus.
+"""
+
+
+
+
+
+
+def sqInRect(lng, wdth):
+    ans=[]
+    ans = helper(lng, wdth, ans)
+    return ans
+
+
+def helper(lng, wdth, ans=[]):
+
+    print("Rectangle:",str(lng)+"x"+str(wdth))
+    
+    #--Start w/ square, return nothing:
+    if lng == wdth and ans == []:
+        print("...")
+        return None
+    
+    
+    #--Find smaller side
+    side = min(lng, wdth)
+    print("Cut square:",side)
+    #
+    if side > 0:
+        
+        if wdth > lng:
+            #--
+            a = lng
+            lng = wdth # 'l' is longer again
+            wdth = a # 'w' is longer again
+        
+        if lng > wdth:
+            #--Cut off to make into a square
+            lng = lng - side
+            wdth = wdth # no change
+        
+        else: #equal square, last step:
+            lng = lng - side
+            wdth = wdth - side
+        #--Add removed square to list
+        ans.append(side)
+        print("Remainder:",f"L:{lng}", f"W:{wdth}")
+    
+    #
+    
+    if lng != 0 and wdth != 0:
+        print("Recurse!", ans, "\n")
+        ans = helper(lng, wdth, ans)
+    
+    print("DONE!:",ans)
+    return ans
