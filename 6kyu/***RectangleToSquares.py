@@ -1,3 +1,5 @@
+# Program works in Atom/Python Tutorial, maybe a bug on Codewars?...
+
 def sqInRect(l, w, ans=[]):
     print("Rectangle:",str(l)+"x"+str(w))
     
