@@ -3,15 +3,15 @@ def dbl_linear(n):
     seq = []
     seq.append(1)
     #
-    c=0
+    c=1
     while len(seq) < n+1:
-        y = get_y(seq[c])
-        z = get_z(seq[c])
+        y = get_y(c)
+        z = get_z(c)
         if y not in seq:
             seq.append(y)
         if z not in seq:
             seq.append(z)
-        c += 1
+        c = min(i for i in seq if i > c)
         seq = sorted(seq)
     print("fake SEQUENCE w/ incomplete ending:\n",seq)
     print()
@@ -19,8 +19,8 @@ def dbl_linear(n):
     go = True
     print("C:",c)
     while go: 
-        y = get_y(seq[c])
-        z = get_z(seq[c])
+        y = get_y(c)
+        z = get_z(c)
         if y not in seq:
             seq.append(y)
         if z not in seq:
@@ -28,7 +28,7 @@ def dbl_linear(n):
         seq = sorted(seq)
         if y >= pass_in_Y:
             go = False
-        c += 1
+        c = min(i for i in seq if i > c)
         
     print("Actual sequence:")
     return seq[n]
@@ -42,7 +42,6 @@ def get_y(x):
     return 2 * x + 1
 def get_z(x):
     return 3 * x + 1
-
 
 
 
