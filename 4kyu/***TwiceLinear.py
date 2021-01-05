@@ -1,26 +1,22 @@
 def dbl_linear(n):
-    print("nth element:",n)
-    seq = []
-    seq.append(1)
-    #
+    print("n:",n)
+    seq = [1,]
     c=1
     while len(seq) < n+1:
-        y = get_y(c)
-        z = get_z(c)
+        y = (2*c+1)
+        z = (3*c+1)
         if y not in seq:
             seq.append(y)
         if z not in seq:
             seq.append(z)
         c = min(i for i in seq if i > c)
         seq = sorted(seq)
-    print("fake SEQUENCE w/ incomplete ending:\n",seq)
-    print()
+    print("fake:\n",seq)
     pass_in_Y = seq[n]
     go = True
-    print("C:",c)
     while go: 
-        y = get_y(c)
-        z = get_z(c)
+        y = (2*c+1)
+        z = (3*c+1)
         if y not in seq:
             seq.append(y)
         if z not in seq:
@@ -30,20 +26,12 @@ def dbl_linear(n):
             go = False
         c = min(i for i in seq if i > c)
         
-    print("Actual sequence:")
+    print("Actual:",seq)
+    print("ANS:",seq[n])
     return seq[n]
     
     
     
-    
-    
-    
-def get_y(x):
-    return 2 * x + 1
-def get_z(x):
-    return 3 * x + 1
-
-
 
 """
 Consider a sequence u where u is defined as follows:
