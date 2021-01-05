@@ -1,3 +1,31 @@
+#--Working/EFFICIENT function (*made with various help*):
+
+def dbl_linear(n):
+    #--Sequence 'u':
+    seq = [1,]
+    #--Keep track of which x/y equation is generating the smaller number (to avoid sorting):
+    x, y = 0, 0
+    for i in range(n):
+        #--Calc the latest x/y of seq
+        X = 2*seq[x]+1
+        Y = 3*seq[y]+1
+        #--Now add the smaller number, so that we don't have to sort:
+        if X <= Y:
+            seq.append(X)
+            x += 1
+            #--A dupe, don't add to seq:
+            if X == Y:
+                y += 1
+        else:
+            seq.append(Y)
+            y += 1
+    return seq[n]
+    
+
+
+
+#--Original function, too inefficient:
+
 def dbl_linear(n):
     print("n:",n)
     seq = [1,]
