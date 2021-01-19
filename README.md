@@ -14,7 +14,7 @@
 Skill | Level | Desc. | Tutorial | Projects | Doc
 ------|-------|-------|----------|----------|-----
 **API**<br> | ☆☆☆☆☆ |
-**Artificial Intelligence** | ★☆☆☆☆ | 
+**Artificial Intelligence**<br>```nlp``` ```AI``` ```machine-learning``` | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– see CS50: Artificial Intelligence with Python repository for complete project directory of AI-programs.*</details></p>
 **Axios**<br>```API``` ```facility```  | ☆☆☆☆☆ |
 **Bootstrap**<br>```framework``` ```CSS``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | | | [:information_source:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 **C**<br>```lang``` | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | 
