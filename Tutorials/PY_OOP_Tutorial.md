@@ -125,7 +125,7 @@ class Dog:
 eli.speak("Momm...") # => 'Eli BARKS: Momm...'
 eli.speak() # => 'Eli says Momm...' # NOT overridden by parent
 ```
-- **Completely Orverride a Method from Parent:** *access the parent-class from inside a method of a child-class with ```super()```.*
+- **Completely Override a Method from Parent:** *access the parent-class from inside a method of a child-class with ```super()```.*
   - *When you call ```super().speak(sound)``` inside the child-class, Python searches for the parent-class (Dog), for a ```.speak()``` method, and calls it with the variable ```sound```.*
 ```python
 class ShetlandSheepdog(Dog):
