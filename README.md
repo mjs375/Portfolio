@@ -65,8 +65,9 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
   - **Projects:** [Network](https://github.com/mjs375/cs50_Network) [[demo](https://youtu.be/ZVWUChcXROc)], [Mail](https://github.com/mjs375/CS50Python/tree/master/mail) [[demo](https://youtu.be/Q_k1aYlhL0g)], [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce) [[demo](https://youtu.be/_4-p51yivLI)], [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki) [[demo](https://youtu.be/_A0URKeuQmM)], [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) [[demo](https://youtu.be/qz-boka5HxA)]
   - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
     - *Capstone currently being graded, course 100% done otherwise*
-- [ ] **CS50: Artificial Intelligence with Python**
-  - **Projects:**
+- [x] **CS50: Artificial Intelligence with Python**
+  - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md)
+  - [Certificate]()
 - [ ] **Fat Chance: Probability from the Ground Up**
   - Harvard free online statistics course
 ### Free Courses:
