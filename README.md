@@ -5,7 +5,7 @@
 ### About Me:
 - I am currently a public reference librarian in **```New Jersey```** who is interested in branching out to the programming field. My formal experience includes courses during my **```Rutgers University```** graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (**```SUNY Geneseo```**) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard's **```CS50 series```**. For some fun learning I do online programming practice, e.g. **```Codewars```** and miscellaneous solo projects, such as forays into Webscraping and game design. This spring I will be taking graduate-level courses from **```Montclair State University```** (*ungraded, unofficial audits*).
   - Email: *spitzer.matthewjames@gmail.com*
-  - Résumé: TBD
+  - Résumé: *on request*
 - This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. The chart below is simply a rough outline of my own experience, the skill levels are all relative between Beginner to Intermediate. Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on. *Note: the 'Tutorials' folder often contains near-verbatim, personal notes taken from online sources (cited within), they are not my own and are merely for study/practice purposes.*
  
  
@@ -52,9 +52,6 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
   - HTML, CSS, Javascript, MySQL, PHP
 - [x] **Rutgers: 559 Web Programming** *(Grade: ```A```)*
   - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
-- [ ] **Montclair State University: CSIT 505 Python Programming** *(```ungraded audit```)*
-  - Projects:
-  - [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
   
  
 #### Online Coursework:
@@ -69,8 +66,10 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 - [x] **CS50: Artificial Intelligence with Python**
   - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md)
   - [Certificate]()
-- [ ] **Fat Chance: Probability from the Ground Up**
-  - Harvard free online statistics course
+- [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
+
+  
+  
 ### Free Courses:
   - [ ] [Free Ivy League Courses](https://www.classcentral.com/collection/ivy-league-moocs?subject=cs)
 - [ ] **[MIT OpenCourseWare: Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/)**
