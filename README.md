@@ -13,12 +13,12 @@
 
 Skill | Level | Desc. | Tutorial | Projects | Doc
 ------|-------|-------|----------|----------|-----
-**API**<br> | ☆☆☆☆☆ |
+**API**<br> | ★☆☆☆☆ |
 **Artificial Intelligence**<br>```nlp``` ```AI``` ```machine-learning``` | ★☆☆☆☆ | <p><details><summary>:bookmark:</summary>*– see CS50: Artificial Intelligence with Python repository for complete project directory of AI-programs.*</details></p>
 **Axios**<br>```API``` ```facility```  | ☆☆☆☆☆ |
 **Bootstrap**<br>```framework``` ```CSS``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– pre-written, open-source CSS that programmers can use (by importing and assigning relevant class/id names to an element), thus not wasting time creating universal styles from scratch.*</details></p> | | | [:information_source:](https://getbootstrap.com/docs/4.5/getting-started/introduction/)
 **C**<br>```lang``` | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a high-level language that, unlike Python, needs to be 'compiled' into machine-readable code before it is run.*</details></p> | 
-**Code Editors**<br>```atom``` ```jupyter``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– text & code-editors used in programming.*</details></p> |
+**Code Editors/IDE**<br>```atom``` ```jupyter``` | ★★★★☆ | <p><details><summary>:bookmark:</summary>*– text & code-editors used in programming.*</details></p> |
 **Command line** | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*– a text interface for interacting with the computer, which takes in commands and can do almost anything.*</details></p> | [Common Commands](https://github.com/mjs375/Coding-Gymnasium/blob/main/Command_Line_Tutorial.md)
 **CSS**<br>```lang``` | ★★★☆☆ | <p><details><summary>:bookmark:</summary>*the styling of a webpage– colors, font styles, borders & margins, mobile adaptation, animations, &c. <br>– Cascading Style Sheets (.css)*</details></p> | 
 **Data Analysis**<br>```pandas``` ```matplotlib``` ```numpy``` | ★★☆☆☆ | <p><details><summary>:bookmark:</summary>*- Python libraries designed to help analyze data quickly and efficiently. <br>- "Python Data Analytics: Pandas, NumPy, and Matplotlib". *</details></p> | 
