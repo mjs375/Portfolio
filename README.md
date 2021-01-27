@@ -3,10 +3,40 @@
 
 
 ### About Me:
-- I am currently a public reference librarian in **```New Jersey```** who is interested in branching out to the programming field. My formal experience includes courses during my **```Rutgers University```** graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (**```SUNY Geneseo```**) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard's **```CS50 series```**. For some fun learning I do online programming practice, e.g. **```Codewars```** and miscellaneous solo projects, such as forays into Webscraping and game design. This spring I will be taking graduate-level courses from **```Montclair State University```** (*ungraded, unofficial audits*).
+- I am currently a public reference librarian in **```New Jersey```** who is interested in branching out to the programming field. My formal experience includes courses during my **```Rutgers University```** graduate program, an [internship](https://digitalthoreau.org/team/) at Milne Library (**```SUNY Geneseo```**) that included proofreading & editing XML code for the *[Digital Thoreau](https://digitalthoreau.org/)* project, and finally, ongoing, self-directed coursework from Harvard's **```CS50 series```**. For some fun learning I do online programming practice, e.g. **```Codewars```** and miscellaneous solo projects, such as forays into Webscraping and game design.
   - Email: *spitzer.matthewjames@gmail.com*
   - Résumé: *on request*
 - This repository was made to document my growth in programming expertise, as well as simply define and link to resources for various languages & tools for new programmers. The chart below is simply a rough outline of my own experience, the skill levels are all relative between Beginner to Intermediate. Many exercises & projects are housed here, though larger projects are in other repositories that you may need to request permission to see/collaborate on. *Note: the 'Tutorials' folder often contains near-verbatim, personal notes taken from online sources (cited within), they are not my own and are merely for study/practice purposes.*
+ 
+ 
+ 
+ 
+ 
+ 
+#### Graduate Coursework:
+- [x] **Rutgers University: 550 Information Technology** *(Grade: ```A```)*
+  - HTML, CSS, Javascript, MySQL, PHP
+- [x] **Rutgers: 559 Web Programming** *(Grade: ```A```)*
+  - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
+  
+ 
+#### Online Coursework:
+- [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
+  - **Projects**: Mario, Cash, Credit, Readability, Caesar, Substition, Plurality, Runoff, Filter, Recover, Speller, Mario, Cash, Readability, DNA, Movies, Houses, Homepage, Finance, Capstone
+  - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
+  - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf) ```2020```
+- [x] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
+  - **Projects:** [Network](https://github.com/mjs375/cs50_Network) [[demo](https://youtu.be/ZVWUChcXROc)], [Mail](https://github.com/mjs375/CS50Python/tree/master/mail) [[demo](https://youtu.be/Q_k1aYlhL0g)], [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce) [[demo](https://youtu.be/_4-p51yivLI)], [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki) [[demo](https://youtu.be/_A0URKeuQmM)], [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) [[demo](https://youtu.be/qz-boka5HxA)]
+  - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
+    - *Capstone currently being graded, course 100% done otherwise*
+- [x] **CS50: Artificial Intelligence with Python**
+  - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md)
+  - [Certificate]()
+- [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
+
+ 
+ 
+ 
  
  
 <hr>
@@ -46,27 +76,6 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 <p><details><summary>Skill Levels</summary>- ☆☆☆☆☆: aware of, want to learn<br>- ★☆☆☆☆: learned in lesson<br>- ★★☆☆☆: exercise practice<br>- ★★★☆☆: used for a project<br>- ★★★★☆: used all the time/utilized in many projects<br>- ★★★★★: extremely confident, intermediate level</details></p>
 
 <hr>
-
-#### Graduate Coursework:
-- [x] **Rutgers University: 550 Information Technology** *(Grade: ```A```)*
-  - HTML, CSS, Javascript, MySQL, PHP
-- [x] **Rutgers: 559 Web Programming** *(Grade: ```A```)*
-  - Javascript, Boostrap.js, React.js, Node.js, Express.js, Angular.js, MongoDB, Front-End/Back-End HTML, CSS
-  
- 
-#### Online Coursework:
-- [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
-  - **Projects**: Mario, Cash, Credit, Readability, Caesar, Substition, Plurality, Runoff, Filter, Recover, Speller, Mario, Cash, Readability, DNA, Movies, Houses, Homepage, Finance, Capstone
-  - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
-  - [Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf) ```2020```
-- [x] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
-  - **Projects:** [Network](https://github.com/mjs375/cs50_Network) [[demo](https://youtu.be/ZVWUChcXROc)], [Mail](https://github.com/mjs375/CS50Python/tree/master/mail) [[demo](https://youtu.be/Q_k1aYlhL0g)], [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce) [[demo](https://youtu.be/_4-p51yivLI)], [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki) [[demo](https://youtu.be/_A0URKeuQmM)], [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) [[demo](https://youtu.be/qz-boka5HxA)]
-  - Git/Github, Python, Django(Jinja), SQL, Javascript(React.js, ReactDOM, Babel)
-    - *Capstone currently being graded, course 100% done otherwise*
-- [x] **CS50: Artificial Intelligence with Python**
-  - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md)
-  - [Certificate]()
-- [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
 
   
   
