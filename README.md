@@ -36,8 +36,7 @@
   - ![Certificate](https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png)
  ```2021```
  
- - <p><details><summary>Diploma</summary>![Certificate](https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png)
- ```2021```</details></p>
+<img src="https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png" alt="alt text" width="100" height="100">
   
 - [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
 
