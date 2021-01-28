@@ -24,7 +24,7 @@
 - [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
   - **Projects**: Mario, Cash, Credit, Readability, Caesar, Substition, Plurality, Runoff, Filter, Recover, Speller, Mario, Cash, Readability, DNA, Movies, Houses, Homepage, Finance, Capstone
   - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)  
-<p align="right">
+<p align="center">
   <img src="https://user-images.githubusercontent.com/66171297/106167427-2d02ab80-615b-11eb-8eec-b5cf06e6ebf8.png" alt="CS50x Certificate" width="418" height="323">
 </p>
   
