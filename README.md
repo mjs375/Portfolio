@@ -23,8 +23,12 @@
 #### Online Coursework:
 - [x] **[Harvard OpenCourseWare: CS50x](https://cs50.harvard.edu/x/2020/)**
   - **Projects**: Mario, Cash, Credit, Readability, Caesar, Substition, Plurality, Runoff, Filter, Recover, Speller, Mario, Cash, Readability, DNA, Movies, Houses, Homepage, Finance, Capstone
-  - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)
-  - ![Certificate](https://github.com/mjs375/Coding-Gymnasium/files/5459727/CS50xCERT.pdf) ```2020```
+  - Scratch, C, Python, SQL/SQLite, Flask(Jinja), HTML, CSS(Bootstrap.css)  
+<p align="right">
+  <img src="https://user-images.githubusercontent.com/66171297/106167427-2d02ab80-615b-11eb-8eec-b5cf06e6ebf8.png" alt="CS50x Certificate" width="418" height="323">
+</p>
+  
+  
   
 - [x] **[Harvard OpenCourseWare: CS50: Web Programming with Python and Javascript](https://cs50.harvard.edu/web/2020/)**
   - **Projects:** [Network](https://github.com/mjs375/cs50_Network) [[demo](https://youtu.be/ZVWUChcXROc)], [Mail](https://github.com/mjs375/CS50Python/tree/master/mail) [[demo](https://youtu.be/Q_k1aYlhL0g)], [Commerce](https://github.com/mjs375/CS50Python/tree/master/4/commerce) [[demo](https://youtu.be/_4-p51yivLI)], [Wiki](https://github.com/mjs375/CS50Python/tree/master/3/wiki) [[demo](https://youtu.be/_A0URKeuQmM)], [Search](https://github.com/mjs375/CS50Python/tree/master/0/search) [[demo](https://youtu.be/qz-boka5HxA)]
@@ -34,7 +38,7 @@
 - [x] **CS50: Artificial Intelligence with Python**
   - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md) 
 <p align="center">
-  <img src="https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png" alt="alt text" width="418" height="323">
+  <img src="https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png" alt="CS50: Intro to AI Certificate" width="418" height="323">
 </p>
   
 - [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
