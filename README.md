@@ -35,6 +35,9 @@
   - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md)
   - ![Certificate](https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png | width=100)
  ```2021```
+ 
+ <img src="https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png data-canonical-src="https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png" width="200" height="400" />
+ 
   
 - [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
 
