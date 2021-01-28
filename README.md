@@ -31,7 +31,9 @@
     - *Capstone currently being graded, course 100% done otherwise*
 - [x] **CS50: Artificial Intelligence with Python**
   - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md)
-  - [Certificate]()
+  - [CS50AI,certificate.pdf](https://github.com/mjs375/Workshop/files/5888472/CS50AI.certificate.pdf)
+  
+  
 - [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
 
  
