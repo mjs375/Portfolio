@@ -32,11 +32,8 @@
     - *Capstone currently being graded, course 100% done otherwise*
     
 - [x] **CS50: Artificial Intelligence with Python**
-  - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md)
-  - ![Certificate](https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png)
- ```2021```
- 
-<img src="https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png" alt="alt text" width="100" height="100">
+  - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md) 
+<img src="https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png" alt="alt text" width="330" height="255">
   
 - [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
 
