@@ -33,7 +33,8 @@
     
 - [x] **CS50: Artificial Intelligence with Python**
   - **Projects:** [Project Directory](https://github.com/mjs375/CS50AI/blob/main/README.md)
-  - [Certificate](https://github.com/mjs375/Workshop/files/5888472/CS50AI.certificate.pdf) ```2021```
+  - ![Certificate](https://user-images.githubusercontent.com/66171297/106165530-32f78d00-6159-11eb-925f-8450338e0f4a.png)
+ ```2021```
   
 - [x] **Montclair 2020 HawkHack (November '20):** *developed a Django Poll project/app.*
 
