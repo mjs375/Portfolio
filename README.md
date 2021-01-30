@@ -96,7 +96,7 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 - **Python Data Analytics: With Pandas, NumPy, and Matplotlib** *by Fabio Nelli* (2018)
   - ![36%](https://progress-bar.dev/36) **Chapters:** *1. Intro to Data Analysis / 2. Intro to Python World / 3. NumPy Library / 4. pandas Library, Intro / 5. pandas: Reading and Writing Data / ...*
 - **Django 3 By Example, _3rd ed._** *by Antonio Melé* (2020)
-  -
+  - **Chapters:** *...*
 
 ## Codewars-Kata
 Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375). *Note: Codewars 'kyu' levels are from 8 (easiest) to 1 (hardest).*
