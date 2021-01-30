@@ -93,9 +93,8 @@ Skill | Level | Desc. | Tutorial | Projects | Doc
 - [ ] **[MIT OpenCourseWare: Introduction to Programming in Java](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-092-introduction-to-programming-in-java-january-iap-2010/)**
 - [ ] **[MIT OpenCourseWare: Introduction to C and C++](https://ocw.mit.edu/courses/electrical-engineering-and-computer-science/6-s096-introduction-to-c-and-c-january-iap-2013/)**
 ### Books & Guides
-- https://progress-bar.dev/<50> **Python Data Analytics: With Pandas, NumPy, and Matplotlib** *by Fabio Nelli* (2018)
-  - Chapters: 
-- [ ] [Pep 8: Style Guide for Python Code](https://www.python.org/dev/peps/pep-0008/#maximum-line-length)
+- ![36%](https://progress-bar.dev/50) **Python Data Analytics: With Pandas, NumPy, and Matplotlib** *by Fabio Nelli* (2018)
+  - Fourteen Chapters: 1. Intro to Data Analysis / 2. Intro to Python World / 3. NumPy Library / 4. pandas Library, Intro / 5. pandas: Reeading and Writing Data / 
 
 ## Codewars-Kata
 Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/users/mjs375). *Note: Codewars 'kyu' levels are from 8 (easiest) to 1 (hardest).*
