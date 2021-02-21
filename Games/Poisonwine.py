@@ -56,7 +56,7 @@ def find_poison(n):
             deaths += 1
     print(">>> Poisoned bottle:",number)
     print(f">>> Deaths: {deaths}/{places}")
-    print(f"I, your beloved king, do thank thee for your noble sacrifice. It was worth it, it shall not be in vain– I and my fellow nobles will debauch this sublime night. It shall be a most beautiful rager. Cometh, my bitches– CHUG, CHUG, CHUG!!")
+    print(f"I, your beloved king, do thank thee for your noble sacrifice. It was worth it, it shall not be in vain– I and my fellow nobles will debauch this sublime night. It shall be a most beautiful rager. Cometh, my bros– CHUG, CHUG, CHUG!!")
     
     
 find_poison(n=100000)
