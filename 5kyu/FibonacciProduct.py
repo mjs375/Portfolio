@@ -14,6 +14,15 @@ def productFib(prod):
             return [a,b, True]
         elif a*b > prod:
             return [a,b,False]
+
+# REFACTORED:
+def productFib(prod):
+    a,b = 0,1
+    while a*b < prod:
+        a,b = b, b+a
+    return [a, b, a*b == prod]
+
+
 """
 
 The Fibonacci numbers are the numbers in the following integer sequence (Fn):
