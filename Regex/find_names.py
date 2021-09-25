@@ -26,7 +26,7 @@ def find_names():
         for i, line in enumerate(file):
 
             #--Skip line of notes:
-            if line[0] == "#":
+            if line[i] == "#":
                 continue
 
             #--Date cleanup:
