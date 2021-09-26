@@ -25,11 +25,11 @@ def reginald():
     patterns = [
         "^[a-zA-Z\s]*$", # ^[a-zA-Z]*$ : if whitespaces aren't allowed
         "^[a-z]*b$",
-        "^(b(ab+)*)$|^[b]*$",
+        "^(b+(ab+)*)$",
         r"^([a-zA-Z]*) \1$", # \1 is a back-reference so you match previous match, whatever it is
         "^[0-9]+.*[a-zA-z]+$",
         r"\braven\b.*\bgrotto\b|\bgrotto\b.*\braven\b",
-
+        "(^(?i)[A-Z][a-z|[:punct:]]*\b)", # (^(?i)[A-Z][a-z|[:punct:]]*\b)(?:.*?)(?i)\b\1\b
     ]
     answers = [ [] for _ in patterns ] # list of lists for all answers to each Q
     Q = -1 # which question we're on
