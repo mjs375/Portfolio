@@ -1,0 +1,53 @@
+# Set of all alphabetic strings:
+abcdefg
+ABCDEFG
+AbCdEfG
+abcXYZ1
+abc XYZ
+"Hello world"
+abc!
+# Sets of all alphabetic strings ending in `b`:
+b
+bb
+abcdeb
+xyzb
+!b
+"b"
+b b
+b?
+10b
+10B
+abcb
+Ab
+# Set of all strings with only [a,b] such that each `a` is immediately preceded by and immediately followed by `b`:
+bab
+babab
+babbab
+aabab
+aa
+bbb
+babbabab
+# Set of all strings with 2 consecutive repeated words ("Humbert Humbert", not "the bug")
+Humbert Humbert
+Humbert Humbert Humbert
+the bug
+the big bug
+bug bug
+Humbert Humberta
+a a
+# All strings that start at the beginning of the line with an integer and the end of the end of the line with a word
+10 words
+words 10
+10 tiny beans
+10 tiny beans 10
+words
+10
+10words
+# All strings that have both the word `grotto` and `raven` in them, but not words like `grottos` or `ravens` that contain them-- only exactly.
+grotto raven
+grotto grotto raven raven
+grottos ravens
+ravens grotto
+the ravens grotto
+the raven grotto
+the big blue bird
