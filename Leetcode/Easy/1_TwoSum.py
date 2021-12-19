@@ -1,5 +1,13 @@
+# LEETCODE - 1. TWO SUM
 
-
+class Solution:
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        #print(nums, target)
+        for i, n in enumerate(nums):
+            for j, nn in enumerate(nums):
+                if n + nn == target and i != j:
+                    #print(n,i,nn,j)
+                    return [i,j]
 
 
 
