@@ -1,4 +1,24 @@
 class Automaton(object):
+
+    def __init__(self):
+        self.state = "q1"
+        self.code = {
+            "q1": ("q1","q2"),
+            "q2": ("q3","q2"),
+            "q3": ("q2","q2")
+        }
+
+    def read_commands(self, commands):
+        for c in commands:
+            self.state = self.code[self.state][int(c)]
+        return self.state == "q2"
+
+my_automaton = Automaton()
+
+# # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # # #
+
+
+class Automaton(object):
     def __init__(self):
         self.states = []
         self.current = "q1"
