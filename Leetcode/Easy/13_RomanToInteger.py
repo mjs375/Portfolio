@@ -1,5 +1,20 @@
 class Solution:
-    def romanToInt(self, s:str) -> int:
+    def romanToInt(self,s):
+        values = {"I":1, "V":5, "X":10, "L":50, "C":100, "D":500, "M":1000,}
+        value = 0
+        #--Iterate through numeral, ignoring last numeral to avoid IndexError
+        for i in range(len(s)-1):
+            #--If a little followed by a big, it's a subtraction:
+            if values[s[i]] < values[s[i+1]]:
+                value -= values[s[i]]
+            #--Otherwise, add as usual:
+            else:
+                value += values[s[i]]
+        #--Catch the last value
+        value += values[ s[len(s)-1] ]
+        return value
+            
+    def BETTER_romanToInt(self, s:str) -> int:
         s = s.replace("IV","IIII").replace("IX","VIIII").replace("XL","XXXX")
         s = s.replace("XC","LXXXX").replace("CD","CCCC").replace("CM","DCCCC")
         value = 0
@@ -7,7 +22,6 @@ class Solution:
         for symbol in s:
             value += values[symbol]
         return value
-        
         
     def NAIVE_romanToInt(self, s: str) -> int:
         value = 0
@@ -32,6 +46,7 @@ class Solution:
         print(f"Value: {value}")
         return value
 
+            
 
 
 
