@@ -1,5 +1,25 @@
 # LEETCODE - 1. TWO SUM
 
+# BEST:
+class Solution:
+    """O(n) efficiency: traverse list just once."""
+    def twoSum(self, nums: List[int], target: int) -> List[int]:
+        #--Store previously seens nums(keys) and their indexes (vals)
+        needed = {}
+        #--Iterate candidates:
+        for i, num in enumerate(nums):
+            #--Give `num`, what other num is needed?
+            need = target - num
+            #--Have I seen what I need?
+            if need in needed:
+                return [ needed[need], i ]
+            #--Store number and its index
+            needed[num] = i
+            
+
+
+
+# NAIVE APPROACH:
 class Solution:
     def twoSum(self, nums: List[int], target: int) -> List[int]:
         #print(nums, target)
