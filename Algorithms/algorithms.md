@@ -6,7 +6,7 @@
 ---
 
 
-### Linear & Binary Search *[(link)](https://jovian.ai/aakashns/python-binary-search)*
+### Linear & Binary Search
 - **Linear Search**: *searching an array by comparing its values 1-by-1 to the target value, usually by beginning at the left/start and advancing to the right/end until the target value is found or you can conclude it doesn't exist.*
 - **Binary search**: *searching a sorted array by repeatedly dividing the search interval in half.*
   1. Begin with an interval covering the entire array.
