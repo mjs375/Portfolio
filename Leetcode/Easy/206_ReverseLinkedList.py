@@ -16,7 +16,7 @@ class Solution:
             nxt = current.next
             #--Set current.next to last item (reversing):
             current.next = prev # (None at start!)
-            #--
+            #--Remember previous item for next loop...
             prev = current
             #--Go to next item:
             current = nxt
