@@ -1,10 +1,10 @@
 # **ALGORITHMS & DATA STRUCTURES**
 
-- **Course**: [Data Structures and Algorithms](https://jovian.ai/learn/data-structures-and-algorithms-in-python) in Python, by Jovian
+- **Sources**:
+  - **Course**: [Data Structures and Algorithms](https://jovian.ai/learn/data-structures-and-algorithms-in-python) in Python, by Jovian
 
 ---
 
-## **Lesson 1: Binary Search, Linked Lists & Complexity**
 
 ### Linear & Binary Search *[(link)](https://jovian.ai/aakashns/python-binary-search)*
 - **Linear Search**: *searching an array by comparing its values 1-by-1 to the target value, usually by beginning at the left/start and advancing to the right/end until the target value is found or you can conclude it doesn't exist.*
