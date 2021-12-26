@@ -17,6 +17,6 @@
 ---
 
 ### Linked Lists
-- **Linked Lists**: for each item in a linked list's memory is stored 1) the *current.value* and the *current.next*, or a pointer to the next item in the linked list.
+- **(Singly) Linked Lists**: for each item in a linked list's memory is stored 1) the *current.value* and the *current.next*, or a pointer to the next item in the linked list. *Each **node** contains its item and a reference/pointer to the next item.*
   - Dynamic data structure: *no memory is reserved in advance, memory is created at run-time when a new item is added (unlike a typical `List`). Easily updateable, more flexible for implementing stacks, queues, lists...*
     - You cannot directly access a linked-list item, like `Lists`, since you only have access to the first item to start. Worst-case access time is **O(n)**.
