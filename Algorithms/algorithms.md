@@ -6,4 +6,4 @@
 ---
 ## **Lesson 1: Binary Search, Linked Lists & Complexity**
 
-### Linear & Binary Search ((link))[https://jovian.ai/aakashns/python-binary-search]
+### Linear & Binary Search *[(link)](https://jovian.ai/aakashns/python-binary-search)*
