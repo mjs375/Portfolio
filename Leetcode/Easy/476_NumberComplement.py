@@ -1,5 +1,15 @@
 class Solution:
     def findComplement(self, num: int) -> int:
+        """Using a dictionary & simple checks.."""
+        d = {'1': '0', '0':'1'}
+        new = "0b"
+        for bit in bin(num)[2:]:
+            new += d[bit]
+        return int(new,2)
+    
+    
+    
+    def _findComplement(self, num: int) -> int:
         """Naive approach."""
         x = bin(num)[2:].replace('1','z').replace('0','1').replace('z','0')
         ans = int("0b"+x,2)
