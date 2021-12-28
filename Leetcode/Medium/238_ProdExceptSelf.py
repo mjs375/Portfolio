@@ -32,7 +32,7 @@ class Solution:
     
     Create O(3n) soln: a 'left-of' product array and a 'right-of' product array.
         - Leftof [i]
-        - Rightof [i]
+        - Rightof [i] 
     Multiple together at end in second loop: O(2n) => approx. O(n)
 
     
