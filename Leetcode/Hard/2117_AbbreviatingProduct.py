@@ -1,5 +1,6 @@
 class Solution:
     def abbreviateProduct(self, left: int, right: int) -> str:
+        """Brute-force method, re-factor..."""
         # (1) GET PRODUCT:
         prod = 1
         for i in range(left, right+1):
