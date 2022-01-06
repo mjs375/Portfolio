@@ -1,26 +1,27 @@
 class Solution:
     def carPooling(self, trips: List[List[int]], capacity: int) -> bool:
-        """Naive solution"""
         DEBUG = False
         if DEBUG: print("Capacity:{capacity}")
         
-        stations = {}
+        stations = {} # track 'stations' and how many ppl at each one
         
+        # Iterate each trip:
         for ppl,dpt,arv in trips:
             if DEBUG: print(f"Passengers:{ppl} | From:{dpt} | To:{arv}")
             
             # not `arv+1` bc ppl get off at station `i` before others get on:
-            for i in range(dpt,arv): 
+            for i in range(dpt,arv):
+                
+                # Add new passengers:
                 if i in stations.keys():
                     stations[i] += ppl
                 else:
                     stations[i] = ppl
+                    
+                #--Did we overflow capacity at a certain station?
+                if stations[i] > capacity:
+                    return False
         
-        if DEBUG: print(stations)
-        for k,v in stations.items():
-            if v > capacity:
-                if DEBUG: print("Filled seats!:",v)
-                return False
         return True
         
 """        
