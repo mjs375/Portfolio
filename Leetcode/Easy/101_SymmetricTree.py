@@ -5,7 +5,36 @@
 #         self.left = left
 #         self.right = right
 class Solution:
+    
     def isSymmetric(self, root: Optional[TreeNode]) -> bool:
+        left, right = root.left, root.right
+        return self.help(left,right)
+    
+    def help(self, left, right):
+        """Recursive function. Compares mirrored nodes of a binary tree."""
+        # If both null, symmetrical (and no need to recurse further):
+        if not left and not right: 
+            return True
+        
+        # If 1/other side is null, asymmetrical:
+        if not left or not right:
+            return False
+        
+        # Values don't match?
+        if left.val != right.val:
+            return False
+        
+        # Recurse:
+        return self.help(left.left, right.right) and self.help(left.right, right.left)
+    
+    
+    
+    
+    
+    
+    
+    def _isSymmetric(self, root: Optional[TreeNode]) -> bool:
+        """Iterative solution. Ugly!"""
         
         if not root:
             return False
