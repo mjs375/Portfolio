@@ -50,6 +50,8 @@
  
 <hr>
 
+- The following table is no longer up-to-date, but does showcase the breadth of my learning when I was just beginning programming in 2020-21, and served as a to-do list of sorts to myself, to train more in specific areas, and add new skills.
+
 Skill | Level | Desc. | Tutorial | Projects | Doc
 ------|-------|-------|----------|----------|-----
 **API**<br> | ★☆☆☆☆ |
