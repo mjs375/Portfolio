@@ -19,7 +19,7 @@ dictionary = []
 for word in all:
     # strip `\n` character:
     word = word.strip()
-    if len(word) == 5:
+    if len(word) == 5 and word.isalpha():
         dictionary.append(word.upper())
 
 print(dictionary[:20])
@@ -29,8 +29,8 @@ with open('wordle_dictionary.js', 'w') as file:
     file.write("let dictionary = [ \n")
 
     for word in dictionary:
-        line = "\"" + word + "\",\n"
+        line = "\"" + word + "\", "
         file.write(line)
 
-    file.write("]")
+    file.write("\n]")
 print("Done!")
