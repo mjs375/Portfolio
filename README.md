@@ -108,6 +108,7 @@ Completed Kata from Codewars.com, username: [mjs375](https://www.codewars.com/us
 - [x] [Tic-Tac-Toe](https://github.com/mjs375/Coding-Gymnasium/blob/main/Games/tictactoe.py): *1 or 2-player game of tic-tac-toe, played in command-line. Randomized AI.*
 - [ ] Wheel of Fortune: *command-line based Wheel of Fortune game.*
 - [x] Card Deck: *a basic file containing classes for Player, Card & Deck (methods to draw, shuffle, discard, showhand, &c.) to use in games.*
+- [ ] Wordle (clone): *coded in HTML, CSS & vanilla JavaScript.*
 
 ## Tutorial Projects:
 - [x] [National Weather Service 7-Day Forecast Scraper](https://github.com/mjs375/Workshop/blob/main/Web_Scraping/Weatherscrape.py): *Tutorial-based project that scrapes data about the upcoming 7-day forecast from a given area. Added prompt that asks user if they want to export it as a ```.csv``` file.*
